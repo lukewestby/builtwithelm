@@ -1,4 +1,4 @@
-# (Built With Elm)[http://builtwithelm.co]
+# [Built With Elm](http://builtwithelm.co)
 A list of projects and apps built with Elm.
 
 This site was inspired by http://builtwithreact.io and is meant to showcase the
