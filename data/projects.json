@@ -13,4 +13,11 @@
     "repositoryUrl": "https://github.com/elm-lang/package.elm-lang.org",
     "description": "Website for browsing Elm packages and exploring documentation"
   }
+  {
+    "name": "elm-hedley",
+    "previewImageUrl": "data/images/elm-hedley.jpg",
+    "primaryUrl": "https://gizra.github.io/elm-hedley",
+    "repositoryUrl": "https://github.com/Gizra/elm-hedley",
+    "description": "Elm web app with Headless Drupal backend"
+  }
 ]
