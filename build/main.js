@@ -10916,6 +10916,31 @@ Elm.StartApp.make = function (_elm) {
    var Config = F4(function (a,b,c,d) {    return {init: a,update: b,view: c,inputs: d};});
    return _elm.StartApp.values = {_op: _op,start: start,Config: Config,App: App};
 };
+Elm.Request = Elm.Request || {};
+Elm.Request.make = function (_elm) {
+   "use strict";
+   _elm.Request = _elm.Request || {};
+   if (_elm.Request.values) return _elm.Request.values;
+   var _U = Elm.Native.Utils.make(_elm),
+   $Basics = Elm.Basics.make(_elm),
+   $Debug = Elm.Debug.make(_elm),
+   $Http = Elm.Http.make(_elm),
+   $Json$Decode = Elm.Json.Decode.make(_elm),
+   $List = Elm.List.make(_elm),
+   $Maybe = Elm.Maybe.make(_elm),
+   $Result = Elm.Result.make(_elm),
+   $Signal = Elm.Signal.make(_elm),
+   $Task = Elm.Task.make(_elm);
+   var _op = {};
+   var getWithRetries$ = F4(function (url,decoder,currentRetry,maxRetries) {
+      var onError = function (error) {
+         return _U.eq(currentRetry,maxRetries) ? $Task.fail(error) : A4(getWithRetries$,url,decoder,currentRetry + 1,maxRetries);
+      };
+      return A3($Basics.flip,$Task.onError,onError,A2($Http.get,decoder,url));
+   });
+   var getWithRetries = F3(function (url,decoder,maxTries) {    return A4(getWithRetries$,url,decoder,0,maxTries);});
+   return _elm.Request.values = {_op: _op,getWithRetries: getWithRetries};
+};
 Elm.Project = Elm.Project || {};
 Elm.Project.make = function (_elm) {
    "use strict";
@@ -10938,7 +10963,7 @@ Elm.Project.make = function (_elm) {
             return A2($Html.a,
             _U.list([$Html$Attributes.href(_p0._0),$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "color",_1: "inherit"}]))]),
             _U.list([A2($Html.img,
-            _U.list([$Html$Attributes.src("/assets/github.svg"),$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "width",_1: "2em"}]))]),
+            _U.list([$Html$Attributes.src("assets/github.svg"),$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "width",_1: "2em"}]))]),
             _U.list([]))]));
          } else {
             return A2($Html.span,_U.list([]),_U.list([]));
@@ -10958,17 +10983,16 @@ Elm.Project.make = function (_elm) {
                       ,viewOpenSourceLink(project)]))
               ,A2($Html.p,_U.list([]),_U.list([$Html.text(project.description)]))
               ,A2($Html.div,
-              _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "background-image",_1: "url(/assets/screenshot_shell.svg)"}
+              _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "background-image",_1: "url(assets/screenshot_shell.svg)"}
                                                       ,{ctor: "_Tuple2",_0: "background-size",_1: "contain"}
                                                       ,{ctor: "_Tuple2",_0: "max-width",_1: "1040px"}
                                                       ,{ctor: "_Tuple2",_0: "max-height",_1: "850px"}
                                                       ,{ctor: "_Tuple2",_0: "padding",_1: "1.875%"}
                                                       ,{ctor: "_Tuple2",_0: "padding-top",_1: "2.875%"}
-                                                      ,{ctor: "_Tuple2",_0: "background-repeat",_1: "no-repeat"}
-                                                      ,{ctor: "_Tuple2",_0: "box-sizing",_1: "border-box"}]))]),
+                                                      ,{ctor: "_Tuple2",_0: "background-repeat",_1: "no-repeat"}]))]),
               _U.list([A2($Html.img,
               _U.list([$Html$Attributes.src(project.previewImageUrl)
-                      ,$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "width",_1: "100%"},{ctor: "_Tuple2",_0: "box-sizing",_1: "border-box"}]))]),
+                      ,$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "width",_1: "100%"},{ctor: "_Tuple2",_0: "min-height",_1: "75%"}]))]),
               _U.list([]))]))]));
    };
    var Project = F5(function (a,b,c,d,e) {    return {previewImageUrl: a,name: b,primaryUrl: c,description: d,repositoryUrl: e};});
@@ -11002,7 +11026,7 @@ Elm.Sidebar.make = function (_elm) {
                                            ,{ctor: "_Tuple2",_0: "padding",_1: "20px"}
                                            ,{ctor: "_Tuple2",_0: "box-sizing",_1: "border-box"}
                                            ,{ctor: "_Tuple2",_0: "position",_1: "fixed"}]))]),
-   _U.list([A2($Html.img,_U.list([$Html$Attributes.src("/assets/logo.svg")]),_U.list([]))
+   _U.list([A2($Html.img,_U.list([$Html$Attributes.src("assets/logo.svg")]),_U.list([]))
            ,A2($Html.h1,
            _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "font-weight",_1: "normal"}
                                                    ,{ctor: "_Tuple2",_0: "text-align",_1: "center"}
@@ -11035,17 +11059,16 @@ Elm.Main.make = function (_elm) {
    $Effects = Elm.Effects.make(_elm),
    $Html = Elm.Html.make(_elm),
    $Html$Attributes = Elm.Html.Attributes.make(_elm),
-   $Http = Elm.Http.make(_elm),
    $List = Elm.List.make(_elm),
    $Maybe = Elm.Maybe.make(_elm),
    $Project = Elm.Project.make(_elm),
+   $Request = Elm.Request.make(_elm),
    $Result = Elm.Result.make(_elm),
    $Sidebar = Elm.Sidebar.make(_elm),
    $Signal = Elm.Signal.make(_elm),
    $StartApp = Elm.StartApp.make(_elm),
    $Task = Elm.Task.make(_elm);
    var _op = {};
-   var inputs = _U.list([]);
    var viewList = function (model) {
       return model.isLoading ? _U.list([A2($Html.h2,_U.list([]),_U.list([$Html.text("Loading")]))]) : model.loadFailed ? _U.list([A2($Html.h2,
       _U.list([]),
@@ -11069,47 +11092,45 @@ Elm.Main.make = function (_elm) {
    });
    var LoadProjectsError = function (a) {    return {ctor: "LoadProjectsError",_0: a};};
    var LoadProjectsSuccess = function (a) {    return {ctor: "LoadProjectsSuccess",_0: a};};
-   var loadList$ = F2(function (currentRetry,maxRetries) {
-      var onError = function (error) {
-         return _U.eq(currentRetry,maxRetries) ? $Task.succeed(LoadProjectsError(error)) : A2(loadList$,currentRetry + 1,maxRetries);
-      };
-      return A3($Basics.flip,$Task.onError,onError,A2($Task.map,LoadProjectsSuccess,A2($Http.get,$Project.decoder,"/data/projects.json")));
-   });
-   var loadList = function (_p0) {    var _p1 = _p0;return $Effects.task(A2(loadList$,0,5));};
+   var loadList = function (_p0) {
+      var _p1 = _p0;
+      return $Effects.task(A3($Basics.flip,
+      $Task.onError,
+      function (_p2) {
+         return $Task.succeed(LoadProjectsError(_p2));
+      },
+      A2($Task.map,LoadProjectsSuccess,A3($Request.getWithRetries,"data/projects.json",$Project.decoder,5))));
+   };
    var update = F2(function (action,model) {
       return A2($Debug.log,
       "model",
       function () {
-         var _p2 = action;
-         switch (_p2.ctor)
+         var _p3 = action;
+         switch (_p3.ctor)
          {case "None": return {ctor: "_Tuple2",_0: model,_1: $Effects.none};
             case "LoadProjectsStart": return {ctor: "_Tuple2",_0: _U.update(model,{isLoading: true}),_1: loadList({ctor: "_Tuple0"})};
-            case "LoadProjectsSuccess": return {ctor: "_Tuple2",_0: _U.update(model,{projects: _p2._0,isLoading: false}),_1: $Effects.none};
+            case "LoadProjectsSuccess": return {ctor: "_Tuple2",_0: _U.update(model,{projects: _p3._0,isLoading: false}),_1: $Effects.none};
             default: return {ctor: "_Tuple2",_0: _U.update(model,{loadFailed: true}),_1: $Effects.none};}
       }());
    });
    var LoadProjectsStart = {ctor: "LoadProjectsStart"};
    var None = {ctor: "None"};
-   var initEffect = loadList({ctor: "_Tuple0"});
    var Model = F3(function (a,b,c) {    return {projects: a,isLoading: b,loadFailed: c};});
-   var initModel = A3(Model,_U.list([]),true,false);
-   var app = $StartApp.start({init: {ctor: "_Tuple2",_0: initModel,_1: initEffect},update: update,view: view,inputs: inputs});
+   var init = {ctor: "_Tuple2",_0: A3(Model,_U.list([]),true,false),_1: loadList({ctor: "_Tuple0"})};
+   var app = $StartApp.start({init: init,update: update,view: view,inputs: _U.list([])});
    var main = app.html;
    var tasks = Elm.Native.Task.make(_elm).performSignal("tasks",app.tasks);
    return _elm.Main.values = {_op: _op
                              ,Model: Model
-                             ,initModel: initModel
-                             ,initEffect: initEffect
+                             ,init: init
                              ,None: None
                              ,LoadProjectsStart: LoadProjectsStart
                              ,LoadProjectsSuccess: LoadProjectsSuccess
                              ,LoadProjectsError: LoadProjectsError
                              ,update: update
                              ,loadList: loadList
-                             ,loadList$: loadList$
                              ,view: view
                              ,viewList: viewList
-                             ,inputs: inputs
                              ,app: app
                              ,main: main};
 };
