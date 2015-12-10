@@ -21,3 +21,6 @@ is encouraged and graciously accepted and my hope is that this can be a fun
 community project for people like me who are just getting started. Get in touch
 with me at @luke_dot_js on Twitter or at @luke in the elmlang Slack if you'd
 like!
+
+-------
+Thanks to @driftyco for the github icon svg from ionicons!
