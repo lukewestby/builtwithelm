@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-hedley",
+    "previewImageUrl": "data/images/elm-hedley.jpg",
+    "primaryUrl": "https://gizra.github.io/elm-hedley",
+    "repositoryUrl": "https://github.com/Gizra/elm-hedley",
+    "description": "Elm web app with Headless Drupal backend"
+  },
+  {
     "name": "elm-lang.org",
     "previewImageUrl": "data/images/elm-lang.org.png",
     "primaryUrl": "http://elm-lang.org",
@@ -8,7 +15,7 @@
   },
   {
     "name": "package.elm-lang.org",
-    "previewImageUrl": "data/images/package.elm-lang.org.jpg",
+    "previewImageUrl": "data/images/package.elm-lang.org.png",
     "primaryUrl": "http://package.elm-lang.org/",
     "repositoryUrl": "https://github.com/elm-lang/package.elm-lang.org",
     "description": "Website for browsing Elm packages and exploring documentation"
