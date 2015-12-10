@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 320 340" style="enable-background:new 0 0 320 340;" xml:space="preserve">
+<g id="Layer_3">
+	<path style="fill:#E6E6E6;" d="M308,340H12c-6.6,0-12-5.4-12-12V12C0,5.4,5.4,0,12,0h296c6.6,0,12,5.4,12,12v316
+		C320,334.6,314.6,340,308,340z"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-width:8;stroke-miterlimit:10;" d="M292,324H28c-6.6,0-12-5.4-12-12V48
+		c0-6.6,5.4-12,12-12h264c6.6,0,12,5.4,12,12v264C304,318.6,298.6,324,292,324z"/>
+</g>
+<g id="Layer_2">
+	<circle style="fill:#FF0000;" cx="23.5" cy="17.5" r="7.5"/>
+	<circle style="fill:#FFFF00;" cx="48.5" cy="17.5" r="7.5"/>
+	<circle style="fill:#00FF00;" cx="73.5" cy="17.5" r="7.5"/>
+</g>
+<g id="Layer_1">
+	<g>
+		<polygon style="fill:#5A6379;" points="22,44.829 157.171,180 22,315.172 		"/>
+		<path style="fill:#FFFFFF;" d="M24,49.828l130.343,130.257L24,310.343V50 M20,40v280l140-140L20,40L20,40z"/>
+	</g>
+	<g>
+		<polygon style="fill:#5CB5CD;" points="24.829,318 160,182.828 295.172,318 		"/>
+		<path style="fill:#FFFFFF;" d="M160,185.657L290.343,316H29.657L160,185.657 M160,180L20,320h280L160,180L160,180z"/>
+	</g>
+	<g>
+		<polygon style="fill:#F2AE00;" points="94.829,112 225.172,112 160,177.172 		"/>
+		<path style="fill:#FFFFFF;" d="M220.172,114l-60.257,60.343L99.657,114H220 M230,110H90l70,70L230,110L230,110z"/>
+	</g>
+	<g>
+		<polygon style="fill:#7CD32B;" points="90.829,108 24.829,42 159.171,42 225.172,108 		"/>
+		<path style="fill:#FFFFFF;" d="M158.172,44l62.172,62H91.657l-62-62H158 M160,40H20l70,70h140L160,40L160,40z"/>
+	</g>
+	<g>
+		<polygon style="fill:#5CB5CD;" points="164.828,42 298,42 298,175.172 		"/>
+		<path style="fill:#FFFFFF;" d="M296,44v126.343L169.657,44H296 M300,40H160l140,140V40L300,40z"/>
+	</g>
+	<g>
+		
+			<rect x="182.502" y="132.502" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 519.9139 144.6457)" style="fill:#7CD32B;" width="94.995" height="94.995"/>
+		<path style="fill:#FFFFFF;" d="M230,115.657L294.343,180L230,244.343L165.657,180L230,115.657 M230,110l-70,70l70,70l70-70
+			L230,110L230,110z"/>
+	</g>
+	<g>
+		<polygon style="fill:#F2AE00;" points="232.828,250 298,184.828 298,315.172 		"/>
+		<path style="fill:#FFFFFF;" d="M296,190v120.343L235.657,250L296,189.828 M300,180l-70,70l70,70V180L300,180z"/>
+	</g>
+</g>
+</svg>
