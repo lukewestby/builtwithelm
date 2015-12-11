@@ -1,5 +1,12 @@
 [
   {
+    "name": "Mantl UI",
+    "previewImageUrl": "data/images/mantl-ui.png",
+    "primaryUrl": "https://mantl.io",
+    "repositoryUrl": "https://github.com/CiscoCloud/mantl-ui-frontend",
+    "description": "A quick view into Mantl's health checking and services"
+  },
+  {
     "name": "elm-hedley",
     "previewImageUrl": "data/images/elm-hedley.jpg",
     "primaryUrl": "https://gizra.github.io/elm-hedley",
