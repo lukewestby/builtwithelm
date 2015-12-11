@@ -1,5 +1,19 @@
 [
   {
+    "name": "elmchat",
+    "previewImageUrl": "data/images/elmchat.png",
+    "primaryUrl": "http://elmchat.xasm.net",
+    "repositoryUrl": "https://github.com/Diamond/livechat-elm",
+    "description": "Websocket-based chat application with Elm, Phoenix, Elixir, and Javascript"
+  },
+  {
+    "name": "Mantl UI",
+    "previewImageUrl": "data/images/mantl-ui.png",
+    "primaryUrl": "https://mantl.io",
+    "repositoryUrl": "https://github.com/CiscoCloud/mantl-ui-frontend",
+    "description": "A quick view into Mantl's health checking and services"
+  },
+  {
     "name": "elm-hedley",
     "previewImageUrl": "data/images/elm-hedley.jpg",
     "primaryUrl": "https://gizra.github.io/elm-hedley",

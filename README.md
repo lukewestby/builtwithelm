@@ -18,9 +18,11 @@ field is decoded with `Json.Decode.maybe` :smile:).
 ## Contributing
 Want to contribute to this site? Nice! Submit a PR or leave an issue. Feedback
 is encouraged and graciously accepted and my hope is that this can be a fun
-community project for people of all skill levels to contribute. Get in touch
-with me at @luke_dot_js on Twitter or at @luke in the elmlang Slack if you'd
-like!
+community project for people of all skill levels to contribute. If you do
+decide to submit code, please be sure to run it through
+[elm-format](https://github.com/avh4/elm-format) prior to submitting your pull
+request. Get in touch with me at @luke_dot_js on Twitter or at @luke in the
+elmlang Slack if you'd like!
 
 -------
 Thanks to @driftyco for the github icon svg from ionicons!
