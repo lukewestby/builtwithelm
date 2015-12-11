@@ -18,7 +18,7 @@ field is decoded with `Json.Decode.maybe` :smile:).
 ## Contributing
 Want to contribute to this site? Nice! Submit a PR or leave an issue. Feedback
 is encouraged and graciously accepted and my hope is that this can be a fun
-community project for people like me who are just getting started. Get in touch
+community project for people of all skill levels to contribute. Get in touch
 with me at @luke_dot_js on Twitter or at @luke in the elmlang Slack if you'd
 like!
 
