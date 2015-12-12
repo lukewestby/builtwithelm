@@ -10971,7 +10971,7 @@ Elm.Project.make = function (_elm) {
    };
    var view = function (project) {
       return A2($Html.div,
-      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "box-sizing",_1: "border-box"},{ctor: "_Tuple2",_0: "margin-bottom",_1: "60px"}]))]),
+      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "margin-bottom",_1: "60px"}]))]),
       _U.list([A2($Html.div,
               _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "display",_1: "flex"}
                                                       ,{ctor: "_Tuple2",_0: "justify-content",_1: "space-between"}]))]),
@@ -10991,8 +10991,7 @@ Elm.Project.make = function (_elm) {
                                                       ,{ctor: "_Tuple2",_0: "padding-top",_1: "2.875%"}
                                                       ,{ctor: "_Tuple2",_0: "background-repeat",_1: "no-repeat"}]))]),
               _U.list([A2($Html.img,
-              _U.list([$Html$Attributes.src(project.previewImageUrl)
-                      ,$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "width",_1: "100%"},{ctor: "_Tuple2",_0: "min-height",_1: "75%"}]))]),
+              _U.list([$Html$Attributes.src(project.previewImageUrl),$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "width",_1: "100%"}]))]),
               _U.list([]))]))]));
    };
    var Project = F5(function (a,b,c,d,e) {    return {previewImageUrl: a,name: b,primaryUrl: c,description: d,repositoryUrl: e};});
