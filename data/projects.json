@@ -1,5 +1,12 @@
 [
   {
+    "name": "Sliding Puzzle",
+    "previewImageUrl": "data/images/sliding-puzzle.jpg",
+    "primaryUrl": "http://bit.ly/playthisgamenow",
+    "repositoryUrl": "https://github.com/moroshko/sliding-puzzle",
+    "description": "Sliding puzzle game, configurable via URL."
+  },
+  {
     "name": "MMP Halloween Text Adventure",
     "previewImageUrl": "data/images/mmp-halloween-text-adventure.png",
     "primaryUrl": "http://midnightmurderparty.com/interactive/HalloweenSpecial2015",
