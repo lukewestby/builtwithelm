@@ -1,5 +1,12 @@
 [
   {
+    "name": "html-to-elm",
+    "previewImageUrl": "data/images/html-to-elm.png",
+    "primaryUrl": "http://mbylstra.github.io/html-to-elm",
+    "repositoryUrl": "https://github.com/mbylstra/html-to-elm",
+    "description": "Online tool for converting HTML to elm-html"
+  },
+  {
     "name": "elmchat",
     "previewImageUrl": "data/images/elmchat.png",
     "primaryUrl": "http://elmchat.xasm.net",
