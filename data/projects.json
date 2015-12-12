@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-flatris",
+    "previewImageUrl": "data/images/elm-flatris.png",
+    "primaryUrl": "http://unsoundscapes.com/elm-flatris.html",
+    "repositoryUrl": "https://github.com/w0rm/elm-flatris",
+    "description": "Tetris game, a clone of Flatris with Elm."
+  },
+  {
     "name": "Sliding Puzzle",
     "previewImageUrl": "data/images/sliding-puzzle.jpg",
     "primaryUrl": "http://bit.ly/playthisgamenow",
