@@ -52,8 +52,7 @@ view : Project -> Html
 view project =
     div
         [ style
-            [ ( "box-sizing", "border-box" )
-            , ( "margin-bottom", "60px" )
+            [ ( "margin-bottom", "60px" )
             ]
         ]
         [ div
@@ -91,7 +90,6 @@ view project =
                 [ src project.previewImageUrl
                 , style
                     [ ( "width", "100%" )
-                    , ( "min-height", "75%" )
                     ]
                 ]
                 []
