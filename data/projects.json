@@ -1,5 +1,12 @@
 [
   {
+    "name": "MMP Halloween Text Adventure",
+    "previewImageUrl": "data/images/mmp-halloween-text-adventure.png",
+    "primaryUrl": "http://midnightmurderparty.com/interactive/HalloweenSpecial2015",
+    "repositoryUrl": "https://github.com/robwhitaker/MMPHalloween2015",
+    "description": "A text-adventure game based on Midnight Murder Party where the challenge was to use Elm for everything (and to implement a Native module if otherwise impossible). Played with Task-based Native modules for audio and DOM scrolling."
+  },
+  {
     "name": "html-to-elm",
     "previewImageUrl": "data/images/html-to-elm.png",
     "primaryUrl": "http://mbylstra.github.io/html-to-elm",
