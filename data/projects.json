@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Games",
+    "previewImageUrl": "data/images/elm-games.png",
+    "primaryUrl": "https://localshred.github.io/elm-games",
+    "repositoryUrl": "https://github.com/localshred/elm-games",
+    "description": "A collection of mini games written in Elm, currently Minesweeper and Tic-Tac-Toe."
+  },
+  {
     "name": "Massive Decks",
     "previewImageUrl": "data/images/massive-decks.png",
     "primaryUrl": "http://massivedecks.herokuapp.com/",
