@@ -1,5 +1,12 @@
 [
   {
+    "name": "Massive Decks",
+    "previewImageUrl": "data/images/massive-decks.png",
+    "primaryUrl": "https://github.com/Lattyware/massivedecks",
+    "repositoryUrl": "https://github.com/Lattyware/massivedecks",
+    "description": "A Cards Against Humanity clone written in Elm and Scala."
+  },
+  {
     "name": "Sliding Puzzle",
     "previewImageUrl": "data/images/sliding-puzzle.jpg",
     "primaryUrl": "http://bit.ly/playthisgamenow",
