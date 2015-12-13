@@ -2,7 +2,7 @@
   {
     "name": "Massive Decks",
     "previewImageUrl": "data/images/massive-decks.png",
-    "primaryUrl": "https://github.com/Lattyware/massivedecks",
+    "primaryUrl": "http://massivedecks.herokuapp.com/",
     "repositoryUrl": "https://github.com/Lattyware/massivedecks",
     "description": "A Cards Against Humanity clone written in Elm and Scala."
   },
