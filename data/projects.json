@@ -1,5 +1,12 @@
 [
   {
+    "name": "Minesweeper",
+    "previewImageUrl": "data/images/elm-minesweeper.png",
+    "primaryUrl": "http://sekibomazic.github.io/minesweeper",
+    "repositoryUrl": "https://github.com/SekibOmazic/minesweeper",
+    "description": "A simple Minesweeper game written in Elm."
+  },
+  {
     "name": "Elm Games",
     "previewImageUrl": "data/images/elm-games.png",
     "primaryUrl": "https://localshred.github.io/elm-games",
