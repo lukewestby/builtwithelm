@@ -1,5 +1,12 @@
 [
   {
+    "name": "Sketch-n-Sketch",
+    "previewImageUrl": "data/images/sketch-n-sketch.png",
+    "primaryUrl": "http://ravichugh.github.io/sketch-n-sketch/",
+    "repositoryUrl": "https://github.com/ravichugh/sketch-n-sketch",
+    "description": "An SVG editor that combines programmatic and direct manipulation."
+  },
+  {
     "name": "Minesweeper",
     "previewImageUrl": "data/images/elm-minesweeper.png",
     "primaryUrl": "http://sekibomazic.github.io/minesweeper",
