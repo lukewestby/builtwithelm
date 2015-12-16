@@ -1,5 +1,61 @@
 [
   {
+    "name": "httpspy",
+    "previewImageUrl": "data/images/httpspy.png",
+    "primaryUrl": "http://httpspy.io",
+    "repositoryUrl": "https://github.com/jamesmacaulay/http_spy",
+    "description": "Watch HTTP requests as they happen. Built with Elm and Elixir/Phoenix."
+  },
+  {
+    "name": "TodoMVC ElmFire",
+    "previewImageUrl": "data/images/todomvc-elmfire.png",
+    "primaryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+    "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+    "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
+  },
+  {
+    "name": "Lemur",
+    "previewImageUrl": "data/images/lemur.png",
+    "primaryUrl": "https://github.com/vilterp/lemur",
+    "repositoryUrl": "https://github.com/vilterp/lemur",
+    "description": "visual functional programming language which compiles to Python"
+  },
+  {
+    "name": "Sketch-n-Sketch",
+    "previewImageUrl": "data/images/sketch-n-sketch.png",
+    "primaryUrl": "http://ravichugh.github.io/sketch-n-sketch/",
+    "repositoryUrl": "https://github.com/ravichugh/sketch-n-sketch",
+    "description": "An SVG editor that combines programmatic and direct manipulation."
+  },
+  {
+    "name": "Minesweeper",
+    "previewImageUrl": "data/images/elm-minesweeper.png",
+    "primaryUrl": "http://sekibomazic.github.io/minesweeper",
+    "repositoryUrl": "https://github.com/SekibOmazic/minesweeper",
+    "description": "A simple Minesweeper game written in Elm."
+  },
+  {
+    "name": "Elm Games",
+    "previewImageUrl": "data/images/elm-games.png",
+    "primaryUrl": "https://localshred.github.io/elm-games",
+    "repositoryUrl": "https://github.com/localshred/elm-games",
+    "description": "A collection of mini games written in Elm, currently Minesweeper and Tic-Tac-Toe."
+  },
+  {
+    "name": "Massive Decks",
+    "previewImageUrl": "data/images/massive-decks.png",
+    "primaryUrl": "http://massivedecks.herokuapp.com/",
+    "repositoryUrl": "https://github.com/Lattyware/massivedecks",
+    "description": "A Cards Against Humanity clone written in Elm and Scala."
+  },
+  {
+    "name": "elm-flatris",
+    "previewImageUrl": "data/images/elm-flatris.png",
+    "primaryUrl": "http://unsoundscapes.com/elm-flatris.html",
+    "repositoryUrl": "https://github.com/w0rm/elm-flatris",
+    "description": "Tetris game, a clone of Flatris with Elm."
+  },
+  {
     "name": "Sliding Puzzle",
     "previewImageUrl": "data/images/sliding-puzzle.jpg",
     "primaryUrl": "http://bit.ly/playthisgamenow",
