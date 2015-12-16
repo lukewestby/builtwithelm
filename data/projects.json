@@ -89,5 +89,12 @@
     "primaryUrl": "http://package.elm-lang.org/",
     "repositoryUrl": "https://github.com/elm-lang/package.elm-lang.org",
     "description": "Website for browsing Elm packages and exploring documentation"
+  },
+  {
+    "name": "Lemur",
+    "previewImageUrl": "data/images/lemur.png",
+    "primaryUrl": "https://github.com/vilterp/lemur",
+    "repositoryUrl": "https://github.com/vilterp/lemur",
+    "description": "visual functional programming language which compiles to Python"
   }
 ]
