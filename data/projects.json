@@ -1,5 +1,12 @@
 [
   {
+    "name": "TodoMVC ElmFire",
+    "previewImageUrl": "data/images/todomvc-elmfire.png",
+    "primaryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+    "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+    "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
+  },
+  {
     "name": "Lemur",
     "previewImageUrl": "data/images/lemur.png",
     "primaryUrl": "https://github.com/vilterp/lemur",
@@ -96,12 +103,5 @@
     "primaryUrl": "http://package.elm-lang.org/",
     "repositoryUrl": "https://github.com/elm-lang/package.elm-lang.org",
     "description": "Website for browsing Elm packages and exploring documentation"
-  },
-  {
-    "name": "TodoMVC ElmFire",
-    "previewImageUrl": "data/images/todomvc-elmfire.png",
-    "primaryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
-    "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
-    "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
   }
 ]
