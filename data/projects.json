@@ -1,5 +1,12 @@
 [
   {
+    "name": "httpspy",
+    "previewImageUrl": "data/images/httpspy.png",
+    "primaryUrl": "http://httpspy.io",
+    "repositoryUrl": "https://github.com/jamesmacaulay/http_spy",
+    "description": "Watch HTTP requests as they happen. Built with Elm and Elixir/Phoenix."
+  },
+  {
     "name": "TodoMVC ElmFire",
     "previewImageUrl": "data/images/todomvc-elmfire.png",
     "primaryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
