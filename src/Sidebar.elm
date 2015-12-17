@@ -43,7 +43,7 @@ view =
                     [ ( "text-align", "justfied" ) ]
                 ]
                 [ span [] [ text "Submit a pull request or post an issue to " ]
-                , a [ href "https://github.com/lukewestby/builtwithelm" ] [ text "the Github repo" ]
+                , a [ href "https://github.com/elm-community/builtwithelm" ] [ text "the Github repo" ]
                 , span [] [ text ". Please include a screenshot and ensure it is " ]
                 , strong [] [ text "1000px x 800px" ]
                 , span [] [ text "." ]
