@@ -11041,7 +11041,9 @@ Elm.Sidebar.make = function (_elm) {
                    ,A2($Html.p,
                    _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "text-align",_1: "justfied"}]))]),
                    _U.list([A2($Html.span,_U.list([]),_U.list([$Html.text("Submit a pull request or post an issue to ")]))
-                           ,A2($Html.a,_U.list([$Html$Attributes.href("https://github.com/lukewestby/builtwithelm")]),_U.list([$Html.text("the Github repo")]))
+                           ,A2($Html.a,
+                           _U.list([$Html$Attributes.href("https://github.com/elm-community/builtwithelm")]),
+                           _U.list([$Html.text("the Github repo")]))
                            ,A2($Html.span,_U.list([]),_U.list([$Html.text(". Please include a screenshot and ensure it is ")]))
                            ,A2($Html.strong,_U.list([]),_U.list([$Html.text("1000px x 800px")]))
                            ,A2($Html.span,_U.list([]),_U.list([$Html.text(".")]))]))]))]));
