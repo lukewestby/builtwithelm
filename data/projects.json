@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-2048",
+    "previewImageUrl": "data/images/elm-2048.png",
+    "primaryUrl": "http://alexmost.github.io/2048/",
+    "repositoryUrl": "https://github.com/alexmost/2048",
+    "description": "Simple implementation of 2048 game"
+  },
+  {
     "name": "httpspy",
     "previewImageUrl": "data/images/httpspy.png",
     "primaryUrl": "http://httpspy.io",
