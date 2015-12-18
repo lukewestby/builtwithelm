@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-street-404",
+    "previewImageUrl": "data/images/elm-street-404.jpg",
+    "primaryUrl": "http://zalando.github.io/elm-street-404/",
+    "repositoryUrl": "https://github.com/zalando/elm-street-404",
+    "description": "404 Elm Street — a game where you have to deliver all the fashion to all the customers."
+  },
+  {
     "name": "elm-2048",
     "previewImageUrl": "data/images/elm-2048.png",
     "primaryUrl": "http://alexmost.github.io/2048/",
