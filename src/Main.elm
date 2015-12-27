@@ -4,26 +4,32 @@ import StartApp
 import Task exposing (Task)
 import Effects exposing (Effects)
 import Html exposing (..)
+import Html.Events exposing (onClick)
 import Html.Attributes exposing (..)
 import Debug
 import Request
 import Project exposing (Project)
 import Sidebar
+import Signal exposing (Address)
 
 
 -- Init
+
+limit : Int
+limit = 5
 
 
 type alias Model =
     { projects : List Project
     , isLoading : Bool
     , loadFailed : Bool
+    , offset : Int
     }
 
 
 init : ( Model, Effects Action )
 init =
-    ( Model [] True False
+    ( Model [] True False 0
     , loadList ()
     )
 
@@ -34,6 +40,8 @@ init =
 
 type Action
     = None
+    | Prev
+    | Next
     | LoadProjectsStart
     | LoadProjectsSuccess (List Project)
     | LoadProjectsError Request.Error
@@ -45,6 +53,26 @@ update action model =
         <| case action of
             None ->
                 ( model, Effects.none )
+
+            Prev ->
+                if model.offset - limit >= 0 then
+                    ( { model
+                        | offset = model.offset - limit
+                      }
+                    , Effects.none
+                    )
+                else
+                    ( model, Effects.none )
+
+            Next ->
+                if model.offset + limit < List.length model.projects then
+                    ( { model
+                        | offset = model.offset + limit
+                      }
+                    , Effects.none
+                    )
+                else
+                    ( model, Effects.none )
 
             LoadProjectsStart ->
                 ( { model
@@ -110,8 +138,23 @@ view address model =
                     ]
                 ]
                 <| viewList model
+            , div
+                [ style
+                    [ ( "display", "flex" )
+                    , ( "flex-direction", "row" )
+                    ]
+                ]
+                [ pageButton address Prev "Newer"
+                , pageButton address Next "Older"
+                ]
             ]
         ]
+
+pageButton : Address a -> a -> String -> Html
+pageButton address action label =
+    button
+        [ onClick address action ]
+        [ text label ]
 
 
 viewList : Model -> List Html
@@ -121,7 +164,11 @@ viewList model =
     else if model.loadFailed then
         [ h2 [] [ text "Unable to load projects" ] ]
     else
-        List.map Project.view model.projects
+        model.projects
+            |> List.drop model.offset
+            |> List.take limit
+            |> List.map Project.view
+
 
 
 
