@@ -16,22 +16,18 @@ import Signal exposing (Address)
 -- Init
 
 
-limit : Int
-limit =
-    5
-
-
 type alias Model =
     { projects : List Project
     , isLoading : Bool
     , loadFailed : Bool
     , offset : Int
+    , limit : Int
     }
 
 
 init : ( Model, Effects Action )
 init =
-    ( Model [] True False 0
+    ( Model [] True False 0 5
     , loadList ()
     )
 
@@ -57,24 +53,34 @@ update action model =
                 ( model, Effects.none )
 
             Prev ->
-                if model.offset - limit >= 0 then
-                    ( { model
-                        | offset = model.offset - limit
-                      }
-                    , Effects.none
-                    )
-                else
-                    ( model, Effects.none )
+                let
+                    offset = model.offset
+
+                    limit = model.limit
+                in
+                    if offset - limit >= 0 then
+                        ( { model
+                            | offset = offset - limit
+                          }
+                        , Effects.none
+                        )
+                    else
+                        ( model, Effects.none )
 
             Next ->
-                if model.offset + limit < List.length model.projects then
-                    ( { model
-                        | offset = model.offset + limit
-                      }
-                    , Effects.none
-                    )
-                else
-                    ( model, Effects.none )
+                let
+                    offset = model.offset
+
+                    limit = model.limit
+                in
+                    if offset + limit < List.length model.projects then
+                        ( { model
+                            | offset = offset + limit
+                          }
+                        , Effects.none
+                        )
+                    else
+                        ( model, Effects.none )
 
             LoadProjectsStart ->
                 ( { model
@@ -117,46 +123,57 @@ loadList () =
 
 view : Signal.Address Action -> Model -> Html
 view address model =
-    div
-        [ style
-            [ ( "display", "flex" )
-            , ( "height", "100%" )
-            , ( "position", "relative" )
-            , ( "font-family", "Source Sans Pro" )
-            ]
-        ]
-        [ Sidebar.view
-        , div
+    let
+        offset = model.offset
+
+        limit = model.limit
+
+        disablePrev = offset - limit < 0
+
+        disableNext = offset + limit >= List.length model.projects
+    in
+        div
             [ style
-                [ ( "margin-left", "240px" )
-                , ( "width", "calc(100% - 240px)" )
+                [ ( "display", "flex" )
+                , ( "height", "100%" )
+                , ( "position", "relative" )
+                , ( "font-family", "Source Sans Pro" )
                 ]
             ]
-            [ div
-                [ style
-                    [ ( "padding", "20px" )
-                    , ( "max-width", "920px" )
-                    , ( "margin", "0 auto" )
-                    ]
-                ]
-                <| viewList model
+            [ Sidebar.view
             , div
                 [ style
-                    [ ( "display", "flex" )
-                    , ( "flex-direction", "row" )
+                    [ ( "margin-left", "240px" )
+                    , ( "width", "calc(100% - 240px)" )
                     ]
                 ]
-                [ pageButton address Prev "Newer"
-                , pageButton address Next "Older"
+                [ div
+                    [ style
+                        [ ( "padding", "20px" )
+                        , ( "max-width", "920px" )
+                        , ( "margin", "0 auto" )
+                        ]
+                    ]
+                    <| viewList model
+                , div
+                    [ style
+                        [ ( "display", "flex" )
+                        , ( "flex-direction", "row" )
+                        ]
+                    ]
+                    [ pageButton address Prev disablePrev "Newer"
+                    , pageButton address Next disableNext "Older"
+                    ]
                 ]
             ]
-        ]
 
 
-pageButton : Address a -> a -> String -> Html
-pageButton address action label =
+pageButton : Address a -> a -> Bool -> String -> Html
+pageButton address action disabled' label =
     button
-        [ onClick address action ]
+        [ onClick address action
+        , disabled disabled'
+        ]
         [ text label ]
 
 
@@ -169,7 +186,7 @@ viewList model =
     else
         model.projects
             |> List.drop model.offset
-            |> List.take limit
+            |> List.take model.limit
             |> List.map Project.view
 
 
