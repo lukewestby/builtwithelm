@@ -75,7 +75,7 @@ update action model =
 
 loadList : () -> Effects Action
 loadList () =
-    Request.getWithRetries "data/projects.json" Project.decoder 5
+    Request.getWithRetries "/data/projects.json" Project.decoder 5
         |> Task.map LoadProjectsSuccess
         |> flip Task.onError (LoadProjectsError >> Task.succeed)
         |> Effects.task

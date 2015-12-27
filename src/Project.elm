@@ -37,7 +37,7 @@ viewOpenSourceLink project =
                     ]
                 ]
                 [ img
-                    [ src "assets/github.svg"
+                    [ src "/assets/github.svg"
                     , style
                         [ ( "width", "2em" ) ]
                     ]
@@ -77,7 +77,7 @@ view project =
         , p [] [ text project.description ]
         , div
             [ style
-                [ ( "background-image", "url(assets/screenshot_shell.svg)" )
+                [ ( "background-image", "url(/assets/screenshot_shell.svg)" )
                 , ( "background-size", "contain" )
                 , ( "max-width", "1040px" )
                 , ( "max-height", "850px" )

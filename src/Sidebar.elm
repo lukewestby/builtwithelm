@@ -15,7 +15,7 @@ view =
             , ( "position", "fixed" )
             ]
         ]
-        [ img [ src "assets/logo.svg" ] []
+        [ img [ src "/assets/logo.svg" ] []
         , h1
             [ style
                 [ ( "font-weight", "normal" )
