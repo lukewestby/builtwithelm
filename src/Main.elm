@@ -15,8 +15,10 @@ import Signal exposing (Address)
 
 -- Init
 
+
 limit : Int
-limit = 5
+limit =
+    5
 
 
 type alias Model =
@@ -150,6 +152,7 @@ view address model =
             ]
         ]
 
+
 pageButton : Address a -> a -> String -> Html
 pageButton address action label =
     button
@@ -168,7 +171,6 @@ viewList model =
             |> List.drop model.offset
             |> List.take limit
             |> List.map Project.view
-
 
 
 
