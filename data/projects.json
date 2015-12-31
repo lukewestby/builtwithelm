@@ -1,4 +1,9 @@
-[
+[ { "name": "graphomate slopegraphs",
+    "previewImageUrl": "data/images/graphomate_slopegraphs.png",
+    "primaryUrl": "http://www.graphomate.com/en/",
+    "repositoryUrl": null,
+    "description": "graphomate slopegraphs for SAP Design Studio: customizable slopegraphs and bump charts for BI"
+  },
   {
     "name": "elm-street-404",
     "previewImageUrl": "data/images/elm-street-404.jpg",
