@@ -97,7 +97,7 @@
   },
   {
     "name": "elmchat",
-    "previewImageUrl": "data/images/elmchat.png",
+    "previewImageUrl": "data/images/elmchat.jpg",
     "primaryUrl": "http://elmchat.xasm.net",
     "repositoryUrl": "https://github.com/Diamond/livechat-elm",
     "description": "Websocket-based chat application with Elm, Phoenix, Elixir, and Javascript"
