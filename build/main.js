@@ -11034,7 +11034,8 @@ Elm.Sidebar.make = function (_elm) {
            _U.list([A2($Html.span,_U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "color",_1: "#999999"}]))]),_U.list([$Html.text("builtwith")]))
                    ,A2($Html.span,_U.list([]),_U.list([$Html.text("elm")]))]))
            ,A2($Html.div,
-           _U.list([]),
+           _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "border-bottom",_1: "1px solid #999999"}
+                                                   ,{ctor: "_Tuple2",_0: "margin-bottom",_1: "20px"}]))]),
            _U.list([A2($Html.h3,
                    _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "text-align",_1: "center"}]))]),
                    _U.list([$Html.text("Submit a project")]))
@@ -11046,7 +11047,15 @@ Elm.Sidebar.make = function (_elm) {
                            _U.list([$Html.text("the Github repo")]))
                            ,A2($Html.span,_U.list([]),_U.list([$Html.text(". Please include a screenshot and ensure it is ")]))
                            ,A2($Html.strong,_U.list([]),_U.list([$Html.text("1000px x 800px")]))
-                           ,A2($Html.span,_U.list([]),_U.list([$Html.text(".")]))]))]))]));
+                           ,A2($Html.span,_U.list([]),_U.list([$Html.text(".")]))]))]))
+           ,A2($Html.div,
+           _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "font-size",_1: "0.9em"}]))]),
+           _U.list([A2($Html.span,_U.list([]),_U.list([$Html.text("Built by ")]))
+                   ,A2($Html.a,_U.list([$Html$Attributes.href("https://twitter.com/luke_dot_js")]),_U.list([$Html.text("Luke Westby")]))
+                   ,A2($Html.span,_U.list([]),_U.list([$Html.text(" and ")]))
+                   ,A2($Html.a,
+                   _U.list([$Html$Attributes.href("https://github.com/elm-community/builtwithelm/graphs/contributors")]),
+                   _U.list([$Html.text("the amazing Elm community.")]))]))]));
    return _elm.Sidebar.values = {_op: _op,view: view};
 };
 Elm.Main = Elm.Main || {};
