@@ -32,7 +32,11 @@ view =
             , span [] [ text "elm" ]
             ]
         , div
-            []
+            [ style
+                [ ( "border-bottom", "1px solid #999999" )
+                , ( "margin-bottom", "20px" )
+                ]
+            ]
             [ h3
                 [ style
                     [ ( "text-align", "center" ) ]
@@ -48,5 +52,14 @@ view =
                 , strong [] [ text "1000px x 800px" ]
                 , span [] [ text "." ]
                 ]
+            ]
+        , div
+            [ style
+                [ ( "font-size", "0.9em" ) ]
+            ]
+            [ span [] [ text "Built by " ]
+            , a [ href "https://twitter.com/luke_dot_js" ] [ text "Luke Westby" ]
+            , span [] [ text " and " ]
+            , a [ href "https://github.com/elm-community/builtwithelm/graphs/contributors" ] [ text "the amazing Elm community." ]
             ]
         ]
