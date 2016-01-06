@@ -1,5 +1,12 @@
 [
   {
+    "name": "Froggy",
+    "previewImageUrl": "data/images/froggy.png",
+    "primaryUrl": "http://thsoft.github.io/froggy",
+    "repositoryUrl": "https://github.com/thSoft/froggy",
+    "description": "A little puzzle game"
+  },
+  {
     "name": "w3-elm",
     "previewImageUrl": "data/images/w3-elm.png",
     "primaryUrl": "https://github.com/ahoskins/w3-elm",
