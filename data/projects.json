@@ -1,4 +1,10 @@
-[ { "name": "graphomate slopegraphs",
+[ { "name": "Froggy",
+    "previewImageUrl": "data/images/froggy.png",
+    "primaryUrl": "http://thsoft.github.io/froggy",
+    "repositoryUrl": "https://github.com/thSoft/froggy",
+    "description": "A little puzzle game"
+  },
+  { "name": "graphomate slopegraphs",
     "previewImageUrl": "data/images/graphomate_slopegraphs.png",
     "primaryUrl": "http://www.graphomate.com/en/",
     "repositoryUrl": null,
