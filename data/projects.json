@@ -1,4 +1,10 @@
-[ { "name": "graphomate slopegraphs",
+[ { "name": "w3-elm",
+    "previewImageUrl": "data/images/w3-elm.png",
+    "primaryUrl": "https://github.com/ahoskins/w3-elm",
+    "repositoryUrl": "https://github.com/ahoskins/w3-elm",
+    "description": "an Elm port of the W3Schools HTML editor"
+  },
+  { "name": "graphomate slopegraphs",
     "previewImageUrl": "data/images/graphomate_slopegraphs.png",
     "primaryUrl": "http://www.graphomate.com/en/",
     "repositoryUrl": null,
