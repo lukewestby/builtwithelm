@@ -1,4 +1,62 @@
-[ { "name": "graphomate slopegraphs",
+[
+  {
+    "name": "Froggy",
+    "previewImageUrl": "data/images/froggy.png",
+    "primaryUrl": "http://thsoft.github.io/froggy",
+    "repositoryUrl": "https://github.com/thSoft/froggy",
+    "description": "A little puzzle game"
+  },
+  {
+    "name": "w3-elm",
+    "previewImageUrl": "data/images/w3-elm.png",
+    "primaryUrl": "https://github.com/ahoskins/w3-elm",
+    "repositoryUrl": "https://github.com/ahoskins/w3-elm",
+    "description": "an Elm port of the W3Schools HTML editor"
+  },
+  {
+    "name": "Demoscene Concentration",
+    "previewImageUrl": "data/images/demoscene-concentration.png",
+    "primaryUrl": "http://daiw.de/games/demoscene-concentration/",
+    "repositoryUrl": "https://github.com/Dobiasd/Demoscene-Concentration",
+    "description": "The classical memory game with old school demoscene effects."
+  },
+  {
+    "name": "Breakout",
+    "previewImageUrl": "data/images/breakout.png",
+    "primaryUrl": "http://daiw.de/games/breakout/",
+    "repositoryUrl": "https://github.com/Dobiasd/Breakout",
+    "description": "A clone of the classical game for your browser."
+  },
+  {
+    "name": "Reddit Time Machine",
+    "previewImageUrl": "data/images/reddit-time-machine.png",
+    "primaryUrl": "http://www.editgym.com/reddit-time-machine/",
+    "repositoryUrl": "https://github.com/Dobiasd/RedditTimeMachine",
+    "description": "Check out what was hot on reddit days/weeks/months ago."
+  },
+  {
+    "name": "EditGym",
+    "previewImageUrl": "data/images/editgym.png",
+    "primaryUrl": "http://www.editgym.com/text-editing-training/",
+    "repositoryUrl": "https://github.com/Dobiasd/EditGym",
+    "description": "Text editing training"
+  },
+  {
+    "name": "Barcode Generator",
+    "previewImageUrl": "data/images/barcode_generator.png",
+    "primaryUrl": "http://daiw.de/apps/barcode_generator/",
+    "repositoryUrl": "https://github.com/Dobiasd/Barcode-Generator",
+    "description": "Generate EAN/UPC-A barcodes in your browser."
+  },
+  {
+    "name": "Maze",
+    "previewImageUrl": "data/images/maze.png",
+    "primaryUrl": "http://daiw.de/games/maze/",
+    "repositoryUrl": "https://github.com/Dobiasd/Maze",
+    "description": "Test your mouse precision skills with this simple maze game."
+  },
+  {
+    "name": "graphomate slopegraphs",
     "previewImageUrl": "data/images/graphomate_slopegraphs.png",
     "primaryUrl": "http://www.graphomate.com/en/",
     "repositoryUrl": null,
