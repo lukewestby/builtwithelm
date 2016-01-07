@@ -93,7 +93,7 @@
   {
     "name": "TodoMVC ElmFire",
     "previewImageUrl": "data/images/todomvc-elmfire.png",
-    "primaryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+    "primaryUrl": "http://thomasweiser.github.io/todomvc-elmfire",
     "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
     "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
   },
