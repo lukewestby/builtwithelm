@@ -16,7 +16,7 @@
   {
     "name": "w3-elm",
     "previewImageUrl": "data/images/w3-elm.png",
-    "primaryUrl": "https://github.com/ahoskins/w3-elm",
+    "primaryUrl": "http://www.andrewhoskins.ca/projects/w3-elm",
     "repositoryUrl": "https://github.com/ahoskins/w3-elm",
     "description": "an Elm port of the W3Schools HTML editor"
   },
