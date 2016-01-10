@@ -1,5 +1,12 @@
 [
   {
+    "name": "Snake Game",
+    "previewImageUrl": "data/images/snake-game.png",
+    "primaryUrl": "http://liubko.github.io/elm-snake/",
+    "repositoryUrl": "https://github.com/liubko/elm-snake",
+    "description": "A classic Snake game for the web browser written in Elm."
+  },
+  {
     "name": "The Cheese Palette",
     "previewImageUrl": "data/images/the-cheese-palette.png",
     "primaryUrl": "http://cheese.murph.xyz",
@@ -16,7 +23,7 @@
   {
     "name": "w3-elm",
     "previewImageUrl": "data/images/w3-elm.png",
-    "primaryUrl": "https://github.com/ahoskins/w3-elm",
+    "primaryUrl": "http://www.andrewhoskins.ca/projects/w3-elm",
     "repositoryUrl": "https://github.com/ahoskins/w3-elm",
     "description": "an Elm port of the W3Schools HTML editor"
   },
@@ -93,7 +100,7 @@
   {
     "name": "TodoMVC ElmFire",
     "previewImageUrl": "data/images/todomvc-elmfire.png",
-    "primaryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+    "primaryUrl": "http://thomasweiser.github.io/todomvc-elmfire",
     "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
     "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
   },
