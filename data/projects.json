@@ -1,5 +1,12 @@
 [
   {
+    "name": "Snake Game",
+    "previewImageUrl": "data/images/snake-game.png",
+    "primaryUrl": "http://liubko.github.io/elm-snake/",
+    "repositoryUrl": "https://github.com/liubko/elm-snake",
+    "description": "A classic Snake game for the web browser written in Elm."
+  },
+  {
     "name": "The Cheese Palette",
     "previewImageUrl": "data/images/the-cheese-palette.png",
     "primaryUrl": "http://cheese.murph.xyz",
