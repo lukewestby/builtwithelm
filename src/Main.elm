@@ -178,8 +178,8 @@ pageButton address action disabled' label =
             [ onClick address action
             , disabled disabled'
             , style
-                [ ("width", "25%")
-                , ("height", "10%")
+                [ ("width", "225px")
+                , ("height", "50px")
                 , ("font-family", "Helvetica")
                 , ("font-size", "40px")
                 , ("font-weigth", "400")
