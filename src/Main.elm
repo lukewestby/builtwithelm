@@ -159,6 +159,7 @@ view address model =
                     [ style
                         [ ( "display", "flex" )
                         , ( "flex-direction", "row" )
+                        , ("justify-content", "center")
                         ]
                     ]
                     [ pageButton address Prev disablePrev "Newer"
@@ -170,11 +171,27 @@ view address model =
 
 pageButton : Address a -> a -> Bool -> String -> Html
 pageButton address action disabled' label =
-    button
-        [ onClick address action
-        , disabled disabled'
-        ]
-        [ text label ]
+    let
+        textColor = if disabled' then "#e5e5e5" else "#5cb5cd"
+    in
+        button
+            [ onClick address action
+            , disabled disabled'
+            , style
+                [ ("width", "25%")
+                , ("height", "10%")
+                , ("font-family", "Helvetica")
+                , ("font-size", "40px")
+                , ("font-weigth", "400")
+                , ("color", textColor)
+                , ("background-color", "#ffffff")
+                , ("border", "2px solid #e5e5e5")
+                , ("margin", "1px")
+                , ("border-radius", "5px")
+                , ("padding", "3px")
+                ]
+            ]
+            [ text label ]
 
 
 viewList : Model -> List Html
