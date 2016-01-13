@@ -1,7 +1,7 @@
 # [Built With Elm](http://builtwithelm.co)
 A list of projects and apps built with Elm.
 
-This site was inspired by http://builtwithreact.io and is meant to showcase the
+This site was inspired by  and is meant to showcase the
 awesome work the Elm community is doing. I wanted to create a place for people
 to have their work recognized, especially if it is open source (proprietary
 projects definitely welcome though!), and stand as examples for those who are
@@ -25,4 +25,6 @@ request. Get in touch with me at @luke_dot_js on Twitter or at @luke in the
 elmlang Slack if you'd like!
 
 -------
-Thanks to @driftyco for the github icon svg from ionicons!
+- Thanks to @driftyco for the github icon svg from ionicons!
+- Thanks to http://builtwithreact.io and @trek's http://beautifulopen.com for
+idea and design inspiration!
