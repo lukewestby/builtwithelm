@@ -1,11 +1,10 @@
 # [Built With Elm](http://builtwithelm.co)
 A list of projects and apps built with Elm.
 
-This site was inspired by  and is meant to showcase the
-awesome work the Elm community is doing. I wanted to create a place for people
-to have their work recognized, especially if it is open source (proprietary
-projects definitely welcome though!), and stand as examples for those who are
-new to the language.
+This site is meant to showcase the awesome work the Elm community is doing. I
+wanted to create a place for people to have their work recognized, especially if
+it is open source (proprietary projects definitely welcome though!), and stand
+as examples for those who are new to the language.
 
 ## Submitting a project
 Just submit a PR with your info added to the beginning of the array in
