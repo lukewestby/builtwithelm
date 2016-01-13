@@ -6,7 +6,6 @@ import Effects exposing (Effects)
 import Html exposing (..)
 import Html.Events exposing (onClick)
 import Html.Attributes exposing (..)
-import Debug
 import Request
 import Project exposing (Project)
 import Sidebar
@@ -47,62 +46,61 @@ type Action
 
 update : Action -> Model -> ( Model, Effects Action )
 update action model =
-    Debug.log "model"
-        <| case action of
-            None ->
-                ( model, Effects.none )
+    case action of
+        None ->
+            ( model, Effects.none )
 
-            Prev ->
-                let
-                    offset = model.offset
+        Prev ->
+            let
+                offset = model.offset
 
-                    limit = model.limit
-                in
-                    if offset - limit >= 0 then
-                        ( { model
-                            | offset = offset - limit
-                          }
-                        , Effects.none
-                        )
-                    else
-                        ( model, Effects.none )
+                limit = model.limit
+            in
+                if offset - limit >= 0 then
+                    ( { model
+                        | offset = offset - limit
+                      }
+                    , Effects.none
+                    )
+                else
+                    ( model, Effects.none )
 
-            Next ->
-                let
-                    offset = model.offset
+        Next ->
+            let
+                offset = model.offset
 
-                    limit = model.limit
-                in
-                    if offset + limit < List.length model.projects then
-                        ( { model
-                            | offset = offset + limit
-                          }
-                        , Effects.none
-                        )
-                    else
-                        ( model, Effects.none )
+                limit = model.limit
+            in
+                if offset + limit < List.length model.projects then
+                    ( { model
+                        | offset = offset + limit
+                      }
+                    , Effects.none
+                    )
+                else
+                    ( model, Effects.none )
 
-            LoadProjectsStart ->
-                ( { model
-                    | isLoading = True
-                  }
-                , loadList ()
-                )
+        LoadProjectsStart ->
+            ( { model
+                | isLoading = True
+              }
+            , loadList ()
+            )
 
-            LoadProjectsSuccess projects ->
-                ( { model
-                    | projects = projects
-                    , isLoading = False
-                  }
-                , Effects.none
-                )
+        LoadProjectsSuccess projects ->
+            ( { model
+                | projects = projects
+                , isLoading = False
+              }
+            , Effects.none
+            )
 
-            LoadProjectsError error ->
-                ( { model
-                    | loadFailed = True
-                  }
-                , Effects.none
-                )
+        LoadProjectsError error ->
+            ( { model
+                | loadFailed = True
+              }
+            , Effects.none
+            )
 
 
 
@@ -145,7 +143,7 @@ view address model =
                 [ style
                     [ ( "margin-left", "240px" )
                     , ( "width", "calc(100% - 240px)" )
-                    , ( "padding", "20px 0")
+                    , ( "padding", "20px 0" )
                     ]
                 ]
                 [ div
@@ -160,9 +158,9 @@ view address model =
                     [ style
                         [ ( "display", "flex" )
                         , ( "flex-direction", "row" )
-                        , ("justify-content", "center")
-                        , ("width", "40%")
-                        , ("margin", "auto")
+                        , ( "justify-content", "center" )
+                        , ( "width", "40%" )
+                        , ( "margin", "auto" )
                         ]
                     ]
                     [ pageButton address Prev disablePrev "Newer"
@@ -175,22 +173,26 @@ view address model =
 pageButton : Address a -> a -> Bool -> String -> Html
 pageButton address action disabled' label =
     let
-        textColor = if disabled' then "#e5e5e5" else "#5cb5cd"
+        textColor =
+            if disabled' then
+                "#e5e5e5"
+            else
+                "#5cb5cd"
     in
         button
             [ onClick address action
             , disabled disabled'
             , style
-                [ ("font-family", "Helvetica")
-                , ("font-size", "1.6em")
-                , ("font-weigth", "400")
-                , ("color", textColor)
-                , ("background-color", "#ffffff")
-                , ("border", "2px solid #e5e5e5")
-                , ("margin", "1px")
-                , ("border-radius", "5px")
-                , ("padding", "3px")
-                , ("flex-basis", "50%")
+                [ ( "font-family", "Helvetica" )
+                , ( "font-size", "1.6em" )
+                , ( "font-weigth", "400" )
+                , ( "color", textColor )
+                , ( "background-color", "#ffffff" )
+                , ( "border", "2px solid #e5e5e5" )
+                , ( "margin", "1px" )
+                , ( "border-radius", "5px" )
+                , ( "padding", "3px" )
+                , ( "flex-basis", "50%" )
                 ]
             ]
             [ text label ]
