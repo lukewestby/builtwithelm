@@ -5,7 +5,7 @@ window.installScrollToTop = function installScrollToTop(app) {
       currentOffset = nextOffset;
       setTimeout(function () {
         window.scrollTo(0, 0);
-      }, 0);
+      }, 10);
     }
   });
 };
