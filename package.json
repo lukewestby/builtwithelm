@@ -1,0 +1,31 @@
+{
+  "name": "builtwithelm",
+  "version": "1.0.0",
+  "description": "A list of projects and apps built with Elm.",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "elm-server src/Main.elm --output build/main.js --start-path ./index.html --watch .",
+    "build": "elm-make src/Main.elm --output build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elm-community/builtwithelm"
+  },
+  "keywords": [
+    "elm",
+    "builtwithelm",
+    "community",
+    "elm-community"
+  ],
+  "author": "Luke William Westby <lwestby@alumni.nd.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elm-community/builtwithelm/issues"
+  },
+  "homepage": "https://github.com/elm-community/builtwithelm",
+  "devDependencies": {
+    "elm-css": "^0.3.0",
+    "elm-server": "0.2.1"
+  }
+}

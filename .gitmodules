@@ -1,0 +1,3 @@
+[submodule "vendor/elm-css"]
+	path = vendor/elm-css
+	url = https://github.com/rtfeldman/elm-css.git
