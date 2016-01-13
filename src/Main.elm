@@ -193,6 +193,8 @@ pageButton address action disabled' label =
                 , ( "border-radius", "5px" )
                 , ( "padding", "3px" )
                 , ( "flex-basis", "50%" )
+                , ( "outline", "0" )
+                , ( "cursor", "pointer" )
                 ]
             ]
             [ text label ]
