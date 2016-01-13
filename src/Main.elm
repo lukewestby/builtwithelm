@@ -160,6 +160,8 @@ view address model =
                         [ ( "display", "flex" )
                         , ( "flex-direction", "row" )
                         , ("justify-content", "center")
+                        , ("width", "40%")
+                        , ("margin", "auto")
                         ]
                     ]
                     [ pageButton address Prev disablePrev "Newer"
@@ -189,6 +191,7 @@ pageButton address action disabled' label =
                 , ("margin", "1px")
                 , ("border-radius", "5px")
                 , ("padding", "3px")
+                , ("flex-basis", "50%")
                 ]
             ]
             [ text label ]
