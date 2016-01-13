@@ -231,3 +231,10 @@ main =
 port tasks : Signal (Task Effects.Never ())
 port tasks =
     app.tasks
+
+
+port currentOffset : Signal Int
+port currentOffset =
+    app.model
+        |> Signal.map .offset
+        |> Signal.dropRepeats

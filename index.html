@@ -9,9 +9,11 @@
   </style>
 </head>
 <body>
+  <script src="assets/scrollToTop.js"></script>
   <script src="build/main.js"></script>
   <script>
-    Elm.fullscreen(Elm.Main)
+    var app = Elm.fullscreen(Elm.Main);
+    installScrollToTop(app);
   </script>
 </body>
 </html>
