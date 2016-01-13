@@ -11165,7 +11165,9 @@ Elm.Main.make = function (_elm) {
                                               ,{ctor: "_Tuple2",_0: "margin",_1: "1px"}
                                               ,{ctor: "_Tuple2",_0: "border-radius",_1: "5px"}
                                               ,{ctor: "_Tuple2",_0: "padding",_1: "3px"}
-                                              ,{ctor: "_Tuple2",_0: "flex-basis",_1: "50%"}]))]),
+                                              ,{ctor: "_Tuple2",_0: "flex-basis",_1: "50%"}
+                                              ,{ctor: "_Tuple2",_0: "outline",_1: "0"}
+                                              ,{ctor: "_Tuple2",_0: "cursor",_1: "pointer"}]))]),
       _U.list([$Html.text(label)]));
    });
    var LoadProjectsError = function (a) {    return {ctor: "LoadProjectsError",_0: a};};
