@@ -52,7 +52,7 @@ view : Project -> Html
 view project =
     div
         [ style
-            [ ( "margin-bottom", "60px" )
+            [ ( "margin-bottom", "40px" )
             ]
         ]
         [ div
