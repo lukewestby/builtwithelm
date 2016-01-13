@@ -10573,6 +10573,72 @@ Elm.Html.Attributes.make = function (_elm) {
                                         ,property: property
                                         ,attribute: attribute};
 };
+Elm.Html = Elm.Html || {};
+Elm.Html.Events = Elm.Html.Events || {};
+Elm.Html.Events.make = function (_elm) {
+   "use strict";
+   _elm.Html = _elm.Html || {};
+   _elm.Html.Events = _elm.Html.Events || {};
+   if (_elm.Html.Events.values) return _elm.Html.Events.values;
+   var _U = Elm.Native.Utils.make(_elm),
+   $Basics = Elm.Basics.make(_elm),
+   $Debug = Elm.Debug.make(_elm),
+   $Html = Elm.Html.make(_elm),
+   $Json$Decode = Elm.Json.Decode.make(_elm),
+   $List = Elm.List.make(_elm),
+   $Maybe = Elm.Maybe.make(_elm),
+   $Result = Elm.Result.make(_elm),
+   $Signal = Elm.Signal.make(_elm),
+   $VirtualDom = Elm.VirtualDom.make(_elm);
+   var _op = {};
+   var keyCode = A2($Json$Decode._op[":="],"keyCode",$Json$Decode.$int);
+   var targetChecked = A2($Json$Decode.at,_U.list(["target","checked"]),$Json$Decode.bool);
+   var targetValue = A2($Json$Decode.at,_U.list(["target","value"]),$Json$Decode.string);
+   var defaultOptions = $VirtualDom.defaultOptions;
+   var Options = F2(function (a,b) {    return {stopPropagation: a,preventDefault: b};});
+   var onWithOptions = $VirtualDom.onWithOptions;
+   var on = $VirtualDom.on;
+   var messageOn = F3(function (name,addr,msg) {    return A3(on,name,$Json$Decode.value,function (_p0) {    return A2($Signal.message,addr,msg);});});
+   var onClick = messageOn("click");
+   var onDoubleClick = messageOn("dblclick");
+   var onMouseMove = messageOn("mousemove");
+   var onMouseDown = messageOn("mousedown");
+   var onMouseUp = messageOn("mouseup");
+   var onMouseEnter = messageOn("mouseenter");
+   var onMouseLeave = messageOn("mouseleave");
+   var onMouseOver = messageOn("mouseover");
+   var onMouseOut = messageOn("mouseout");
+   var onBlur = messageOn("blur");
+   var onFocus = messageOn("focus");
+   var onSubmit = messageOn("submit");
+   var onKey = F3(function (name,addr,handler) {    return A3(on,name,keyCode,function (code) {    return A2($Signal.message,addr,handler(code));});});
+   var onKeyUp = onKey("keyup");
+   var onKeyDown = onKey("keydown");
+   var onKeyPress = onKey("keypress");
+   return _elm.Html.Events.values = {_op: _op
+                                    ,onBlur: onBlur
+                                    ,onFocus: onFocus
+                                    ,onSubmit: onSubmit
+                                    ,onKeyUp: onKeyUp
+                                    ,onKeyDown: onKeyDown
+                                    ,onKeyPress: onKeyPress
+                                    ,onClick: onClick
+                                    ,onDoubleClick: onDoubleClick
+                                    ,onMouseMove: onMouseMove
+                                    ,onMouseDown: onMouseDown
+                                    ,onMouseUp: onMouseUp
+                                    ,onMouseEnter: onMouseEnter
+                                    ,onMouseLeave: onMouseLeave
+                                    ,onMouseOver: onMouseOver
+                                    ,onMouseOut: onMouseOut
+                                    ,on: on
+                                    ,onWithOptions: onWithOptions
+                                    ,defaultOptions: defaultOptions
+                                    ,targetValue: targetValue
+                                    ,targetChecked: targetChecked
+                                    ,keyCode: keyCode
+                                    ,Options: Options};
+};
 Elm.Native.Http = {};
 Elm.Native.Http.make = function(localRuntime) {
 
@@ -10971,7 +11037,7 @@ Elm.Project.make = function (_elm) {
    };
    var view = function (project) {
       return A2($Html.div,
-      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "margin-bottom",_1: "60px"}]))]),
+      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "margin-bottom",_1: "40px"}]))]),
       _U.list([A2($Html.div,
               _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "display",_1: "flex"}
                                                       ,{ctor: "_Tuple2",_0: "justify-content",_1: "space-between"}]))]),
@@ -11069,6 +11135,7 @@ Elm.Main.make = function (_elm) {
    $Effects = Elm.Effects.make(_elm),
    $Html = Elm.Html.make(_elm),
    $Html$Attributes = Elm.Html.Attributes.make(_elm),
+   $Html$Events = Elm.Html.Events.make(_elm),
    $List = Elm.List.make(_elm),
    $Maybe = Elm.Maybe.make(_elm),
    $Project = Elm.Project.make(_elm),
@@ -11082,23 +11149,24 @@ Elm.Main.make = function (_elm) {
    var viewList = function (model) {
       return model.isLoading ? _U.list([A2($Html.h2,_U.list([]),_U.list([$Html.text("Loading")]))]) : model.loadFailed ? _U.list([A2($Html.h2,
       _U.list([]),
-      _U.list([$Html.text("Unable to load projects")]))]) : A2($List.map,$Project.view,model.projects);
+      _U.list([$Html.text("Unable to load projects")]))]) : A2($List.map,$Project.view,A2($List.take,model.limit,A2($List.drop,model.offset,model.projects)));
    };
-   var view = F2(function (address,model) {
-      return A2($Html.div,
-      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "display",_1: "flex"}
-                                              ,{ctor: "_Tuple2",_0: "height",_1: "100%"}
-                                              ,{ctor: "_Tuple2",_0: "position",_1: "relative"}
-                                              ,{ctor: "_Tuple2",_0: "font-family",_1: "Source Sans Pro"}]))]),
-      _U.list([$Sidebar.view
-              ,A2($Html.div,
-              _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "margin-left",_1: "240px"}
-                                                      ,{ctor: "_Tuple2",_0: "width",_1: "calc(100% - 240px)"}]))]),
-              _U.list([A2($Html.div,
-              _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "padding",_1: "20px"}
-                                                      ,{ctor: "_Tuple2",_0: "max-width",_1: "920px"}
-                                                      ,{ctor: "_Tuple2",_0: "margin",_1: "0 auto"}]))]),
-              viewList(model))]))]));
+   var pageButton = F4(function (address,action,disabled$,label) {
+      var textColor = disabled$ ? "#e5e5e5" : "#5cb5cd";
+      return A2($Html.button,
+      _U.list([A2($Html$Events.onClick,address,action)
+              ,$Html$Attributes.disabled(disabled$)
+              ,$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "font-family",_1: "Helvetica"}
+                                              ,{ctor: "_Tuple2",_0: "font-size",_1: "1.6em"}
+                                              ,{ctor: "_Tuple2",_0: "font-weigth",_1: "400"}
+                                              ,{ctor: "_Tuple2",_0: "color",_1: textColor}
+                                              ,{ctor: "_Tuple2",_0: "background-color",_1: "#ffffff"}
+                                              ,{ctor: "_Tuple2",_0: "border",_1: "2px solid #e5e5e5"}
+                                              ,{ctor: "_Tuple2",_0: "margin",_1: "1px"}
+                                              ,{ctor: "_Tuple2",_0: "border-radius",_1: "5px"}
+                                              ,{ctor: "_Tuple2",_0: "padding",_1: "3px"}
+                                              ,{ctor: "_Tuple2",_0: "flex-basis",_1: "50%"}]))]),
+      _U.list([$Html.text(label)]));
    });
    var LoadProjectsError = function (a) {    return {ctor: "LoadProjectsError",_0: a};};
    var LoadProjectsSuccess = function (a) {    return {ctor: "LoadProjectsSuccess",_0: a};};
@@ -11118,28 +11186,76 @@ Elm.Main.make = function (_elm) {
          var _p3 = action;
          switch (_p3.ctor)
          {case "None": return {ctor: "_Tuple2",_0: model,_1: $Effects.none};
+            case "Prev": var limit = model.limit;
+              var offset = model.offset;
+              return _U.cmp(offset - limit,0) > -1 ? {ctor: "_Tuple2",_0: _U.update(model,{offset: offset - limit}),_1: $Effects.none} : {ctor: "_Tuple2"
+                                                                                                                                         ,_0: model
+                                                                                                                                         ,_1: $Effects.none};
+            case "Next": var limit = model.limit;
+              var offset = model.offset;
+              return _U.cmp(offset + limit,$List.length(model.projects)) < 0 ? {ctor: "_Tuple2"
+                                                                               ,_0: _U.update(model,{offset: offset + limit})
+                                                                               ,_1: $Effects.none} : {ctor: "_Tuple2",_0: model,_1: $Effects.none};
             case "LoadProjectsStart": return {ctor: "_Tuple2",_0: _U.update(model,{isLoading: true}),_1: loadList({ctor: "_Tuple0"})};
             case "LoadProjectsSuccess": return {ctor: "_Tuple2",_0: _U.update(model,{projects: _p3._0,isLoading: false}),_1: $Effects.none};
             default: return {ctor: "_Tuple2",_0: _U.update(model,{loadFailed: true}),_1: $Effects.none};}
       }());
    });
    var LoadProjectsStart = {ctor: "LoadProjectsStart"};
+   var Next = {ctor: "Next"};
+   var Prev = {ctor: "Prev"};
+   var view = F2(function (address,model) {
+      var limit = model.limit;
+      var offset = model.offset;
+      var disablePrev = _U.cmp(offset - limit,0) < 0;
+      var disableNext = _U.cmp(offset + limit,$List.length(model.projects)) > -1;
+      return A2($Html.div,
+      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "display",_1: "flex"}
+                                              ,{ctor: "_Tuple2",_0: "height",_1: "100%"}
+                                              ,{ctor: "_Tuple2",_0: "position",_1: "relative"}
+                                              ,{ctor: "_Tuple2",_0: "font-family",_1: "Source Sans Pro"}]))]),
+      _U.list([$Sidebar.view
+              ,A2($Html.div,
+              _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "margin-left",_1: "240px"}
+                                                      ,{ctor: "_Tuple2",_0: "width",_1: "calc(100% - 240px)"}
+                                                      ,{ctor: "_Tuple2",_0: "padding",_1: "20px 0"}]))]),
+              _U.list([A2($Html.div,
+                      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "padding",_1: "0 20px"}
+                                                              ,{ctor: "_Tuple2",_0: "max-width",_1: "920px"}
+                                                              ,{ctor: "_Tuple2",_0: "margin",_1: "0 auto"}]))]),
+                      viewList(model))
+                      ,A2($Html.div,
+                      _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "display",_1: "flex"}
+                                                              ,{ctor: "_Tuple2",_0: "flex-direction",_1: "row"}
+                                                              ,{ctor: "_Tuple2",_0: "justify-content",_1: "center"}
+                                                              ,{ctor: "_Tuple2",_0: "width",_1: "40%"}
+                                                              ,{ctor: "_Tuple2",_0: "margin",_1: "auto"}]))]),
+                      _U.list([A4(pageButton,address,Prev,disablePrev,"Newer"),A4(pageButton,address,Next,disableNext,"Older")]))]))]));
+   });
    var None = {ctor: "None"};
-   var Model = F3(function (a,b,c) {    return {projects: a,isLoading: b,loadFailed: c};});
-   var init = {ctor: "_Tuple2",_0: A3(Model,_U.list([]),true,false),_1: loadList({ctor: "_Tuple0"})};
+   var Model = F5(function (a,b,c,d,e) {    return {projects: a,isLoading: b,loadFailed: c,offset: d,limit: e};});
+   var init = {ctor: "_Tuple2",_0: A5(Model,_U.list([]),true,false,0,5),_1: loadList({ctor: "_Tuple0"})};
    var app = $StartApp.start({init: init,update: update,view: view,inputs: _U.list([])});
    var main = app.html;
    var tasks = Elm.Native.Task.make(_elm).performSignal("tasks",app.tasks);
+   var currentOffset = Elm.Native.Port.make(_elm).outboundSignal("currentOffset",
+   function (v) {
+      return v;
+   },
+   $Signal.dropRepeats(A2($Signal.map,function (_) {    return _.offset;},app.model)));
    return _elm.Main.values = {_op: _op
                              ,Model: Model
                              ,init: init
                              ,None: None
+                             ,Prev: Prev
+                             ,Next: Next
                              ,LoadProjectsStart: LoadProjectsStart
                              ,LoadProjectsSuccess: LoadProjectsSuccess
                              ,LoadProjectsError: LoadProjectsError
                              ,update: update
                              ,loadList: loadList
                              ,view: view
+                             ,pageButton: pageButton
                              ,viewList: viewList
                              ,app: app
                              ,main: main};
