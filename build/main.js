@@ -11180,26 +11180,22 @@ Elm.Main.make = function (_elm) {
       A2($Task.map,LoadProjectsSuccess,A3($Request.getWithRetries,"data/projects.json",$Project.decoder,5))));
    };
    var update = F2(function (action,model) {
-      return A2($Debug.log,
-      "model",
-      function () {
-         var _p3 = action;
-         switch (_p3.ctor)
-         {case "None": return {ctor: "_Tuple2",_0: model,_1: $Effects.none};
-            case "Prev": var limit = model.limit;
-              var offset = model.offset;
-              return _U.cmp(offset - limit,0) > -1 ? {ctor: "_Tuple2",_0: _U.update(model,{offset: offset - limit}),_1: $Effects.none} : {ctor: "_Tuple2"
-                                                                                                                                         ,_0: model
-                                                                                                                                         ,_1: $Effects.none};
-            case "Next": var limit = model.limit;
-              var offset = model.offset;
-              return _U.cmp(offset + limit,$List.length(model.projects)) < 0 ? {ctor: "_Tuple2"
-                                                                               ,_0: _U.update(model,{offset: offset + limit})
-                                                                               ,_1: $Effects.none} : {ctor: "_Tuple2",_0: model,_1: $Effects.none};
-            case "LoadProjectsStart": return {ctor: "_Tuple2",_0: _U.update(model,{isLoading: true}),_1: loadList({ctor: "_Tuple0"})};
-            case "LoadProjectsSuccess": return {ctor: "_Tuple2",_0: _U.update(model,{projects: _p3._0,isLoading: false}),_1: $Effects.none};
-            default: return {ctor: "_Tuple2",_0: _U.update(model,{loadFailed: true}),_1: $Effects.none};}
-      }());
+      var _p3 = action;
+      switch (_p3.ctor)
+      {case "None": return {ctor: "_Tuple2",_0: model,_1: $Effects.none};
+         case "Prev": var limit = model.limit;
+           var offset = model.offset;
+           return _U.cmp(offset - limit,0) > -1 ? {ctor: "_Tuple2",_0: _U.update(model,{offset: offset - limit}),_1: $Effects.none} : {ctor: "_Tuple2"
+                                                                                                                                      ,_0: model
+                                                                                                                                      ,_1: $Effects.none};
+         case "Next": var limit = model.limit;
+           var offset = model.offset;
+           return _U.cmp(offset + limit,$List.length(model.projects)) < 0 ? {ctor: "_Tuple2"
+                                                                            ,_0: _U.update(model,{offset: offset + limit})
+                                                                            ,_1: $Effects.none} : {ctor: "_Tuple2",_0: model,_1: $Effects.none};
+         case "LoadProjectsStart": return {ctor: "_Tuple2",_0: _U.update(model,{isLoading: true}),_1: loadList({ctor: "_Tuple0"})};
+         case "LoadProjectsSuccess": return {ctor: "_Tuple2",_0: _U.update(model,{projects: _p3._0,isLoading: false}),_1: $Effects.none};
+         default: return {ctor: "_Tuple2",_0: _U.update(model,{loadFailed: true}),_1: $Effects.none};}
    });
    var LoadProjectsStart = {ctor: "LoadProjectsStart"};
    var Next = {ctor: "Next"};
