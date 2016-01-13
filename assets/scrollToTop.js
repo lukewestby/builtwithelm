@@ -3,7 +3,9 @@ window.installScrollToTop = function installScrollToTop(app) {
   app.ports.currentOffset.subscribe(function (nextOffset) {
     if(currentOffset !== nextOffset) {
       currentOffset = nextOffset;
-      window.scrollTo(0, 0);
+      setTimeout(function () {
+        window.scrollTo(0, 0);
+      }, 0);
     }
   });
 };
