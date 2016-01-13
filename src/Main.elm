@@ -145,11 +145,12 @@ view address model =
                 [ style
                     [ ( "margin-left", "240px" )
                     , ( "width", "calc(100% - 240px)" )
+                    , ( "padding", "20px 0")
                     ]
                 ]
                 [ div
                     [ style
-                        [ ( "padding", "20px" )
+                        [ ( "padding", "0 20px" )
                         , ( "max-width", "920px" )
                         , ( "margin", "0 auto" )
                         ]
@@ -181,7 +182,7 @@ pageButton address action disabled' label =
             , disabled disabled'
             , style
                 [ ("font-family", "Helvetica")
-                , ("font-size", "40px")
+                , ("font-size", "1.6em")
                 , ("font-weigth", "400")
                 , ("color", textColor)
                 , ("background-color", "#ffffff")
