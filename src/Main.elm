@@ -4,11 +4,13 @@ import StartApp
 import Task exposing (Task)
 import Effects exposing (Effects)
 import Html exposing (..)
+import Html.Events exposing (onClick)
 import Html.Attributes exposing (..)
 import Debug
 import Request
 import Project exposing (Project)
 import Sidebar
+import Signal exposing (Address)
 
 
 -- Init
@@ -18,12 +20,14 @@ type alias Model =
     { projects : List Project
     , isLoading : Bool
     , loadFailed : Bool
+    , offset : Int
+    , limit : Int
     }
 
 
 init : ( Model, Effects Action )
 init =
-    ( Model [] True False
+    ( Model [] True False 0 5
     , loadList ()
     )
 
@@ -34,6 +38,8 @@ init =
 
 type Action
     = None
+    | Prev
+    | Next
     | LoadProjectsStart
     | LoadProjectsSuccess (List Project)
     | LoadProjectsError Request.Error
@@ -45,6 +51,36 @@ update action model =
         <| case action of
             None ->
                 ( model, Effects.none )
+
+            Prev ->
+                let
+                    offset = model.offset
+
+                    limit = model.limit
+                in
+                    if offset - limit >= 0 then
+                        ( { model
+                            | offset = offset - limit
+                          }
+                        , Effects.none
+                        )
+                    else
+                        ( model, Effects.none )
+
+            Next ->
+                let
+                    offset = model.offset
+
+                    limit = model.limit
+                in
+                    if offset + limit < List.length model.projects then
+                        ( { model
+                            | offset = offset + limit
+                          }
+                        , Effects.none
+                        )
+                    else
+                        ( model, Effects.none )
 
             LoadProjectsStart ->
                 ( { model
@@ -87,31 +123,76 @@ loadList () =
 
 view : Signal.Address Action -> Model -> Html
 view address model =
-    div
-        [ style
-            [ ( "display", "flex" )
-            , ( "height", "100%" )
-            , ( "position", "relative" )
-            , ( "font-family", "Source Sans Pro" )
-            ]
-        ]
-        [ Sidebar.view
-        , div
+    let
+        offset = model.offset
+
+        limit = model.limit
+
+        disablePrev = offset - limit < 0
+
+        disableNext = offset + limit >= List.length model.projects
+    in
+        div
             [ style
-                [ ( "margin-left", "240px" )
-                , ( "width", "calc(100% - 240px)" )
+                [ ( "display", "flex" )
+                , ( "height", "100%" )
+                , ( "position", "relative" )
+                , ( "font-family", "Source Sans Pro" )
                 ]
             ]
-            [ div
+            [ Sidebar.view
+            , div
                 [ style
-                    [ ( "padding", "20px" )
-                    , ( "max-width", "920px" )
-                    , ( "margin", "0 auto" )
+                    [ ( "margin-left", "240px" )
+                    , ( "width", "calc(100% - 240px)" )
                     ]
                 ]
-                <| viewList model
+                [ div
+                    [ style
+                        [ ( "padding", "20px" )
+                        , ( "max-width", "920px" )
+                        , ( "margin", "0 auto" )
+                        ]
+                    ]
+                    <| viewList model
+                , div
+                    [ style
+                        [ ( "display", "flex" )
+                        , ( "flex-direction", "row" )
+                        , ("justify-content", "center")
+                        , ("width", "40%")
+                        , ("margin", "auto")
+                        ]
+                    ]
+                    [ pageButton address Prev disablePrev "Newer"
+                    , pageButton address Next disableNext "Older"
+                    ]
+                ]
             ]
-        ]
+
+
+pageButton : Address a -> a -> Bool -> String -> Html
+pageButton address action disabled' label =
+    let
+        textColor = if disabled' then "#e5e5e5" else "#5cb5cd"
+    in
+        button
+            [ onClick address action
+            , disabled disabled'
+            , style
+                [ ("font-family", "Helvetica")
+                , ("font-size", "40px")
+                , ("font-weigth", "400")
+                , ("color", textColor)
+                , ("background-color", "#ffffff")
+                , ("border", "2px solid #e5e5e5")
+                , ("margin", "1px")
+                , ("border-radius", "5px")
+                , ("padding", "3px")
+                , ("flex-basis", "50%")
+                ]
+            ]
+            [ text label ]
 
 
 viewList : Model -> List Html
@@ -121,7 +202,10 @@ viewList model =
     else if model.loadFailed then
         [ h2 [] [ text "Unable to load projects" ] ]
     else
-        List.map Project.view model.projects
+        model.projects
+            |> List.drop model.offset
+            |> List.take model.limit
+            |> List.map Project.view
 
 
 
