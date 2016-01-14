@@ -1,5 +1,12 @@
 [
   {
+    "name": "Bike Configurator",
+    "previewImageUrl": "data/images/bike-configurator.png",
+    "primaryUrl": "https://dennisreimann.github.io/elm-bike-configurator/",
+    "repositoryUrl": "https://github.com/dennisreimann/elm-bike-configurator",
+    "description": "Pretty simple app for configuring a bike with colored components."
+  },
+  {
     "name": "Snake Game",
     "previewImageUrl": "data/images/snake-game.png",
     "primaryUrl": "http://liubko.github.io/elm-snake/",
