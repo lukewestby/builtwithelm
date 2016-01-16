@@ -11091,14 +11091,17 @@ Elm.Sidebar.make = function (_elm) {
                                            ,{ctor: "_Tuple2",_0: "padding",_1: "20px"}
                                            ,{ctor: "_Tuple2",_0: "box-sizing",_1: "border-box"}
                                            ,{ctor: "_Tuple2",_0: "position",_1: "fixed"}]))]),
-   _U.list([A2($Html.img,_U.list([$Html$Attributes.src("assets/logo.svg")]),_U.list([]))
+   _U.list([A2($Html.a,_U.list([$Html$Attributes.href("")]),_U.list([A2($Html.img,_U.list([$Html$Attributes.src("assets/logo.svg")]),_U.list([]))]))
            ,A2($Html.h1,
            _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "font-weight",_1: "normal"}
                                                    ,{ctor: "_Tuple2",_0: "text-align",_1: "center"}
                                                    ,{ctor: "_Tuple2",_0: "padding-bottom",_1: "20px"}
                                                    ,{ctor: "_Tuple2",_0: "border-bottom",_1: "1px solid #999999"}]))]),
+           _U.list([A2($Html.a,
+           _U.list([$Html$Attributes.href("")
+                   ,$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "text-decoration",_1: "none"},{ctor: "_Tuple2",_0: "color",_1: "inherit"}]))]),
            _U.list([A2($Html.span,_U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "color",_1: "#999999"}]))]),_U.list([$Html.text("builtwith")]))
-                   ,A2($Html.span,_U.list([]),_U.list([$Html.text("elm")]))]))
+                   ,A2($Html.span,_U.list([]),_U.list([$Html.text("elm")]))]))]))
            ,A2($Html.div,
            _U.list([$Html$Attributes.style(_U.list([{ctor: "_Tuple2",_0: "border-bottom",_1: "1px solid #999999"}
                                                    ,{ctor: "_Tuple2",_0: "margin-bottom",_1: "20px"}]))]),
