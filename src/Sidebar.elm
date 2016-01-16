@@ -15,7 +15,9 @@ view =
             , ( "position", "fixed" )
             ]
         ]
-        [ img [ src "assets/logo.svg" ] []
+        [ a
+            [ href "" ]
+            [ img [ src "assets/logo.svg" ] [] ]
         , h1
             [ style
                 [ ( "font-weight", "normal" )
@@ -24,12 +26,20 @@ view =
                 , ( "border-bottom", "1px solid #999999" )
                 ]
             ]
-            [ span
-                [ style
-                    [ ( "color", "#999999" ) ]
+            [ a
+                [ href ""
+                , style
+                    [ ( "text-decoration", "none" )
+                    , ( "color", "inherit" )
+                    ]
                 ]
-                [ text "builtwith" ]
-            , span [] [ text "elm" ]
+                [ span
+                    [ style
+                        [ ( "color", "#999999" ) ]
+                    ]
+                    [ text "builtwith" ]
+                , span [] [ text "elm" ]
+                ]
             ]
         , div
             [ style
