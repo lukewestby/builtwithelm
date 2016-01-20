@@ -1,5 +1,12 @@
 [
   {
+    "name": "CSS color guess game",
+    "previewImageUrl": "data/images/css-color-guess-game.png",
+    "primaryUrl": "http://irrwitz.github.io/elm-css-color-guess-game/",
+    "repositoryUrl": "https://github.com/irrwitz/elm-css-color-guess-game",
+    "description": "Can you guess the right css color by name?"
+  },
+  {
     "name": "Bike Configurator",
     "previewImageUrl": "data/images/bike-configurator.png",
     "primaryUrl": "https://dennisreimann.github.io/elm-bike-configurator/",
