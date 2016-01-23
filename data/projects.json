@@ -1,5 +1,33 @@
 [
   {
+    "name": "Loading Snake",
+    "previewImageUrl": "data/images/loading_snake.png",
+    "primaryUrl": "http://zinggi.itch.io/loading-snake",
+    "repositoryUrl": null,
+    "description": "Submission for the Loading Screen Jam created in two days."
+  },
+  {
+    "name": "Memory Game",
+    "previewImageUrl": "data/images/memory-game.png",
+    "primaryUrl": "http://nazanin1369.github.io/elm-memoryGame",
+    "repositoryUrl": "https://github.com/Nazanin1369/elm-memoryGame",
+    "description": "A classic memory game built with Elm."
+  },
+  {
+    "name": "Elm Math Game",
+    "previewImageUrl": "data/images/math-game-elm.png",
+    "repositoryUrl": "https://github.com/arturopala/math-game-elm",
+    "primaryUrl": "http://arturopala.github.io/math-game-elm/",
+    "description": "Math game written in Elm"
+  },
+  {
+    "name": "CSS color guess game",
+    "previewImageUrl": "data/images/css-color-guess-game.png",
+    "primaryUrl": "http://irrwitz.github.io/elm-css-color-guess-game/",
+    "repositoryUrl": "https://github.com/irrwitz/elm-css-color-guess-game",
+    "description": "Can you guess the right css color by name?"
+  },
+  {
     "name": "Bike Configurator",
     "previewImageUrl": "data/images/bike-configurator.png",
     "primaryUrl": "https://dennisreimann.github.io/elm-bike-configurator/",
