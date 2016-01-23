@@ -1,5 +1,12 @@
 [
   {
+    "name": "Loading Snake",
+    "previewImageUrl": "data/images/loading_snake.png",
+    "primaryUrl": "http://zinggi.itch.io/loading-snake",
+    "repositoryUrl": null,
+    "description": "Submission for the Loading Screen Jam created in two days."
+  },
+  {
     "name": "Bike Configurator",
     "previewImageUrl": "data/images/bike-configurator.png",
     "primaryUrl": "https://dennisreimann.github.io/elm-bike-configurator/",
