@@ -1,5 +1,12 @@
 [
   {
+    "name": "Memory Game",
+    "previewImageUrl": "data/images/memory-game.png",
+    "primaryUrl": "http://nazanin1369.github.io/elm-memoryGame",
+    "repositoryUrl": "https://github.com/Nazanin1369/elm-memoryGame",
+    "description": "A classic memory game built with Elm."
+  },
+  {
     "name": "Elm Math Game",
     "previewImageUrl": "data/images/math-game-elm.png",
     "repositoryUrl": "https://github.com/arturopala/math-game-elm",
