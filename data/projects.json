@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Math Game",
+    "previewImageUrl": "data/images/math-game-elm.png",
+    "repositoryUrl": "https://github.com/arturopala/math-game-elm",
+    "primaryUrl": "http://arturopala.github.io/math-game-elm/",
+    "description": "Math game written in Elm"
+  },
+  {
     "name": "CSS color guess game",
     "previewImageUrl": "data/images/css-color-guess-game.png",
     "primaryUrl": "http://irrwitz.github.io/elm-css-color-guess-game/",
