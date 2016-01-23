@@ -1,5 +1,12 @@
 [
   {
+    "name": "Loading Snake",
+    "previewImageUrl": "data/images/loading_snake.png",
+    "primaryUrl": "http://zinggi.itch.io/loading-snake",
+    "repositoryUrl": null,
+    "description": "Submission for the Loading Screen Jam created in two days."
+  },
+  {
     "name": "Memory Game",
     "previewImageUrl": "data/images/memory-game.png",
     "primaryUrl": "http://nazanin1369.github.io/elm-memoryGame",
