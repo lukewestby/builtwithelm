@@ -1,5 +1,12 @@
 [
   {
+    "name": "confs.info",
+    "previewImageUrl": "data/images/confs-info.jpg",
+    "primaryUrl": "http://confs.info/",
+    "repositoryUrl": "https://github.com/robertjlooby/confsinfo",
+    "description": "Filterable list of tech conferences."
+  },
+  {
     "name": "Loading Snake",
     "previewImageUrl": "data/images/loading_snake.png",
     "primaryUrl": "http://zinggi.itch.io/loading-snake",
