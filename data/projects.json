@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Events",
+    "previewImageUrl": "data/images/elm-events.png",
+    "primaryUrl": "http://mbylstra.github.io/elm-events/",
+    "repositoryUrl": "https://github.com/mbylstra/elm-events",
+    "description": "Upcoming Elm Conference Talks and Meetups"
+  },
+  {
     "name": "Four in a Line",
     "previewImageUrl": "data/images/four_in_a_line.png",
     "primaryUrl": "http://iitzco.github.io/FourInALine/",
