@@ -1,5 +1,12 @@
 [
   {
+    "name": "Four in a Line",
+    "previewImageUrl": "data/images/four_in_a_line.png",
+    "primaryUrl": "http://iitzco.github.io/FourInALine/",
+    "repositoryUrl": "https://github.com/iitzco/FourInALine",
+    "description": "Elm implementation of Minimax Algorithm applied to Four In A Line game."
+  },
+  {
     "name": "confs.info",
     "previewImageUrl": "data/images/confs-info.jpg",
     "primaryUrl": "http://confs.info/",
