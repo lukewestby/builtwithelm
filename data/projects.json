@@ -1,5 +1,12 @@
 [
   {
+    "name": "Gipher",
+    "previewImageUrl": "data/images/gipher.png",
+    "primaryUrl": "http://gipher.co/",
+    "repositoryUrl": "https://github.com/matthieu-beteille/gipher",
+    "description": "Tinder like application for gifs"
+  },
+  {
     "name": "Elm Events",
     "previewImageUrl": "data/images/elm-events.png",
     "primaryUrl": "http://mbylstra.github.io/elm-events/",
