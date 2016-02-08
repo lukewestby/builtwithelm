@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Sudoku",
+    "previewImageUrl": "data/images/elm-sudoku.png",
+    "primaryUrl": "https://erich-9.github.io/elm-sudoku",
+    "repositoryUrl": "https://github.com/erich-9/elm-sudoku",
+    "description": "Play Sudoku, powered by Elm."
+  },
+  {
     "name": "Gipher",
     "previewImageUrl": "data/images/gipher.png",
     "primaryUrl": "http://gipher.co/",
