@@ -1,5 +1,12 @@
 [
   {
+    "name": "Multi Player Rock Paper Scissors",
+    "previewImageUrl": "data/images/rock-paper-scissors.png",
+    "primaryUrl": "https://jkp.herokuapp.com",
+    "repositoryUrl": "https://github.com/brianstorti/jan",
+    "description": "Rock paper scissors implemented in Elm with an Elixir backend"
+  },
+  {
     "name": "Elm Sudoku",
     "previewImageUrl": "data/images/elm-sudoku.png",
     "primaryUrl": "https://erich-9.github.io/elm-sudoku",
