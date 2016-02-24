@@ -1,5 +1,12 @@
 [
   {
+    "name": "elmflux",
+    "previewImageUrl": "data/images/elmflux.png",
+    "primaryUrl": "https://yang-wei.github.io/elmflux",
+    "repositoryUrl": "https://github.com/yang-wei/elmflux",
+    "description": "Visualization of Elm Signals"
+  },
+  {
     "name": "Multi Player Rock Paper Scissors",
     "previewImageUrl": "data/images/rock-paper-scissors.png",
     "primaryUrl": "https://jkp.herokuapp.com",

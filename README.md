@@ -1,4 +1,8 @@
 # [Built With Elm](http://builtwithelm.co)
+
+[![ICARE](https://icarebadge.com/ICARE-white.png)](https://icarebadge.com)
+
+
 A list of projects and apps built with Elm.
 
 This site is meant to showcase the awesome work the Elm community is doing. I
