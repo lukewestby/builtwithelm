@@ -1,5 +1,19 @@
 [
   {
+    "name": "elmflux",
+    "previewImageUrl": "data/images/elmflux.png",
+    "primaryUrl": "https://yang-wei.github.io/elmflux",
+    "repositoryUrl": "https://github.com/yang-wei/elmflux",
+    "description": "Visualization of Elm Signals"
+  },
+  {
+    "name": "Multi Player Rock Paper Scissors",
+    "previewImageUrl": "data/images/rock-paper-scissors.png",
+    "primaryUrl": "https://jkp.herokuapp.com",
+    "repositoryUrl": "https://github.com/brianstorti/jan",
+    "description": "Rock paper scissors implemented in Elm with an Elixir backend"
+  },
+  {
     "name": "Elm Sudoku",
     "previewImageUrl": "data/images/elm-sudoku.png",
     "primaryUrl": "https://erich-9.github.io/elm-sudoku",
