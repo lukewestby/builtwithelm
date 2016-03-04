@@ -1,5 +1,12 @@
 [
   {
+    "name": "The slides archive",
+    "previewImageUrl": "data/images/slides.png",
+    "primaryUrl": "http://slides.mvlabs.it/",
+    "repositoryUrl": "https://github.com/marcosh/elm-joindin",
+    "description": "Repository of talk slides uploaded to Joind.in implemented in Elm"
+  },
+  {
     "name": "elmflux",
     "previewImageUrl": "data/images/elmflux.png",
     "primaryUrl": "https://yang-wei.github.io/elmflux",
