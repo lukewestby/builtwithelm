@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-labyrinth",
+    "previewImageUrl": "data/images/elm-labyrinth.png",
+    "primaryUrl": "https://jvoigtlaender.github.io/elm-labyrinth",
+    "repositoryUrl": "https://github.com/jvoigtlaender/elm-labyrinth",
+    "description": "A small game implemented to play around with Elm"
+  },
+  {
     "name": "elmflux",
     "previewImageUrl": "data/images/elmflux.png",
     "primaryUrl": "https://yang-wei.github.io/elmflux",
