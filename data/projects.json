@@ -1,5 +1,12 @@
 [
   {
+    "name": "The slides archive",
+    "previewImageUrl": "data/images/slides.png",
+    "primaryUrl": "http://slides.mvlabs.it/",
+    "repositoryUrl": "https://github.com/marcosh/elm-joindin",
+    "description": "Repository of talk slides uploaded to Joind.in implemented in Elm"
+  },
+  {
     "name": "elm-labyrinth",
     "previewImageUrl": "data/images/elm-labyrinth.png",
     "primaryUrl": "https://jvoigtlaender.github.io/elm-labyrinth",
