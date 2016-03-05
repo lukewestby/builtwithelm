@@ -1,5 +1,26 @@
 [
   {
+    "name": "The slides archive",
+    "previewImageUrl": "data/images/slides.png",
+    "primaryUrl": "http://slides.mvlabs.it/",
+    "repositoryUrl": "https://github.com/marcosh/elm-joindin",
+    "description": "Repository of talk slides uploaded to Joind.in implemented in Elm"
+  },
+  {
+    "name": "elm-labyrinth",
+    "previewImageUrl": "data/images/elm-labyrinth.png",
+    "primaryUrl": "https://jvoigtlaender.github.io/elm-labyrinth",
+    "repositoryUrl": "https://github.com/jvoigtlaender/elm-labyrinth",
+    "description": "A small game implemented to play around with Elm"
+  },
+  {
+    "name": "elmflux",
+    "previewImageUrl": "data/images/elmflux.png",
+    "primaryUrl": "https://yang-wei.github.io/elmflux",
+    "repositoryUrl": "https://github.com/yang-wei/elmflux",
+    "description": "Visualization of Elm Signals"
+  },
+  {
     "name": "Multi Player Rock Paper Scissors",
     "previewImageUrl": "data/images/rock-paper-scissors.png",
     "primaryUrl": "https://jkp.herokuapp.com",
@@ -88,7 +109,7 @@
     "previewImageUrl": "data/images/the-cheese-palette.png",
     "primaryUrl": "http://cheese.murph.xyz",
     "repositoryUrl": "https://github.com/splodingsocks/the-cheese-palette",
-    "description": "The Cheese Palette's online persona. (Currently beta and under development)"
+    "description": "An experimental version of thecheesepalette.com with an admin UI on the back end"
   },
   {
     "name": "Froggy",
