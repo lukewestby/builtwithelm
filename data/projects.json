@@ -95,7 +95,7 @@
     "previewImageUrl": "data/images/the-cheese-palette.png",
     "primaryUrl": "http://cheese.murph.xyz",
     "repositoryUrl": "https://github.com/splodingsocks/the-cheese-palette",
-    "description": "The Cheese Palette's online persona. (Currently beta and under development)"
+    "description": "An experimental version of thecheesepalette.com with an admin UI on the back end"
   },
   {
     "name": "Froggy",
