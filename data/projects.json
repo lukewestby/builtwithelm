@@ -1,5 +1,12 @@
 [
   {
+    "name": "Pattern Editor",
+    "previewImageUrl": "data/images/pattern.png",
+    "primaryUrl": "http://eskimoblood.github.io/elm-wallpaper-editor/",
+    "repositoryUrl": "https://github.com/eskimoblood/elm-wallpaper-editor",
+    "description": "Editor for wallpaper group pattern"
+  },
+  {
     "name": "elmflux",
     "previewImageUrl": "data/images/elmflux.png",
     "primaryUrl": "https://yang-wei.github.io/elmflux",
