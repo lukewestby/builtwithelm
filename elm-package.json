@@ -4,7 +4,9 @@
     "repository": "https://github.com/lukewestby/builtwithelm.git",
     "license": "MIT",
     "source-directories": [
-        "src"
+        "src",
+        "src/styles",
+        "elm-css/src"
     ],
     "exposed-modules": [],
     "dependencies": {

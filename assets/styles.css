@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+nav {
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+.builtwithelmButton {
+    font-family: Helvetica;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #5cb5cd;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    margin: 1px;
+    border-radius: 5px;
+    padding: 3px;
+    flex-basis: 50%;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.builtwithelmButton:disabled {
+    color: #e5e5e5;
+}
+
+.builtwithelmContainer {
+    display: flex;
+    height: 100%;
+    position: relative;
+    font-family: Source Sans Pro;
+}
+
+.builtwithelmSidebar {
+    width: 240px;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+}
+
+.builtwithelmContent {
+    margin-left: 240px;
+    width: calc(100% - 240px);
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.builtwithelmListContainer {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    max-width: 920px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.builtwithelmPaging {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}

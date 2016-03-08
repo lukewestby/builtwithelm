@@ -2,22 +2,18 @@ module Sidebar (..) where
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
+import SharedStyles exposing (..)
 
+{ class } = builtwithelmNamespace
 
 view : Html
 view =
     div
-        [ style
-            [ ( "width", "240px" )
-            , ( "height", "100%" )
-            , ( "padding", "20px" )
-            , ( "box-sizing", "border-box" )
-            , ( "position", "fixed" )
-            ]
+        [ class [ Sidebar ]
         ]
         [ a
             [ href "" ]
-            [ img [ src "assets/logo.svg" ] [] ]
+            [ img [ src "assets/logo.svg", class [ "logo" ] ] [] ]
         , h1
             [ style
                 [ ( "font-weight", "normal" )

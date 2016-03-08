@@ -10,6 +10,9 @@ import Request
 import Project exposing (Project)
 import Sidebar
 import Signal exposing (Address)
+import SharedStyles exposing (..)
+
+{ class } = builtwithelmNamespace
 
 
 -- Init
@@ -131,37 +134,18 @@ view address model =
         disableNext = offset + limit >= List.length model.projects
     in
         div
-            [ style
-                [ ( "display", "flex" )
-                , ( "height", "100%" )
-                , ( "position", "relative" )
-                , ( "font-family", "Source Sans Pro" )
-                ]
+            [ class [ Container ]
             ]
             [ Sidebar.view
             , div
-                [ style
-                    [ ( "margin-left", "240px" )
-                    , ( "width", "calc(100% - 240px)" )
-                    , ( "padding", "20px 0" )
-                    ]
+                [ class [ Content ]
                 ]
                 [ div
-                    [ style
-                        [ ( "padding", "0 20px" )
-                        , ( "max-width", "920px" )
-                        , ( "margin", "0 auto" )
-                        ]
+                    [ class [ ListContainer ]
                     ]
                     <| viewList model
                 , div
-                    [ style
-                        [ ( "display", "flex" )
-                        , ( "flex-direction", "row" )
-                        , ( "justify-content", "center" )
-                        , ( "width", "40%" )
-                        , ( "margin", "auto" )
-                        ]
+                    [ class [ Paging ]
                     ]
                     [ pageButton address Prev disablePrev "Newer"
                     , pageButton address Next disableNext "Older"
@@ -172,32 +156,13 @@ view address model =
 
 pageButton : Address a -> a -> Bool -> String -> Html
 pageButton address action disabled' label =
-    let
-        textColor =
-            if disabled' then
-                "#e5e5e5"
-            else
-                "#5cb5cd"
-    in
-        button
-            [ onClick address action
-            , disabled disabled'
-            , style
-                [ ( "font-family", "Helvetica" )
-                , ( "font-size", "1.6em" )
-                , ( "font-weigth", "400" )
-                , ( "color", textColor )
-                , ( "background-color", "#ffffff" )
-                , ( "border", "2px solid #e5e5e5" )
-                , ( "margin", "1px" )
-                , ( "border-radius", "5px" )
-                , ( "padding", "3px" )
-                , ( "flex-basis", "50%" )
-                , ( "outline", "0" )
-                , ( "cursor", "pointer" )
-                ]
-            ]
-            [ text label ]
+    button
+        [ onClick address action
+        , disabled disabled'
+        , class [ Button ]
+        ]
+        [ text label ]
+
 
 
 viewList : Model -> List Html

@@ -2,3 +2,5 @@ elm-stuff/
 build/
 .DS_Store
 elm.js
+elm-css/
+npm-debug.log
