@@ -1,4 +1,4 @@
-module MainStylesheet (css) where
+module MainStyles (css) where
 
 import Css exposing (..)
 import Css.Elements exposing (..)

@@ -8,7 +8,7 @@ nav {
     padding-bottom: 12px;
 }
 
-.builtwithelmButton {
+.builtwithelm-Button {
     font-family: Helvetica;
     font-size: 1.6em;
     font-weight: 400;
@@ -25,25 +25,25 @@ nav {
     cursor: pointer;
 }
 
-.builtwithelmButton:disabled {
+.builtwithelm-Button:disabled {
     color: #e5e5e5;
 }
 
-.builtwithelmContainer {
+.builtwithelm-Container {
     display: flex;
     height: 100%;
     position: relative;
     font-family: Source Sans Pro;
 }
 
-.builtwithelmSidebar {
+.builtwithelm-Sidebar {
     width: 240px;
     height: 100%;
     padding: 20px;
     position: fixed;
 }
 
-.builtwithelmContent {
+.builtwithelm-Content {
     margin-left: 240px;
     width: calc(100% - 240px);
     padding-top: 20px;
@@ -52,7 +52,7 @@ nav {
     padding-left: 0px;
 }
 
-.builtwithelmListContainer {
+.builtwithelm-ListContainer {
     padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 0px;
@@ -64,10 +64,86 @@ nav {
     margin-right: auto;
 }
 
-.builtwithelmPaging {
+.builtwithelm-Paging {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 40%;
     margin: auto;
+}
+
+.builtwithelm-Link {
+    color: inherit;
+}
+
+.builtwithelm-GithubLogo {
+    width: 2em;
+}
+
+.builtwithelm-Project {
+    margin-bottom: 40px;
+}
+
+.builtwithelm-ProjectHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.builtwithelm-ProjectScreenshotShell {
+    background-image: url(screenshot_shell.svg);
+    background-size: contain;
+    max-width: 1040px;
+    max-height: 850px;
+    padding: 1.875%;
+    padding-top: 2.875%;
+    background-repeat: no-repeat;
+}
+
+.builtwithelm-ProjectImage {
+    width: 100%;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999999;
+}
+
+.builtwithelm-SidebarHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    text-align: justify;
+}
+
+.builtwithelm-BuiltWithText {
+    color: #999999;
+}
+
+.builtwithelm-BuiltWithLink {
+    text-decoration: none;
+}
+
+.builtwithelm-SubmitProject {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 20px;
+}
+
+.builtwithelm-SubmitProjectHeader {
+    text-align: center;
+}
+
+.builtwithelm-BuiltBy {
+    font-size: 0.9em;
 }

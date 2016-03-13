@@ -3,6 +3,9 @@ module Project (Project, decoder, view) where
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Json.Decode exposing (..)
+import SharedStyles exposing (..)
+
+{ class } = builtwithelmNamespace
 
 
 type alias Project =
@@ -32,14 +35,11 @@ viewOpenSourceLink project =
         Just url ->
             a
                 [ href url
-                , style
-                    [ ( "color", "inherit" )
-                    ]
+                , class [ Link ]
                 ]
                 [ img
                     [ src "assets/github.svg"
-                    , style
-                        [ ( "width", "2em" ) ]
+                    , class [ GithubLogo ]
                     ]
                     []
                 ]
@@ -51,46 +51,28 @@ viewOpenSourceLink project =
 view : Project -> Html
 view project =
     div
-        [ style
-            [ ( "margin-bottom", "40px" )
-            ]
+        [ class [ SharedStyles.Project ]
         ]
         [ div
-            [ style
-                [ ( "display", "flex" )
-                , ( "justify-content", "space-between" )
-                ]
+            [ class [ ProjectHeader ]
             ]
             [ a
                 [ href project.primaryUrl
-                , style
-                    [ ( "color", "inherit" ) ]
+                , class [ Link ]
                 ]
                 [ h2
-                    [ style
-                        [ ( "margin", "0" ) ]
-                    ]
+                    []
                     [ text project.name ]
                 ]
             , viewOpenSourceLink project
             ]
         , p [] [ text project.description ]
         , div
-            [ style
-                [ ( "background-image", "url(assets/screenshot_shell.svg)" )
-                , ( "background-size", "contain" )
-                , ( "max-width", "1040px" )
-                , ( "max-height", "850px" )
-                , ( "padding", "1.875%" )
-                , ( "padding-top", "2.875%" )
-                , ( "background-repeat", "no-repeat" )
-                ]
+            [ class [ ProjectScreenshotShell ]
             ]
             [ img
                 [ src project.previewImageUrl
-                , style
-                    [ ( "width", "100%" )
-                    ]
+                , class [ ProjectImage ]
                 ]
                 []
             ]

@@ -11,47 +11,37 @@ view =
     div
         [ class [ Sidebar ]
         ]
-        [ a
-            [ href "" ]
-            [ img [ src "assets/logo.svg", class [ "logo" ] ] [] ]
-        , h1
-            [ style
-                [ ( "font-weight", "normal" )
-                , ( "text-align", "center" )
-                , ( "padding-bottom", "20px" )
-                , ( "border-bottom", "1px solid #999999" )
+        [ div
+            [ class [ SidebarHeader ]]
+            [ div
+                [ class [ SidebarLogoContainer ]
                 ]
-            ]
-            [ a
-                [ href ""
-                , style
-                    [ ( "text-decoration", "none" )
-                    , ( "color", "inherit" )
-                    ]
-                ]
-                [ span
-                    [ style
-                        [ ( "color", "#999999" ) ]
-                    ]
-                    [ text "builtwith" ]
-                , span [] [ text "elm" ]
-                ]
+                [ a
+                    [ href "" ]
+                    [ img [ src "assets/logo.svg", class [ Logo ] ] [] ]]
+          , h1
+              []
+              [ a
+                  [ href ""
+                  , class [ BuiltWithLink ]
+                  ]
+                  [ span
+                      [ class [ BuiltWithText ]
+                      ]
+                      [ text "builtwith" ]
+                  , span [] [ text "elm" ]
+                  ]
+              ]
             ]
         , div
-            [ style
-                [ ( "border-bottom", "1px solid #999999" )
-                , ( "margin-bottom", "20px" )
-                ]
+            [ class [ SubmitProject ]
             ]
             [ h3
-                [ style
-                    [ ( "text-align", "center" ) ]
+                [ class [ SubmitProjectHeader ]
                 ]
                 [ text "Submit a project" ]
             , p
-                [ style
-                    [ ( "text-align", "justfied" ) ]
-                ]
+                []
                 [ span [] [ text "Submit a pull request or post an issue to " ]
                 , a [ href "https://github.com/elm-community/builtwithelm" ] [ text "the Github repo" ]
                 , span [] [ text ". Please include a screenshot and ensure it is " ]
@@ -60,8 +50,7 @@ view =
                 ]
             ]
         , div
-            [ style
-                [ ( "font-size", "0.9em" ) ]
+            [ class [ BuiltBy ]
             ]
             [ span [] [ text "Built by " ]
             , a [ href "https://twitter.com/luke_dot_js" ] [ text "Luke Westby" ]

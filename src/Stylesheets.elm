@@ -2,14 +2,18 @@ module Stylesheets (..) where
 
 import Css exposing (stylesheet)
 import Css.File exposing (..)
-import Css.Namespace exposing (namespace)
 import SharedStyles exposing (builtwithelmNamespace)
-import MainStylesheet
+import Css.Namespace exposing (namespace)
+import MainStyles
+import ProjectStyles
+import SidebarStyles
 
 
 rules = (stylesheet << namespace builtwithelmNamespace.name)
   (List.concat
-    [ MainStylesheet.css
+    [ MainStyles.css
+    , ProjectStyles.css
+    , SidebarStyles.css
     ]
   )
 
