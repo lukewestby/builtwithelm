@@ -4,16 +4,17 @@ import Css exposing (..)
 import Css.Elements exposing (..)
 import SharedStyles exposing (..)
 
+
 css =
-    [ body
+  [ body
       [ margin (px 0)
       , height (pct 100)
       ]
-    , nav
+  , nav
       [ display inlineBlock
       , paddingBottom (px 12)
       ]
-    , ((.) Button)
+  , ((.) Button)
       [ property "font-family" "Helvetica"
       , fontSize (em 1.6)
       , fontWeight (int 400)
@@ -29,22 +30,22 @@ css =
       , property "outline" "0px"
       , property "cursor" "pointer"
       , disabled
-        [ color (hex "e5e5e5")
-        ]
+          [ color (hex "e5e5e5")
+          ]
       ]
-    , ((.) Container)
+  , ((.) Container)
       [ property "display" "flex"
       , height (pct 100)
       , position relative
       , property "font-family" "Source Sans Pro"
       ]
-    , ((.) Sidebar)
+  , ((.) Sidebar)
       [ width (px 240)
       , height (pct 100)
       , padding (px 20)
       , position fixed
       ]
-    , ((.) Content)
+  , ((.) Content)
       [ marginLeft (px 240)
       , property "width" "calc(100% - 240px)"
       , paddingTop (px 20)
@@ -52,7 +53,7 @@ css =
       , paddingBottom (px 20)
       , paddingLeft (px 0)
       ]
-    , ((.) ListContainer)
+  , ((.) ListContainer)
       [ paddingTop (px 0)
       , paddingRight (px 20)
       , paddingBottom (px 0)
@@ -63,11 +64,11 @@ css =
       , marginLeft auto
       , marginRight auto
       ]
-    , ((.) Paging)
+  , ((.) Paging)
       [ property "display" "flex"
       , flexDirection row
       , property "justify-content" "center"
       , width (pct 40)
       , margin auto
       ]
-    ]
+  ]

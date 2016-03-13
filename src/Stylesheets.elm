@@ -9,13 +9,15 @@ import ProjectStyles
 import SidebarStyles
 
 
-rules = (stylesheet << namespace builtwithelmNamespace.name)
-  (List.concat
-    [ MainStyles.css
-    , ProjectStyles.css
-    , SidebarStyles.css
-    ]
-  )
+rules =
+  (stylesheet << namespace builtwithelmNamespace.name)
+    (List.concat
+      [ MainStyles.css
+      , ProjectStyles.css
+      , SidebarStyles.css
+      ]
+    )
+
 
 port files : CssFileStructure
 port files =

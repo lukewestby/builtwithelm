@@ -4,24 +4,25 @@ import Css exposing (..)
 import Css.Elements exposing (..)
 import SharedStyles exposing (..)
 
+
 css =
-    [ ((.) Link)
+  [ ((.) Link)
       [ property "color" "inherit"
       ]
-    , ((.) GithubLogo)
+  , ((.) GithubLogo)
       [ width (em 2)
       ]
-    , ((.) Project)
+  , ((.) Project)
       [ marginBottom (px 40)
       ]
-    , ((.) ProjectHeader)
+  , ((.) ProjectHeader)
       [ property "display" "flex"
       , property "justify-content" "space-between"
       ]
-    , h2
+  , h2
       [ margin (px 0)
       ]
-    , ((.) ProjectScreenshotShell)
+  , ((.) ProjectScreenshotShell)
       [ property "background-image" "url(screenshot_shell.svg)"
       , property "background-size" "contain"
       , maxWidth (px 1040)
@@ -30,7 +31,7 @@ css =
       , paddingTop (pct 2.875)
       , property "background-repeat" "no-repeat"
       ]
-    , ((.) ProjectImage)
+  , ((.) ProjectImage)
       [ width (pct 100)
       ]
-    ]
+  ]
