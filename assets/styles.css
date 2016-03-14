@@ -21,7 +21,7 @@ nav {
     border-radius: 5px;
     padding: 3px;
     flex-basis: 50%;
-    outline: 0px;
+    outline: 0;
     cursor: pointer;
 }
 
@@ -33,7 +33,7 @@ nav {
     display: flex;
     height: 100%;
     position: relative;
-    font-family: Source Sans Pro;
+    font-family: "Source Sans Pro";
 }
 
 .builtwithelm-Sidebar {
@@ -53,10 +53,7 @@ nav {
 }
 
 .builtwithelm-ListContainer {
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-bottom: 0px;
-    padding-left: 20px;
+    padding: 0px 20px 0px 20px;
     max-width: 920px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -124,7 +121,7 @@ a {
 }
 
 p {
-    text-align: justify;
+    text-align: text-justify;
 }
 
 .builtwithelm-BuiltWithText {

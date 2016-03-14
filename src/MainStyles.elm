@@ -15,7 +15,7 @@ css =
       , paddingBottom (px 12)
       ]
   , ((.) Button)
-      [ property "font-family" "Helvetica"
+      [ fontFamilies [ "Helvetica" ]
       , fontSize (em 1.6)
       , fontWeight (int 400)
       , color (hex "5cb5cd")
@@ -27,7 +27,7 @@ css =
       , borderRadius (px 5)
       , padding (px 3)
       , flexBasis (pct 50)
-      , property "outline" "0px"
+      , property "outline" "0"
       , property "cursor" "pointer"
       , disabled
           [ color (hex "e5e5e5")
@@ -37,7 +37,7 @@ css =
       [ property "display" "flex"
       , height (pct 100)
       , position relative
-      , property "font-family" "Source Sans Pro"
+      , fontFamilies [ qt "Source Sans Pro" ]
       ]
   , ((.) Sidebar)
       [ width (px 240)
@@ -54,10 +54,7 @@ css =
       , paddingLeft (px 0)
       ]
   , ((.) ListContainer)
-      [ paddingTop (px 0)
-      , paddingRight (px 20)
-      , paddingBottom (px 0)
-      , paddingLeft (px 20)
+      [ padding4 (px 0) (px 20) (px 0) (px 20)
       , maxWidth (px 920)
       , marginTop (px 0)
       , marginBottom (px 0)

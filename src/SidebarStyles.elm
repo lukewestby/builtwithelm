@@ -20,7 +20,7 @@ css =
       [ property "color" "inherit"
       ]
   , p
-      [ property "text-align" "justify"
+      [ textAlign textJustify
       ]
   , ((.) BuiltWithText)
       [ color (hex "999999")

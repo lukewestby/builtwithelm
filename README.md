@@ -27,6 +27,12 @@ decide to submit code, please be sure to run it through
 request. Get in touch with me at @luke_dot_js on Twitter or at @luke in the
 elmlang Slack if you'd like!
 
+### Set up
+```
+cd builtwithelm/
+git clone https://github.com/rtfeldman/elm-css.git
+npm install elm-css -g
+```
 -------
 - Thanks to @driftyco for the github icon svg from ionicons!
 - Thanks to http://builtwithreact.io and @trek's http://beautifulopen.com for

@@ -1,3 +1,3 @@
 #!/bin/bash
-elm-css src/Stylesheets.elm
+elm-css src/Stylesheet.elm
 elm-make src/Main.elm --output build/main.js
