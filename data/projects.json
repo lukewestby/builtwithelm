@@ -1,5 +1,12 @@
 [
   {
+    "name": "Tag bubbles",
+    "previewImageUrl": "data/images/tag-bubbles.png",
+    "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
+    "repositoryUrl": "https://github.com/niksilver/elm-tag-bubbles",
+    "description": "Exploring relationships between topics written about at theguardian.com"
+  },
+  {
     "name": "Pattern Editor",
     "previewImageUrl": "data/images/pattern.png",
     "primaryUrl": "http://eskimoblood.github.io/elm-wallpaper-editor/",
