@@ -1,5 +1,18 @@
 [
   {
+    "name": "Tag bubbles",
+    "previewImageUrl": "data/images/tag-bubbles.png",
+    "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
+    "repositoryUrl": "https://github.com/niksilver/elm-tag-bubbles",
+    "description": "Exploring relationships between topics written about at theguardian.com"
+  }, {
+    "name": "Elm Goban",
+    "previewImageUrl": "data/images/elm-goban.png",
+    "primaryUrl": "http://mclauia.github.io/elm-goban/",
+    "repositoryUrl": "https://github.com/mclauia/elm-goban",
+    "description": "A simple Go board made with Elm."
+  },
+  {
     "name": "Pattern Editor",
     "previewImageUrl": "data/images/pattern.png",
     "primaryUrl": "http://eskimoblood.github.io/elm-wallpaper-editor/",
