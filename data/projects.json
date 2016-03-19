@@ -1,5 +1,12 @@
 [
   {
+    "name": "Circles",
+    "previewImageUrl": "data/images/circles.png",
+    "primaryUrl": "http://irh.github.io/circles",
+    "repositoryUrl": "https://github.com/irh/circles",
+    "description": "A little sound toy"
+  },
+  {
     "name": "Asteroids",
     "previewImageUrl": "data/images/asteroids.png",
     "primaryUrl": "http://irh.github.io/asteroids",
