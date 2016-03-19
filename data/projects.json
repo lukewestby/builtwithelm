@@ -1,5 +1,12 @@
 [
   {
+    "name": "Asteroids",
+    "previewImageUrl": "data/images/asteroids.png",
+    "primaryUrl": "http://irh.github.io/asteroids",
+    "repositoryUrl": "https://github.com/irh/asteroids",
+    "description": "Asteroids in Elm"
+  },
+  {
     "name": "Tag bubbles",
     "previewImageUrl": "data/images/tag-bubbles.png",
     "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
