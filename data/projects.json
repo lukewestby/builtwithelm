@@ -2,7 +2,7 @@
   {
     "name": "I'll Do The Hot Voice!",
     "previewImageUrl": "data/images/idthv.png",
-    "primaryUrl": "http://imccowan.nfshost.com/undertale/",
+    "primaryUrl": "http://ianmccowan.nfshost.com/undertale/",
     "repositoryUrl": "https://github.com/valrus/undertale-dialog-generator",
     "description": "Make dialog boxes for characters from the SMASH INDIE HIT Undertale."
   },
