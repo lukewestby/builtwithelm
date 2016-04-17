@@ -1,5 +1,12 @@
 [
   {
+    "name": "Credit Card Checkout",
+    "previewImageUrl": "data/images/credit-card.jpg",
+    "primaryUrl": "http://www.simonewebdesign.it/demo/elm/",
+    "repositoryUrl": "https://github.com/simonewebdesign/elm-double-folding-pattern",
+    "description": "A credit card form built with Elm and Elixir."
+  },
+  {
     "name": "I'll Do The Hot Voice!",
     "previewImageUrl": "data/images/idthv.png",
     "primaryUrl": "http://ianmccowan.nfshost.com/undertale/",
