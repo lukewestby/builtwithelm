@@ -1,5 +1,12 @@
 [
   {
+    "name": "Mogee",
+    "previewImageUrl": "data/images/mogee.png",
+    "primaryUrl": "http://unsoundscapes.com/elm-mogee.html",
+    "repositoryUrl": "https://github.com/w0rm/elm-mogee",
+    "description": "A WebGL platformer that fits into 64x64px screen."
+  },
+  {
     "name": "Credit Card Checkout",
     "previewImageUrl": "data/images/credit-card.jpg",
     "primaryUrl": "http://www.simonewebdesign.it/demo/elm/",
