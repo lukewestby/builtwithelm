@@ -1,5 +1,19 @@
 [
   {
+    "name": "Stellaris Race Maker",
+    "previewImageUrl": "data/images/stellaris_race_maker.png",
+    "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
+    "repositoryUrl": "https://github.com/kaisersly/stellaris_race_maker",
+    "description": "An ugly tool to let you make your own race in Stellaris, the 4X from Paradox (Crusader Kings, Europa Universalis, ...)."
+  },
+  {
+    "name": "Mogee",
+    "previewImageUrl": "data/images/mogee.png",
+    "primaryUrl": "http://unsoundscapes.com/elm-mogee.html",
+    "repositoryUrl": "https://github.com/w0rm/elm-mogee",
+    "description": "A WebGL platformer that fits into 64x64px screen."
+  },
+  {
     "name": "Credit Card Checkout",
     "previewImageUrl": "data/images/credit-card.jpg",
     "primaryUrl": "http://www.simonewebdesign.it/demo/elm/",
