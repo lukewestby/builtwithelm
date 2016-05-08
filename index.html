@@ -9,11 +9,14 @@
   </style>
 </head>
 <body>
-  <script src="assets/scrollToTop.js"></script>
   <script src="build/main.js"></script>
   <script>
-    var app = Elm.fullscreen(Elm.Main);
-    installScrollToTop(app);
+    var app = Elm.Main.fullscreen();
+    app.ports.notifyOffsetChangedRaw.subscribe(function () {
+      setTimeout(function () {
+        window.scrollTo(0, 0);
+      }, 10);
+    });
   </script>
 </body>
 </html>
