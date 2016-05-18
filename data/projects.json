@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Typing Tutor",
+    "previewImageUrl": "data/images/typing-tutor.png",
+    "primaryUrl": "http://typing-tutor.hoelz.ro/ru",
+    "repositoryUrl": "https://github.com/hoelzro/elm-typing-tutor",
+    "description": "A typing tutor for Russian written in Elm"
+  },
+  {
     "name": "Stellaris Race Maker",
     "previewImageUrl": "data/images/stellaris_race_maker.png",
     "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
