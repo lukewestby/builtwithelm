@@ -1,5 +1,12 @@
 [
   {
+    "name": "Pick and Gloat",
+    "previewImageUrl": "data/images/pick-and-gloat.png",
+    "primaryUrl": "http://www.editgym.com/pick-and-gloat",
+    "repositoryUrl": "https://github.com/Dobiasd/pick-and-gloat",
+    "description": "Use your thinking and reaction to compete with friends."
+  },
+  {
     "name": "Stellaris Race Maker",
     "previewImageUrl": "data/images/stellaris_race_maker.png",
     "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
