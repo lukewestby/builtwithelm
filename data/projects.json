@@ -1,5 +1,12 @@
 [
   {
+    "name": "elmsteroids",
+    "previewImageUrl": "data/images/elmsteroids.jpg",
+    "primaryUrl": "http://yupferris.github.io/elmsteroids/",
+    "repositoryUrl": "https://github.com/yupferris/elmsteroids",
+    "description": "A non-trivial Asteroids clone written in Elm."
+  },
+  {
     "name": "Stellaris Race Maker",
     "previewImageUrl": "data/images/stellaris_race_maker.png",
     "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
