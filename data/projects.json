@@ -1,5 +1,12 @@
 [
   {
+    "name": "ElmFiddle.io",
+    "previewImageUrl": "data/images/elmfiddle_io.png",
+    "primaryUrl": "http://www.elmfiddle.io",
+    "repositoryUrl": "https://github.com/gabigrin/elmfiddle.io",
+    "description": "Elm snippet sharing app built (almost) entirely using Elm!"
+   },
+  {
     "name": "Stellaris Race Maker",
     "previewImageUrl": "data/images/stellaris_race_maker.png",
     "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
