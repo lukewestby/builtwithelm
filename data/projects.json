@@ -1,5 +1,60 @@
 [
   {
+    "name": "Stellaris Race Maker",
+    "previewImageUrl": "data/images/stellaris_race_maker.png",
+    "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
+    "repositoryUrl": "https://github.com/kaisersly/stellaris_race_maker",
+    "description": "An ugly tool to let you make your own race in Stellaris, the 4X from Paradox (Crusader Kings, Europa Universalis, ...)."
+  },
+  {
+    "name": "Mogee",
+    "previewImageUrl": "data/images/mogee.png",
+    "primaryUrl": "http://unsoundscapes.com/elm-mogee.html",
+    "repositoryUrl": "https://github.com/w0rm/elm-mogee",
+    "description": "A WebGL platformer that fits into 64x64px screen."
+  },
+  {
+    "name": "Credit Card Checkout",
+    "previewImageUrl": "data/images/credit-card.jpg",
+    "primaryUrl": "http://www.simonewebdesign.it/demo/elm/",
+    "repositoryUrl": "https://github.com/simonewebdesign/elm-double-folding-pattern",
+    "description": "A credit card form built with Elm and Elixir."
+  },
+  {
+    "name": "I'll Do The Hot Voice!",
+    "previewImageUrl": "data/images/idthv.png",
+    "primaryUrl": "http://ianmccowan.nfshost.com/undertale/",
+    "repositoryUrl": "https://github.com/valrus/undertale-dialog-generator",
+    "description": "Make dialog boxes for characters from the SMASH INDIE HIT Undertale."
+  },
+  {
+    "name": "Circles",
+    "previewImageUrl": "data/images/circles.png",
+    "primaryUrl": "http://irh.github.io/circles",
+    "repositoryUrl": "https://github.com/irh/circles",
+    "description": "A little sound toy"
+  },
+  {
+    "name": "Asteroids",
+    "previewImageUrl": "data/images/asteroids.png",
+    "primaryUrl": "http://irh.github.io/asteroids",
+    "repositoryUrl": "https://github.com/irh/asteroids",
+    "description": "Asteroids in Elm"
+  },
+  {
+    "name": "Tag bubbles",
+    "previewImageUrl": "data/images/tag-bubbles.png",
+    "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
+    "repositoryUrl": "https://github.com/niksilver/elm-tag-bubbles",
+    "description": "Exploring relationships between topics written about at theguardian.com"
+  }, {
+    "name": "Elm Goban",
+    "previewImageUrl": "data/images/elm-goban.png",
+    "primaryUrl": "http://mclauia.github.io/elm-goban/",
+    "repositoryUrl": "https://github.com/mclauia/elm-goban",
+    "description": "A simple Go board made with Elm."
+  },
+  {
     "name": "Pattern Editor",
     "previewImageUrl": "data/images/pattern.png",
     "primaryUrl": "http://eskimoblood.github.io/elm-wallpaper-editor/",

@@ -21,6 +21,7 @@ nav {
     border-radius: 5px;
     padding: 3px;
     flex-basis: 50%;
+    min-width: 100px;
     outline: 0;
     cursor: pointer;
 }
@@ -49,7 +50,7 @@ nav {
     padding-top: 20px;
     padding-right: 0px;
     padding-bottom: 20px;
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
 .builtwithelm-ListContainer {
@@ -143,4 +144,79 @@ p {
 
 .builtwithelm-BuiltBy {
     font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Container {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Logo {
+    display: block;
+    max-width: 33%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Content {
+    margin-left: auto;
+    width: auto;
+    padding-left: 0px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-SidebarHeader {
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-bottom-width: 1px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-SidebarLogoContainer {
+    flex: 1;
+    max-width: 40%;
+}
+}
+
+@media screen and (max-width: 768px) {
+        h1 {
+    flex: 1;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    padding-bottom: 0px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Logo {
+    margin: 0px;
+    max-width: 100%;
+}
+}
+
+@media screen and (max-width: 570px) {
+        h1 {
+    font-size: 1.8em;
+}
 }
