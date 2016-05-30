@@ -10,7 +10,7 @@ import Model exposing (Project, decodeProject)
 
 projectsReader : HttpBuilder.BodyReader (List Project)
 projectsReader =
-  jsonReader <| Decode.list decodeProject
+    jsonReader <| Decode.list decodeProject
 
 
 port notifyOffsetChangedRaw : () -> Cmd msg
@@ -18,12 +18,12 @@ port notifyOffsetChangedRaw : () -> Cmd msg
 
 notifyOffsetChanged : Cmd msg
 notifyOffsetChanged =
-  notifyOffsetChangedRaw ()
+    notifyOffsetChangedRaw ()
 
 
 loadProjects : msg -> (List Project -> msg) -> Cmd msg
 loadProjects failure success =
-  HttpBuilder.get "data/projects.json"
-    |> HttpBuilder.send projectsReader stringReader
-    |> Task.map .data
-    |> Task.perform (always failure) success
+    HttpBuilder.get "data/projects.json"
+        |> HttpBuilder.send projectsReader stringReader
+        |> Task.map .data
+        |> Task.perform (always failure) success
