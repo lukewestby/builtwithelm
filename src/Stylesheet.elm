@@ -1,4 +1,4 @@
-module Stylesheets (..) where
+module Stylesheets exposing (..)
 
 import Css exposing (stylesheet)
 import Css.File exposing (..)
@@ -10,16 +10,15 @@ import SidebarStyles
 
 
 rules =
-  (stylesheet << namespace builtwithelmNamespace.name)
-    (List.concat
-      [ MainStyles.css
-      , ProjectStyles.css
-      , SidebarStyles.css
-      ]
-    )
+    (stylesheet << namespace builtwithelmNamespace.name)
+        (List.concat
+            [ MainStyles.css
+            , ProjectStyles.css
+            , SidebarStyles.css
+            ]
+        )
 
 
 port files : CssFileStructure
 port files =
-  toFileStructure
-    [ ( "assets/styles.css", compile rules ) ]
+    toFileStructure [ ( "assets/styles.css", compile rules ) ]
