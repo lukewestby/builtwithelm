@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
+    "summary": "A list of projects and apps built with Elm.",
     "repository": "https://github.com/elm-community/builtwithelm.git",
     "license": "BSD3",
     "source-directories": [
