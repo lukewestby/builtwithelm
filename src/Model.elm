@@ -20,6 +20,7 @@ type alias Model =
   , loadFailed : Bool
   , offset : Int
   , limit : Int
+  , searchQuery : String
   }
 
 
@@ -30,6 +31,7 @@ model =
   , loadFailed = False
   , offset = 0
   , limit = 5
+  , searchQuery = ""
   }
 
 

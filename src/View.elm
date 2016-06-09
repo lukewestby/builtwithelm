@@ -2,11 +2,12 @@ module View exposing (..)
 
 -- where
 
-import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3)
-import Html.Attributes exposing (style, disabled, href, src)
-import Html.Events exposing (onClick)
+import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input)
+import Html.Attributes exposing (style, disabled, href, src, type', placeholder, value, autofocus)
+import Html.Events exposing (onClick, onInput)
 import Model exposing (Model, Project)
 import Update exposing (Msg(..))
+import String
 
 
 view : Model -> Html Msg
@@ -26,7 +27,7 @@ view model =
           , ( "font-family", "Source Sans Pro" )
           ]
       ]
-      [ viewSidebar
+      [ viewSidebar model
       , div
           [ style
               [ ( "margin-left", "240px" )
@@ -91,15 +92,20 @@ viewPageButton msg isDisabled label =
 
 viewList : Model -> List (Html Msg)
 viewList model =
-  if model.isLoading then
-    [ h2 [] [ text "Loading" ] ]
-  else if model.loadFailed then
-    [ h2 [] [ text "Unable to load projects" ] ]
-  else
-    model.projects
-      |> List.drop model.offset
-      |> List.take model.limit
-      |> List.map viewProject
+  let
+    filterCriteria project =
+      String.contains (String.toLower model.searchQuery) (String.toLower project.name)
+  in
+    if model.isLoading then
+      [ h2 [] [ text "Loading" ] ]
+    else if model.loadFailed then
+      [ h2 [] [ text "Unable to load projects" ] ]
+    else
+      model.projects
+        |> List.filter filterCriteria
+        |> List.drop model.offset
+        |> List.take model.limit
+        |> List.map viewProject
 
 
 viewOpenSourceLink : Project -> Html Msg
@@ -173,8 +179,8 @@ viewProject project =
     ]
 
 
-viewSidebar : Html Msg
-viewSidebar =
+viewSidebar : Model -> Html Msg
+viewSidebar model =
   div
     [ style
         [ ( "width", "240px" )
@@ -209,6 +215,28 @@ viewSidebar =
                 [ text "builtwith" ]
             , span [] [ text "elm" ]
             ]
+        ]
+    , div
+        [ style
+            [ ( "border-bottom", "1px solid #999999" )
+            , ( "margin-bottom", "20px" )
+            ]
+        ]
+        [ input
+            [ type' "text"
+            , placeholder "Search"
+            , value model.searchQuery
+            , autofocus True
+            , onInput UpdateSearchQuery
+            , style
+                [ ("width", "191px")
+                , ("font-size", "1em")
+                , ("padding", "4px")
+                , ("margin", "10px 0")
+                , ("border", "1px solid #eeeeee")
+                , ("border-radius", "6px")
+                ]
+            ] []
         ]
     , div
         [ style
