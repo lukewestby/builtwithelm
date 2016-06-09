@@ -1,5 +1,12 @@
 [
   {
+    "name": "Slackm8",
+    "previewImageUrl": "data/images/slackm8.png",
+    "primaryUrl": "https://github.com/chrisbuttery/slackm8",
+    "repositoryUrl": "https://github.com/chrisbuttery/slackm8",
+    "description": "Randomly shuffle & split a team into groups & invite users to Slack channels."
+  },
+  {
     "name": "Stellaris Race Maker",
     "previewImageUrl": "data/images/stellaris_race_maker.png",
     "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
