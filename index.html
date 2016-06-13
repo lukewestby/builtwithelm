@@ -15,6 +15,9 @@
     app.ports.notifyOffsetChangedRaw.subscribe(function () {
       setTimeout(function () {
         window.scrollTo(0, 0);
+        if (document.activeElement) {
+          document.activeElement.blur();
+        }
       }, 10);
     });
   </script>
