@@ -10,9 +10,9 @@ import Model exposing (model)
 
 main : Program Never
 main =
-  program
-    { init = ( model, initialize )
-    , view = view
-    , update = update
-    , subscriptions = always Sub.none
-    }
+    program
+        { init = ( model, initialize )
+        , view = view
+        , update = update
+        , subscriptions = always Sub.none
+        }

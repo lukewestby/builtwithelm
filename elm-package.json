@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
+    "summary": "A list of projects and apps built with Elm.",
+    "repository": "https://github.com/elm-community/builtwithelm.git",
     "license": "BSD3",
     "source-directories": [
         "./src"
@@ -10,7 +10,9 @@
     "dependencies": {
         "elm-lang/core": "4.0.0 <= v < 5.0.0",
         "elm-lang/html": "1.0.0 <= v < 2.0.0",
-        "lukewestby/elm-http-builder": "1.0.0 <= v < 2.0.0"
+        "lukewestby/elm-http-builder": "1.0.0 <= v < 2.0.0",
+        "rtfeldman/elm-css": "3.0.0 <= v < 4.0.0",
+        "rtfeldman/elm-css-helpers": "2.0.0 <= v < 3.0.0"
     },
     "elm-version": "0.17.0 <= v < 0.18.0"
 }
