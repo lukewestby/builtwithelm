@@ -26,17 +26,26 @@ type CssClasses
     | SubmitProject
     | SubmitProjectHeader
     | BuiltBy
+    | SearchContainer
+    | SearchInput
 
 
+builtWithElmNamespace : String
 builtWithElmNamespace =
     "builtwithelm-"
 
 
+css : Stylesheet
 css =
     (stylesheet << namespace builtWithElmNamespace)
         [ body
             [ margin (px 0)
             , height (pct 100)
+            , descendants
+                [ everything
+                    [ boxSizing borderBox
+                    ]
+                ]
             ]
         , nav
             [ display inlineBlock
@@ -157,6 +166,18 @@ css =
         , ((.) BuiltBy)
             [ fontSize (em 0.9)
             ]
+        , ((.) SearchInput)
+            [ width (px 191)
+            , fontSize (em 1)
+            , padding (px 4)
+            , margin2 (px 10) zero
+            , border3 (px 1) solid (hex "eeeeee")
+            , borderRadius (px 6)
+            ]
+        , ((.) SearchContainer)
+            [ borderBottom3 (px 1) solid (hex "999999")
+            , marginBottom (px 20)
+            ]
         , mediaQuery "screen and (max-width: 768px)"
             [ ((.) Container)
                 [ flexDirection column
@@ -189,6 +210,9 @@ css =
             , ((.) SidebarLogoContainer)
                 [ flex (int 1)
                 , maxWidth (pct 40)
+                ]
+            , ((.) SearchInput)
+                [ width (pct 100)
                 ]
             , h1
                 [ flex (int 1)

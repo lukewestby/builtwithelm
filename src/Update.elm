@@ -1,7 +1,5 @@
 module Update exposing (update, Msg(..), initialize)
 
--- where
-
 import Model exposing (Model, Project)
 import Cmds exposing (loadProjects, notifyOffsetChanged)
 
@@ -12,6 +10,7 @@ type Msg
     | Next
     | LoadProjectsSuccess (List Project)
     | LoadProjectsError
+    | UpdateSearchQuery String
 
 
 initialize : Cmd Msg
@@ -57,6 +56,13 @@ update msg model =
             ( { model
                 | loadFailed = True
                 , isLoading = False
+              }
+            , Cmd.none
+            )
+
+        UpdateSearchQuery query ->
+            ( { model
+                | searchQuery = query
               }
             , Cmd.none
             )
