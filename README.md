@@ -27,6 +27,7 @@ decide to submit code, please be sure to run it through
 request. Get in touch with me at @luke_dot_js on Twitter or at @luke in the
 elmlang Slack if you'd like!
 
+Note: you need to install elm-css to build: `npm install -g elm-css`.
 -------
 - Thanks to @driftyco for the github icon svg from ionicons!
 - Thanks to http://builtwithreact.io and @trek's http://beautifulopen.com for

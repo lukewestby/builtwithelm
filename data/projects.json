@@ -1,5 +1,40 @@
 [
   {
+    "name": "Slackm8",
+    "previewImageUrl": "data/images/slackm8.png",
+    "primaryUrl": "https://github.com/chrisbuttery/slackm8",
+    "repositoryUrl": "https://github.com/chrisbuttery/slackm8",
+    "description": "Randomly shuffle & split a team into groups & invite users to Slack channels."
+  },
+  {
+    "name": "ElmFiddle.io",
+    "previewImageUrl": "data/images/elmfiddle_io.png",
+    "primaryUrl": "http://www.elmfiddle.io",
+    "repositoryUrl": "https://github.com/gabigrin/elmfiddle.io",
+    "description": "Elm snippet sharing app built (almost) entirely using Elm!"
+  },
+  {
+    "name": "elmsteroids",
+    "previewImageUrl": "data/images/elmsteroids.jpg",
+    "primaryUrl": "http://yupferris.github.io/elmsteroids/",
+    "repositoryUrl": "https://github.com/yupferris/elmsteroids",
+    "description": "A non-trivial Asteroids clone written in Elm."
+  },
+  {
+    "name": "Pick and Gloat",
+    "previewImageUrl": "data/images/pick-and-gloat.png",
+    "primaryUrl": "http://www.editgym.com/pick-and-gloat",
+    "repositoryUrl": "https://github.com/Dobiasd/pick-and-gloat",
+    "description": "Use your thinking and reaction to compete with friends."
+  },
+  {
+    "name": "Elm Typing Tutor",
+    "previewImageUrl": "data/images/typing-tutor.png",
+    "primaryUrl": "http://typing-tutor.hoelz.ro/ru",
+    "repositoryUrl": "https://github.com/hoelzro/elm-typing-tutor",
+    "description": "A typing tutor for Russian written in Elm"
+  },
+  {
     "name": "Stellaris Race Maker",
     "previewImageUrl": "data/images/stellaris_race_maker.png",
     "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
