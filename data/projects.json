@@ -1,5 +1,12 @@
 [
   {
+    "name": "elmsteroids",
+    "previewImageUrl": "data/images/elmsteroids.jpg",
+    "primaryUrl": "http://yupferris.github.io/elmsteroids/",
+    "repositoryUrl": "https://github.com/yupferris/elmsteroids",
+    "description": "A non-trivial Asteroids clone written in Elm."
+  },
+  {
     "name": "Pick and Gloat",
     "previewImageUrl": "data/images/pick-and-gloat.png",
     "primaryUrl": "http://www.editgym.com/pick-and-gloat",
