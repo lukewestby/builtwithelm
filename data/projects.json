@@ -1,5 +1,12 @@
 [
   {
+    "name": "ElmFiddle.io",
+    "previewImageUrl": "data/images/elmfiddle_io.png",
+    "primaryUrl": "http://www.elmfiddle.io",
+    "repositoryUrl": "https://github.com/gabigrin/elmfiddle.io",
+    "description": "Elm snippet sharing app built (almost) entirely using Elm!"
+  },
+  {
     "name": "elmsteroids",
     "previewImageUrl": "data/images/elmsteroids.jpg",
     "primaryUrl": "http://yupferris.github.io/elmsteroids/",
