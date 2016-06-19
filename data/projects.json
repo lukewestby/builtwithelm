@@ -1,5 +1,12 @@
 [
   {
+    "name": "Slackm8",
+    "previewImageUrl": "data/images/slackm8.png",
+    "primaryUrl": "https://github.com/chrisbuttery/slackm8",
+    "repositoryUrl": "https://github.com/chrisbuttery/slackm8",
+    "description": "Randomly shuffle & split a team into groups & invite users to Slack channels."
+  },
+  {
     "name": "ElmFiddle.io",
     "previewImageUrl": "data/images/elmfiddle_io.png",
     "primaryUrl": "http://www.elmfiddle.io",
