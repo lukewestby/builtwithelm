@@ -1,7 +1,5 @@
 port module Cmds exposing (loadProjects, notifyOffsetChanged)
 
--- where
-
 import Json.Decode as Decode
 import Task
 import HttpBuilder exposing (jsonReader, stringReader)

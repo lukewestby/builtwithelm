@@ -1,18 +1,15 @@
 module View exposing (..)
 
--- where
-
-import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3)
-import Html.Attributes exposing (style, disabled, href, src)
-import Html.Events exposing (onClick)
+import String
+import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input)
+import Html.Attributes exposing (style, disabled, href, src, type', placeholder, value, autofocus)
+import Html.Events exposing (onClick, onInput)
 import Html.CssHelpers
 import Model exposing (Model, Project)
 import Update exposing (Msg(..))
 import Styles exposing (..)
 
 
-{ class } =
-    Html.CssHelpers.withNamespace builtWithElmNamespace
 view : Model -> Html Msg
 view model =
     let
@@ -25,7 +22,7 @@ view model =
         div
             [ class [ Container ]
             ]
-            [ viewSidebar
+            [ viewSidebar model
             , div
                 [ class [ Content ]
                 ]
@@ -62,15 +59,20 @@ viewPageButton msg isDisabled label =
 
 viewList : Model -> List (Html Msg)
 viewList model =
-    if model.isLoading then
-        [ h2 [] [ text "Loading" ] ]
-    else if model.loadFailed then
-        [ h2 [] [ text "Unable to load projects" ] ]
-    else
-        model.projects
-            |> List.drop model.offset
-            |> List.take model.limit
-            |> List.map viewProject
+    let
+        filterCriteria project =
+            String.contains (String.toLower model.searchQuery) (String.toLower project.name)
+    in
+        if model.isLoading then
+            [ h2 [] [ text "Loading" ] ]
+        else if model.loadFailed then
+            [ h2 [] [ text "Unable to load projects" ] ]
+        else
+            model.projects
+                |> List.filter filterCriteria
+                |> List.drop model.offset
+                |> List.take model.limit
+                |> List.map viewProject
 
 
 viewOpenSourceLink : Project -> Html Msg
@@ -122,11 +124,9 @@ viewProject project =
         ]
 
 
-viewSidebar : Html Msg
-viewSidebar =
-    div
-        [ class [ Sidebar ]
-        ]
+viewSidebar : Model -> Html Msg
+viewSidebar model =
+    div [ class [ Sidebar ] ]
         [ div [ class [ SidebarHeader ] ]
             [ div
                 [ class [ SidebarLogoContainer ]
@@ -147,9 +147,18 @@ viewSidebar =
                     ]
                 ]
             ]
-        , div
-            [ class [ SubmitProject ]
+        , div [ class [ SearchContainer ] ]
+            [ input
+                [ type' "text"
+                , placeholder "Search"
+                , value model.searchQuery
+                , autofocus True
+                , onInput UpdateSearchQuery
+                , class [ SearchInput ]
+                ]
+                []
             ]
+        , div [ class [ SubmitProject ] ]
             [ h3
                 [ class [ SubmitProjectHeader ]
                 ]
@@ -171,3 +180,7 @@ viewSidebar =
             , a [ href "https://github.com/elm-community/builtwithelm/graphs/contributors" ] [ text "the amazing Elm community." ]
             ]
         ]
+
+
+{ class } =
+    Html.CssHelpers.withNamespace builtWithElmNamespace

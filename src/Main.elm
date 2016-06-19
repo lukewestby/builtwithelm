@@ -1,7 +1,5 @@
 module Main exposing (..)
 
--- where
-
 import Html.App exposing (program)
 import Update exposing (update, initialize)
 import View exposing (view)
