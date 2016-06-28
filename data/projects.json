@@ -1,5 +1,12 @@
 [
   {
+    "name": "Pacman",
+    "previewImageUrl": "data/images/pacman.png",
+    "primaryUrl": "https://kghandhi.github.io/pacman/",
+    "repositoryUrl": "https://github.com/kghandhi/pacman",
+    "description": "Pacman clone written in Elm."
+  },
+  {
     "name": "Slackm8",
     "previewImageUrl": "data/images/slackm8.png",
     "primaryUrl": "https://github.com/chrisbuttery/slackm8",
