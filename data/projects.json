@@ -1,5 +1,12 @@
 [
   {
+    "name": "Generic Elm Platform Game",
+    "previewImageUrl": "data/images/generic-elm-platform-game.png",
+    "primaryUrl": "https://iojichervo.github.io/Generic-Elm-Platform-Game/",
+    "repositoryUrl": "https://github.com/iojichervo/Generic-Elm-Platform-Game",
+    "description": "A platform game made in Elm."
+  },
+  {
     "name": "Slackm8",
     "previewImageUrl": "data/images/slackm8.png",
     "primaryUrl": "https://github.com/chrisbuttery/slackm8",
