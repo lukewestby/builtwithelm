@@ -1,5 +1,12 @@
 [
   {
+    "name": "hoboapp.com",
+    "previewImageUrl": "data/images/hoboapp.png",
+    "primaryUrl": "http://hoboapp.com",
+    "repositoryUrl": "https://github.com/aspushkinus/hobo-elm",
+    "description": "HOBO: Highly opinionated budget organizer (for families)"
+  },
+  {
     "name": "Slackm8",
     "previewImageUrl": "data/images/slackm8.png",
     "primaryUrl": "https://github.com/chrisbuttery/slackm8",
