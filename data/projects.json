@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-convert-case",
+    "previewImageUrl": "data/images/elm-convert-case.gif",
+    "primaryUrl": "https://chrisbuttery.github.io/elm-convert-case/build/index.html",
+    "repositoryUrl": "https://github.com/chrisbuttery/elm-convert-case",
+    "description": "A simple string conversion tool with bonus horror theme."
+  },
+  {
     "name": "Slackm8",
     "previewImageUrl": "data/images/slackm8.png",
     "primaryUrl": "https://github.com/chrisbuttery/slackm8",
