@@ -1,5 +1,12 @@
 [
   {
+    "name":"Tabata Timer",
+    "previewImageUrl": "data/images/tabata-timer.png",
+    "primaryUrl": "https://github.com/jackysee/tabata-timer",
+    "repositoryUrl": "https://github.com/jackysee/tabata-timer",
+    "description": "A Tabata Timer in Elm, playing sounds between stages."
+  },
+  {
     "name": "Slackm8",
     "previewImageUrl": "data/images/slackm8.png",
     "primaryUrl": "https://github.com/chrisbuttery/slackm8",
