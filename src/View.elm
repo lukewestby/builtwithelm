@@ -4,6 +4,7 @@ import String
 import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input)
 import Html.Attributes exposing (style, disabled, href, src, type', placeholder, value, autofocus)
 import Html.Events exposing (onClick, onInput)
+import Html.Keyed
 import Html.CssHelpers
 import Model exposing (Model, Project)
 import Update exposing (Msg(..))
@@ -26,7 +27,7 @@ view model =
             , div
                 [ class [ Content ]
                 ]
-                [ div
+                [ Html.Keyed.node "div"
                     [ class [ ListContainer ]
                     ]
                     <| viewList model
@@ -57,22 +58,22 @@ viewPageButton msg isDisabled label =
             [ text label ]
 
 
-viewList : Model -> List (Html Msg)
+viewList : Model -> List (String, Html Msg)
 viewList model =
     let
         filterCriteria project =
             String.contains (String.toLower model.searchQuery) (String.toLower project.name)
     in
         if model.isLoading then
-            [ h2 [] [ text "Loading" ] ]
+            [ ("", h2 [] [ text "Loading" ]) ]
         else if model.loadFailed then
-            [ h2 [] [ text "Unable to load projects" ] ]
+            [ ("", h2 [] [ text "Unable to load projects" ]) ]
         else
             model.projects
                 |> List.filter filterCriteria
                 |> List.drop model.offset
                 |> List.take model.limit
-                |> List.map viewProject
+                |> List.map (\p -> (p.primaryUrl, viewProject p))
 
 
 viewOpenSourceLink : Project -> Html Msg
