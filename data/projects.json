@@ -1,5 +1,12 @@
 [
   {
+    "name": "Pacman",
+    "previewImageUrl": "data/images/pacman.png",
+    "primaryUrl": "https://kghandhi.github.io/pacman/",
+    "repositoryUrl": "https://github.com/kghandhi/pacman",
+    "description": "Pacman clone written in Elm."
+  },
+  {
     "name": "GitHub Users Repo",
     "previewImageUrl": "data/images/elm-github-user-repos.png",
     "primaryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
