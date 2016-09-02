@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm news",
+    "previewImageUrl": "data/images/elm-news.png",
+    "primaryUrl": "https://oakesja.github.io/elm-news/",
+    "repositoryUrl": "https://github.com/oakesja/elm-news",
+    "description": "All elm news in one place."
+  },
+  {
     "name": "Pacman",
     "previewImageUrl": "data/images/pacman.png",
     "primaryUrl": "https://kghandhi.github.io/pacman/",
