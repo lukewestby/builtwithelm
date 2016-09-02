@@ -1,5 +1,12 @@
 [
   {
+    "name": "elm-convert-case",
+    "previewImageUrl": "data/images/elm-convert-case.gif",
+    "primaryUrl": "https://chrisbuttery.github.io/elm-convert-case/build/index.html",
+    "repositoryUrl": "https://github.com/chrisbuttery/elm-convert-case",
+    "description": "A simple string conversion tool with bonus horror theme."
+  },
+  {
     "name": "HyperThemes",
     "previewImageUrl": "data/images/hyperthemes.png",
     "primaryUrl": "https://hyperthemes.matthi.coffee",
