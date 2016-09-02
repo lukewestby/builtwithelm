@@ -1,5 +1,12 @@
 [
   {
+    "name": "Reversi",
+    "previewImageUrl": "data/images/reversi-game.png",
+    "primaryUrl": "https://inderps.github.io/reversi-game-in-elm/",
+    "repositoryUrl": "https://github.com/inderps/reversi-game-in-elm",
+    "description": "Reversi (aka Othello) implemented in elm "
+  },
+  {
     "name": "Don't fall",
     "previewImageUrl": "data/images/dontfall.png",
     "primaryUrl": "https://arpad-m.github.io/dontfall/",
