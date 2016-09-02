@@ -1,5 +1,12 @@
 [
   {
+    "name": "Circuits",
+    "previewImageUrl": "data/images/circuits.png",
+    "primaryUrl": "https://jvoigtlaender.github.io/circuits",
+    "repositoryUrl": "https://github.com/jvoigtlaender/circuits",
+    "description": "Playing with electronic circuits."
+  },
+  {
     "name":"Tabata Timer",
     "previewImageUrl": "data/images/tabata-timer.png",
     "primaryUrl": "https://github.com/jackysee/tabata-timer",
