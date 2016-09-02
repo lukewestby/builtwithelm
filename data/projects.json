@@ -1,5 +1,12 @@
 [
   {
+    "name": "hoboapp.com",
+    "previewImageUrl": "data/images/hoboapp.png",
+    "primaryUrl": "http://hoboapp.com",
+    "repositoryUrl": "https://github.com/aspushkinus/hobo-elm",
+    "description": "HOBO: Highly opinionated budget organizer (for families)"
+  },
+  {
     "name": "Generic Elm Platform Game",
     "previewImageUrl": "data/images/generic-elm-platform-game.png",
     "primaryUrl": "https://iojichervo.github.io/Generic-Elm-Platform-Game/",
