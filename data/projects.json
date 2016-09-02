@@ -1,5 +1,12 @@
 [
   {
+    "name": "Generic Elm Platform Game",
+    "previewImageUrl": "data/images/generic-elm-platform-game.png",
+    "primaryUrl": "https://iojichervo.github.io/Generic-Elm-Platform-Game/",
+    "repositoryUrl": "https://github.com/iojichervo/Generic-Elm-Platform-Game",
+    "description": "A platform game made in Elm."
+  },
+  {
     "name": "elm news",
     "previewImageUrl": "data/images/elm-news.png",
     "primaryUrl": "https://oakesja.github.io/elm-news/",
