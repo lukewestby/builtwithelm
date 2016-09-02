@@ -1,5 +1,12 @@
 [
   {
+    "name": "HyperThemes",
+    "previewImageUrl": "data/images/hyperthemes.png",
+    "primaryUrl": "https://hyperthemes.matthi.coffee",
+    "repositoryUrl": "https://github.com/MatthiasWinkelmann/hyperthemes.matthi.coffee",
+    "description": "An overview of themes for HyperTerm with screenshots and usage data."
+  },
+  {
     "name": "Reversi",
     "previewImageUrl": "data/images/reversi-game.png",
     "primaryUrl": "https://inderps.github.io/reversi-game-in-elm/",
