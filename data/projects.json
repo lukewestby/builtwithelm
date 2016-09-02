@@ -1,5 +1,12 @@
 [
   {
+    "name": "Don't fall",
+    "previewImageUrl": "data/images/dontfall.png",
+    "primaryUrl": "https://arpad-m.github.io/dontfall/",
+    "repositoryUrl": "https://github.com/arpad-m/dontfall",
+    "description": "Do not fall down or you lose."
+  },
+  {
     "name": "hoboapp.com",
     "previewImageUrl": "data/images/hoboapp.png",
     "primaryUrl": "http://hoboapp.com",
