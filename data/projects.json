@@ -1,5 +1,82 @@
 [
   {
+    "name": "Circuits",
+    "previewImageUrl": "data/images/circuits.png",
+    "primaryUrl": "https://jvoigtlaender.github.io/circuits",
+    "repositoryUrl": "https://github.com/jvoigtlaender/circuits",
+    "description": "Playing with electronic circuits."
+  },
+  {
+    "name":"Tabata Timer",
+    "previewImageUrl": "data/images/tabata-timer.png",
+    "primaryUrl": "https://github.com/jackysee/tabata-timer",
+    "repositoryUrl": "https://github.com/jackysee/tabata-timer",
+    "description": "A Tabata Timer in Elm, playing sounds between stages."
+  },
+  {
+    "name": "elm-convert-case",
+    "previewImageUrl": "data/images/elm-convert-case.gif",
+    "primaryUrl": "https://chrisbuttery.github.io/elm-convert-case/build/index.html",
+    "repositoryUrl": "https://github.com/chrisbuttery/elm-convert-case",
+    "description": "A simple string conversion tool with bonus horror theme."
+  },
+  {
+    "name": "HyperThemes",
+    "previewImageUrl": "data/images/hyperthemes.png",
+    "primaryUrl": "https://hyperthemes.matthi.coffee",
+    "repositoryUrl": "https://github.com/MatthiasWinkelmann/hyperthemes.matthi.coffee",
+    "description": "An overview of themes for HyperTerm with screenshots and usage data."
+  },
+  {
+    "name": "Reversi",
+    "previewImageUrl": "data/images/reversi-game.png",
+    "primaryUrl": "https://inderps.github.io/reversi-game-in-elm/",
+    "repositoryUrl": "https://github.com/inderps/reversi-game-in-elm",
+    "description": "Reversi (aka Othello) implemented in elm "
+  },
+  {
+    "name": "Don't fall",
+    "previewImageUrl": "data/images/dontfall.png",
+    "primaryUrl": "https://arpad-m.github.io/dontfall/",
+    "repositoryUrl": "https://github.com/arpad-m/dontfall",
+    "description": "Do not fall down or you lose."
+  },
+  {
+    "name": "hoboapp.com",
+    "previewImageUrl": "data/images/hoboapp.png",
+    "primaryUrl": "http://hoboapp.com",
+    "repositoryUrl": "https://github.com/aspushkinus/hobo-elm",
+    "description": "HOBO: Highly opinionated budget organizer (for families)"
+  },
+  {
+    "name": "Generic Elm Platform Game",
+    "previewImageUrl": "data/images/generic-elm-platform-game.png",
+    "primaryUrl": "https://iojichervo.github.io/Generic-Elm-Platform-Game/",
+    "repositoryUrl": "https://github.com/iojichervo/Generic-Elm-Platform-Game",
+    "description": "A platform game made in Elm."
+  },
+  {
+    "name": "elm news",
+    "previewImageUrl": "data/images/elm-news.png",
+    "primaryUrl": "https://oakesja.github.io/elm-news/",
+    "repositoryUrl": "https://github.com/oakesja/elm-news",
+    "description": "All elm news in one place."
+  },
+  {
+    "name": "Pacman",
+    "previewImageUrl": "data/images/pacman.png",
+    "primaryUrl": "https://kghandhi.github.io/pacman/",
+    "repositoryUrl": "https://github.com/kghandhi/pacman",
+    "description": "Pacman clone written in Elm."
+  },
+  {
+    "name": "GitHub Users Repo",
+    "previewImageUrl": "data/images/elm-github-user-repos.png",
+    "primaryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
+    "repositoryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
+    "description": "Look up the public repos of a GitHub user."
+  },
+  {
     "name": "Slackm8",
     "previewImageUrl": "data/images/slackm8.png",
     "primaryUrl": "https://github.com/chrisbuttery/slackm8",
