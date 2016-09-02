@@ -1,5 +1,12 @@
 [
   {
+    "name":"Tabata Timer",
+    "previewImageUrl": "data/images/tabata-timer.png",
+    "primaryUrl": "https://github.com/jackysee/tabata-timer",
+    "repositoryUrl": "https://github.com/jackysee/tabata-timer",
+    "description": "A Tabata Timer in Elm, playing sounds between stages."
+  },
+  {
     "name": "elm-convert-case",
     "previewImageUrl": "data/images/elm-convert-case.gif",
     "primaryUrl": "https://chrisbuttery.github.io/elm-convert-case/build/index.html",
