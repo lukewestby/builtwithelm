@@ -1,7 +1,7 @@
 [
   {
     "name": "Circuits",
-    "previewImageUrl": "data/images/circuits.png",
+    "previewImageUrl": "data/images/circuits.gif",
     "primaryUrl": "https://jvoigtlaender.github.io/circuits",
     "repositoryUrl": "https://github.com/jvoigtlaender/circuits",
     "description": "Playing with electronic circuits."
