@@ -1,5 +1,12 @@
 [
   {
+    "name": "Minesweeper",
+    "previewImageUrl": "data/images/minesweeper.png",
+    "primaryUrl": "https://julianjelfs.github.io/elm-minesweeper/dist/index.html",
+    "repositoryUrl": "https://github.com/julianjelfs/elm-minesweeper",
+    "description": "A simple implementation of the classic game minesweeper."
+  },
+  {
     "name": "Circuits",
     "previewImageUrl": "data/images/circuits.gif",
     "primaryUrl": "https://jvoigtlaender.github.io/circuits",
