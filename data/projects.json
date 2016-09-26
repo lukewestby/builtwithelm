@@ -1,5 +1,12 @@
 [
   {
+    "name": "Pairs One",
+    "previewImageUrl": "data/images/pairs-one.png",
+    "primaryUrl": "http://pairs.one",
+    "repositoryUrl": "https://github.com/mxgrn/pairs.one",
+    "description": "Registration-free multiplayer Memory/Concentration game with Elixir backend"
+  },
+  {
     "name": "Minesweeper",
     "previewImageUrl": "data/images/minesweeper.png",
     "primaryUrl": "https://julianjelfs.github.io/elm-minesweeper/dist/index.html",
