@@ -1,11 +1,18 @@
 [
   {
+    "name": "Pairs One",
+    "previewImageUrl": "data/images/pairs-one.png",
+    "primaryUrl": "http://pairs.one",
+    "repositoryUrl": "https://github.com/mxgrn/pairs.one",
+    "description": "Registration-free multiplayer Memory/Concentration game with Elixir backend"
+  },
+  {
     "name": "TicTacToe",
     "previewImageUrl": "data/images/tictactoe.png",
     "primaryUrl": "https://allannozomu.github.io/TicTacToe/index.html",
     "repositoryUrl": "https://github.com/AllanNozomu/TicTacToe",
     "description": "A simple TicTacToe game."
-  },  
+  },
   {
     "name": "Minesweeper",
     "previewImageUrl": "data/images/minesweeper.png",
