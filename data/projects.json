@@ -1,4 +1,10 @@
 [
+  { "name": "Orbiter 13",
+    "previewImageUrl": "http://i.imgur.com/6aKzubg.png",
+    "primaryUrl": "http://www.chadtech.us/orbiter-13/",
+    "repositoryUrl": "https://github.com/Chadtech/Orbiter-d",
+    "description": "Control your seven thrusters to travel from orbit to orbit collecting resources."
+  },
   {
     "name": "Pairs One",
     "previewImageUrl": "data/images/pairs-one.png",
