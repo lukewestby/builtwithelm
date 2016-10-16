@@ -1,4 +1,17 @@
 [
+  {
+    "name": "Elm Online Markdown Editor",
+    "previewImageUrl": "data/images/elm-online-md-editor.png",
+    "primaryUrl": "https://3tty0n.github.io/elm-online-markdown-editor/",
+    "repositoryUrl": "https://github.com/3tty0n/elm-online-markdown-editor",
+    "description": "An online markdown editor written in Elm."
+  },
+  { "name": "MovieInfo",
+    "previewImageUrl": "data/images/MovieInfo.jpg",
+    "primaryUrl": "https://ciavash.gitlab.io/MovieInfo/",
+    "repositoryUrl": "https://gitlab.com/CIAvash/MovieInfo",
+    "description": "Information and ratings for Movies, TV Series and games"
+  },
   { "name": "Orbiter 13",
     "previewImageUrl": "http://i.imgur.com/6aKzubg.png",
     "primaryUrl": "http://www.chadtech.us/orbiter-13/",
