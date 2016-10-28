@@ -1,5 +1,18 @@
 [
   {
+    "name": "Elm Heko'ish Watch",
+    "previewImageUrl": "data/images/elm-hekoish-watch.png",
+    "primaryUrl": "https://astynax.github.io/elm-hekoish-watch/index.html",
+    "repositoryUrl": "https://github.com/astynax/elm-hekoish-watch",
+    "description": "A simple cryptic fullscreen watch inspired by Tokyoflash \"Heko\" wristwatch"
+  },
+  { "name": "Elm Christmas tree",
+    "previewImageUrl": "data/images/elm-xmas-tree.png",
+    "primaryUrl": "https://astynax.github.io/elm-xmas-tree",
+    "repositoryUrl": "https://github.com/astynax/elm-xmas-tree",
+    "description": "A Christmas/New Year tree with the randomized ornaments and illumination"
+  },
+  {
     "name": "Elm Online Markdown Editor",
     "previewImageUrl": "data/images/elm-online-md-editor.png",
     "primaryUrl": "https://3tty0n.github.io/elm-online-markdown-editor/",
