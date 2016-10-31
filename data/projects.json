@@ -1,5 +1,12 @@
 [
   {
+    "name": "MaltaJS registration page",
+    "previewImageUrl": "data/images/maltajs-registration-page.png",
+    "primaryUrl": "http://www.maltajs.com",
+    "repositoryUrl": "https://github.com/roedit/maltajs-elm",
+    "description": "A simple registration page built with Elm, SASS and NodeJs"
+  },
+  {
     "name": "Elm Heko'ish Watch",
     "previewImageUrl": "data/images/elm-hekoish-watch.png",
     "primaryUrl": "https://astynax.github.io/elm-hekoish-watch/index.html",
