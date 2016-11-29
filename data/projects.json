@@ -1,10 +1,16 @@
 [
   {
+    "name": "younity desktop and web client",
+    "previewImageUrl": "data/images/younity.png",
+    "primaryUrl": "https://getyounity.com/",
+    "description": "Desktop and web front-end for an easy and free home media server. Access, stream, and share all your videos, music, photos, and files from any device. No syncing, uploading or configuration!"
+  },
+  {
     "name": "MaltaJS registration page",
     "previewImageUrl": "data/images/maltajs-registration-page.png",
     "primaryUrl": "http://www.maltajs.com",
     "repositoryUrl": "https://github.com/roedit/maltajs-elm",
-    "description": "A simple registration page built with Elm, SASS and NodeJs"
+    "description": "A simple registration page built with Elm, Sass and Node.js"
   },
   {
     "name": "Elm Heko'ish Watch",
