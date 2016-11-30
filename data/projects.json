@@ -1,5 +1,12 @@
 [
   {
+    "name": "Memory Game in Elm",
+    "previewImageUrl": "data/images/alpacaaa-memory-game.png",
+    "primaryUrl": "https://runelm.io/c/fbi",
+    "repositoryUrl": "https://github.com/alpacaaa/elm-memory-game",
+    "description": "A very simple memory game written in Elm"
+  },
+  {
     "name": "MaltaJS registration page",
     "previewImageUrl": "data/images/maltajs-registration-page.png",
     "primaryUrl": "http://www.maltajs.com",
