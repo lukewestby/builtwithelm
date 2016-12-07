@@ -1,5 +1,12 @@
 [
   {
+    "name": "TheNews",
+    "previewImageUrl": "data/images/the-news.png",
+    "primaryUrl": "https://mthadley.github.io/thenews/",
+    "repositoryUrl": "https://github.com/mthadley/thenews",
+    "description": "Yet another Hacker News reader, this time written in Elm."
+  },
+  {
     "name": "ABC Editor",
     "previewImageUrl": "data/images/ABC-editor.jpg",
     "primaryUrl": "http://www.tradtunedb.org.uk/abceditor",
