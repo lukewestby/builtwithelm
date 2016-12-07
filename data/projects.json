@@ -1,5 +1,12 @@
 [
   {
+    "name": "ABC Editor",
+    "previewImageUrl": "data/images/ABC-editor.jpg",
+    "primaryUrl": "http://www.tradtunedb.org.uk/abceditor",
+    "repositoryUrl": "https://github.com/newlandsvalley/elm-abc-player",
+    "description": "Edit and play music scores in ABC notation."
+  },
+  {
     "name": "Pointing Poker",
     "previewImageUrl": "data/images/elm-pointing-poker.png",
     "primaryUrl": "https://poker-94672.firebaseapp.com",
