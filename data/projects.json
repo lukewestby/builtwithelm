@@ -1,5 +1,12 @@
 [
   {
+    "name": "TheNews",
+    "previewImageUrl": "data/images/the-news.png",
+    "primaryUrl": "https://mthadley.github.io/thenews/",
+    "repositoryUrl": "https://github.com/mthadley/thenews",
+    "description": "Yet another Hacker News reader, this time written in Elm."
+  },
+  {
     "name": "Pointing Poker",
     "previewImageUrl": "data/images/elm-pointing-poker.png",
     "primaryUrl": "https://poker-94672.firebaseapp.com",
