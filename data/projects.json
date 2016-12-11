@@ -1,4 +1,9 @@
 [
+  { "name": "Toy Neural Network",
+   "previewImageUrl": "data/images/elm-brain2.jpg",
+   "primaryUrl": "https://the-fool.github.io/elm-brain",
+   "repositoryUrl": "https://github.com/the-fool/fuzzy-elm",
+   "description": "An interactive neural network toy."
   {
     "name": "TheNews",
     "previewImageUrl": "data/images/the-news.png",
