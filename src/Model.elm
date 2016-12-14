@@ -1,6 +1,6 @@
 module Model exposing (Project, Model, model, decodeProject)
 
-import Json.Decode as Decode exposing ((:=))
+import Json.Decode as Decode exposing (field)
 
 
 type alias Project =
@@ -35,14 +35,14 @@ model =
 
 (|:) : Decode.Decoder (a -> b) -> Decode.Decoder a -> Decode.Decoder b
 (|:) =
-    Decode.object2 (<|)
+    Decode.map2 (<|)
 
 
 decodeProject : Decode.Decoder Project
 decodeProject =
     Decode.succeed Project
-        |: ("previewImageUrl" := Decode.string)
-        |: ("name" := Decode.string)
-        |: ("primaryUrl" := Decode.string)
-        |: ("description" := Decode.string)
-        |: ("repositoryUrl" := (Decode.maybe Decode.string))
+        |: (field "previewImageUrl" Decode.string)
+        |: (field "name" Decode.string)
+        |: (field "primaryUrl" Decode.string)
+        |: (field "description" Decode.string)
+        |: (field "repositoryUrl" (Decode.maybe Decode.string))
