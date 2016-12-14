@@ -1,21 +1,21 @@
 module Update exposing (update, Msg(..), initialize)
 
-import Model exposing (Model, Project)
 import Cmds exposing (loadProjects, notifyOffsetChanged)
+import Http
+import Model exposing (Model, Project)
 
 
 type Msg
     = NoOp
     | Prev
     | Next
-    | LoadProjectsSuccess (List Project)
-    | LoadProjectsError
+    | LoadProjects (Result Http.Error (List Project))
     | UpdateSearchQuery String
 
 
 initialize : Cmd Msg
 initialize =
-    loadProjects LoadProjectsError LoadProjectsSuccess
+    loadProjects LoadProjects
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -44,7 +44,7 @@ update msg model =
             else
                 ( model, Cmd.none )
 
-        LoadProjectsSuccess projects ->
+        LoadProjects (Ok projects) ->
             ( { model
                 | projects = projects
                 , isLoading = False
@@ -52,7 +52,7 @@ update msg model =
             , Cmd.none
             )
 
-        LoadProjectsError ->
+        LoadProjects (Err _) ->
             ( { model
                 | loadFailed = True
                 , isLoading = False

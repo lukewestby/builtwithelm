@@ -4,8 +4,6 @@ import Css exposing (..)
 import Css.Elements exposing (..)
 import Css.Namespace exposing (namespace)
 import Css.File exposing (..)
-import Html.App as Html
-import Html exposing (text)
 import Styles exposing (CssClasses(..), builtWithElmNamespace)
 
 
@@ -215,14 +213,9 @@ css =
 
 cssFiles : CssFileStructure
 cssFiles =
-    toFileStructure [ ( "assets/styles.css", Css.File.compile css ) ]
+    toFileStructure [ ( "assets/styles.css", Css.File.compile [ css ] ) ]
 
 
-main : Program Never
+main : CssCompilerProgram
 main =
-    Html.program
-        { init = ( (), files cssFiles )
-        , view = \_ -> (text "")
-        , update = \_ _ -> ( (), Cmd.none )
-        , subscriptions = \_ -> Sub.none
-        }
+    Css.File.compiler files cssFiles
