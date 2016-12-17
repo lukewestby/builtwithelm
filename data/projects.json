@@ -1,9 +1,17 @@
 [
-  { "name": "Toy Neural Network",
-   "previewImageUrl": "data/images/elm-brain2.jpg",
-   "primaryUrl": "https://the-fool.github.io/elm-brain",
-   "repositoryUrl": "https://github.com/the-fool/fuzzy-elm",
-   "description": "An interactive neural network toy."
+  {
+    "name": "Retrorace",
+    "previewImageUrl": "data/images/retrorace.png",
+    "primaryUrl": "http://retrorace.neillyons.io/",
+    "repositoryUrl": "https://github.com/nwjlyons/retrorace",
+    "description": "Retrorace is a multiplayer websocket game where the aim is to be the first to reach the top of the screen."
+  },
+  {
+    "name": "Toy Neural Network",
+    "previewImageUrl": "data/images/elm-brain2.jpg",
+    "primaryUrl": "https://the-fool.github.io/elm-brain",
+    "repositoryUrl": "https://github.com/the-fool/fuzzy-elm",
+    "description": "An interactive neural network toy."
   },
   {
     "name": "TheNews",
