@@ -1,17 +1,17 @@
 [
   {
-    "name": "Sweet Sweet Friction",
-    "previewImageUrl": "data/images/sweet-sweet-friction.jpg",
-    "primaryUrl": "https://martimatix.github.io/sweet-sweet-friction/",
-    "repositoryUrl": "https://github.com/martimatix/sweet-sweet-friction",
-    "description": "An arcade puzzle game of timing and patience"
-  },
-  {
     "name": "Retrorace",
     "previewImageUrl": "data/images/retrorace.png",
     "primaryUrl": "http://retrorace.neillyons.io/",
     "repositoryUrl": "https://github.com/nwjlyons/retrorace",
     "description": "Retrorace is a multiplayer websocket game where the aim is to be the first to reach the top of the screen."
+  },
+  {
+    "name": "Sweet Sweet Friction",
+    "previewImageUrl": "data/images/sweet-sweet-friction.jpg",
+    "primaryUrl": "https://martimatix.github.io/sweet-sweet-friction/",
+    "repositoryUrl": "https://github.com/martimatix/sweet-sweet-friction",
+    "description": "An arcade puzzle game of timing and patience"
   },
   {
     "name": "Toy Neural Network",
