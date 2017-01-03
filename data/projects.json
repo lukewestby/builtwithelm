@@ -1,5 +1,12 @@
 [
   {
+    "name": "Mob Clock",
+    "previewImageUrl": "data/images/elmclock.png",
+    "primaryUrl": "http://mousaka.github.io/elm-mob-clock/",
+    "repositoryUrl": "https://github.com/Mousaka/elm-mob-clock",
+    "description": "A timer with sound made for mob programming."
+  },
+  {
     "name": "Retrorace",
     "previewImageUrl": "data/images/retrorace.png",
     "primaryUrl": "http://retrorace.neillyons.io/",
