@@ -1,5 +1,12 @@
 [
   {
+    "name": "Mastermind in Elm",
+    "previewImageUrl": "data/images/mastermind.png",
+    "primaryUrl": "https://runelm.io/c/f2t",
+    "repositoryUrl": "https://github.com/alpacaaa/elm-mastermind",
+    "description": "A mastermind clone written in Elm"
+  },
+  {
     "name": "Mob Clock",
     "previewImageUrl": "data/images/elmclock.png",
     "primaryUrl": "http://mousaka.github.io/elm-mob-clock/",
