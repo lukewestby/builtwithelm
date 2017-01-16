@@ -1,5 +1,12 @@
 [
   {
+    "name": "Music Search Buddy",
+    "previewImageUrl": "data/images/music-search-buddy.jpg",
+    "primaryUrl": "https://ms.fullyforged.com",
+    "repositoryUrl": "https://github.com/cloud8421/music-search-buddy",
+    "description": "A webapp to search for music on Spotify and iTunes at the same time."
+  },
+  {
     "name": "Mastermind in Elm",
     "previewImageUrl": "data/images/mastermind.png",
     "primaryUrl": "https://runelm.io/c/f2t",
