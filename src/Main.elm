@@ -1,15 +1,17 @@
 module Main exposing (..)
 
-import Html
-import Update exposing (Msg, update, initialize)
+import Model exposing (Model)
+import Navigation
+import Query exposing (parsePage)
+import Update exposing (Msg(NewPage), update, init)
 import View exposing (view)
-import Model exposing (Model, model)
 
 
 main : Program Never Model Msg
 main =
-    Html.program
-        { init = ( model, initialize )
+    Navigation.program
+        (NewPage << parsePage)
+        { init = init << parsePage
         , view = view
         , update = update
         , subscriptions = always Sub.none

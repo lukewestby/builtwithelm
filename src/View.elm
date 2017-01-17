@@ -15,10 +15,10 @@ view : Model -> Html Msg
 view model =
     let
         disablePrev =
-            model.offset - model.limit < 0
+            model.page == 0
 
         disableNext =
-            model.offset + model.limit >= List.length model.projects
+            model.page * model.pageSize + model.pageSize >= List.length model.projects
     in
         div
             [ class [ Container ]
@@ -72,8 +72,8 @@ viewList model =
         else
             model.projects
                 |> List.filter filterCriteria
-                |> List.drop model.offset
-                |> List.take model.limit
+                |> List.drop (model.page * model.pageSize)
+                |> List.take model.pageSize
                 |> List.map (\p -> ( p.primaryUrl, viewProject p ))
 
 
