@@ -1,4 +1,4 @@
-module Model exposing (Project, Model, model, decodeProject)
+module Model exposing (Project, Model, decodeProject)
 
 import Json.Decode as Decode exposing (field)
 
@@ -16,20 +16,9 @@ type alias Model =
     { projects : List Project
     , isLoading : Bool
     , loadFailed : Bool
-    , offset : Int
-    , limit : Int
+    , page : Int
+    , pageSize : Int
     , searchQuery : String
-    }
-
-
-model : Model
-model =
-    { projects = []
-    , isLoading = True
-    , loadFailed = False
-    , offset = 0
-    , limit = 5
-    , searchQuery = ""
     }
 
 
