@@ -1,5 +1,12 @@
 [
   {
+    "name": "Web based Call Control in Elm",
+    "previewImageUrl": "data/images/sip_uno.png",
+    "primaryUrl": "http://sip.uno",
+    "repositoryUrl": "https://github.com/unomemento/basic-call-control",
+    "description": "Web based call control, communicates to server using  web socket, wrapped into Android app using WebView, uses port to access contacts from device"
+  },
+  {
     "name": "Mastermind in Elm",
     "previewImageUrl": "data/images/mastermind.png",
     "primaryUrl": "https://runelm.io/c/f2t",
