@@ -1,5 +1,12 @@
 [
   {
+    "name": "Idea Fight!",
+    "previewImageUrl": "data/images/idea-fight.png",
+    "primaryUrl": "http://idea-fight.hoelz.ro",
+    "repositoryUrl": "https://github.com/hoelzro/idea-fight",
+    "description": "A web application for helping you decide the priorities of your ideas"
+  },
+  {
     "name": "Mastermind in Elm",
     "previewImageUrl": "data/images/mastermind.png",
     "primaryUrl": "https://runelm.io/c/f2t",
