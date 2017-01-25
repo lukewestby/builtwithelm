@@ -1,5 +1,12 @@
 [
   {
+    "name": "Nash - now.sh dashboard",
+    "previewImageUrl": "data/images/nash-now-dashboard.png",
+    "primaryUrl": "https://nash.now.sh",
+    "repositoryUrl": "https://github.com/littleStudent/now_dashboard",
+    "description": "Small dashboard for zeit.co/now written in elm"
+  },
+  {
     "name": "Mastermind in Elm",
     "previewImageUrl": "data/images/mastermind.png",
     "primaryUrl": "https://runelm.io/c/f2t",
