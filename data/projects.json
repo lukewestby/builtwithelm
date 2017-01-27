@@ -6,6 +6,27 @@
     "repositoryUrl": "https://github.com/unomemento/basic-call-control",
     "description": "Web based call control, communicates to server using  web socket, wrapped into Android app using WebView, uses port to access contacts from device"
   },
+  {    
+    "name": "Nash - now.sh dashboard",
+    "previewImageUrl": "data/images/nash-now-dashboard.png",
+    "primaryUrl": "https://nash.now.sh",
+    "repositoryUrl": "https://github.com/littleStudent/now_dashboard",
+    "description": "Small dashboard for zeit.co/now written in elm"
+  },
+  {
+    "name": "Idea Fight!",
+    "previewImageUrl": "data/images/idea-fight.png",
+    "primaryUrl": "http://idea-fight.hoelz.ro",
+    "repositoryUrl": "https://github.com/hoelzro/idea-fight",
+    "description": "A web application for helping you decide the priorities of your ideas"
+  },
+  {
+    "name": "Music Search Buddy",
+    "previewImageUrl": "data/images/music-search-buddy.jpg",
+    "primaryUrl": "https://ms.fullyforged.com",
+    "repositoryUrl": "https://github.com/cloud8421/music-search-buddy",
+    "description": "A webapp to search for music on Spotify and iTunes at the same time."
+  },
   {
     "name": "Mastermind in Elm",
     "previewImageUrl": "data/images/mastermind.png",
