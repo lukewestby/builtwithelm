@@ -27,7 +27,29 @@ decide to submit code, please be sure to run it through
 request. Get in touch with me at @luke_dot_js on Twitter or at @luke in the
 elmlang Slack if you'd like!
 
-Note: you need to install elm-css to build: `npm install -g elm-css`.
+## Updating the Site
+
+If the only changes are additional projects, you should just be able to merge
+the `master` branch into the `gh-pages` branch and push:
+
+```bash
+git checkout gh-pages
+git merge master
+git push
+```
+
+However, if there have been any code changes, you should rebuild the
+application before pushing:
+
+```bash
+git checkout gh-pages
+git merge master
+npm install
+npm run build
+git commit -a -m"Build Site"
+git push
+```
+
 -------
 - Thanks to @driftyco for the github icon svg from ionicons!
 - Thanks to http://builtwithreact.io and @trek's http://beautifulopen.com for
