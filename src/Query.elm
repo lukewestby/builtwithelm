@@ -6,7 +6,7 @@ import UrlParser exposing (..)
 
 pageParser : Parser (Maybe Int -> a) a
 pageParser =
-    top <?> intParam "page"
+    map (\_ n -> n) <| string <?> intParam "page"
 
 
 parsePage : Location -> Int
