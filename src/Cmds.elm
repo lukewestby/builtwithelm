@@ -1,10 +1,12 @@
-port module Cmds exposing (loadProjects, notifyOffsetChanged)
+port module Cmds exposing (loadProjects, newPage, notifyOffsetChanged)
 
-import Json.Decode as Decode
-import Task
 import Http
 import HttpBuilder exposing (withExpect)
+import Json.Decode as Decode
 import Model exposing (Project, decodeProject)
+import Navigation
+import Query
+import Task
 
 
 projectsDecoder : Decode.Decoder (List Project)
@@ -13,6 +15,11 @@ projectsDecoder =
 
 
 port notifyOffsetChangedRaw : () -> Cmd msg
+
+
+newPage : Int -> Cmd msg
+newPage =
+    Navigation.newUrl << Query.pageUrl
 
 
 notifyOffsetChanged : Cmd msg

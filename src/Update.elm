@@ -1,21 +1,30 @@
-module Update exposing (update, Msg(..), initialize)
+module Update exposing (update, Msg(..), init)
 
-import Cmds exposing (loadProjects, notifyOffsetChanged)
+import Cmds exposing (loadProjects, newPage, notifyOffsetChanged)
 import Http
 import Model exposing (Model, Project)
 
 
 type Msg
     = NoOp
-    | Prev
+    | NewPage Int
     | Next
+    | Prev
     | LoadProjects (Result Http.Error (List Project))
     | UpdateSearchQuery String
 
 
-initialize : Cmd Msg
-initialize =
-    loadProjects LoadProjects
+init : Int -> ( Model, Cmd Msg )
+init page =
+    ( { projects = []
+      , isLoading = True
+      , loadFailed = False
+      , page = page
+      , pageSize = 5
+      , searchQuery = ""
+      }
+    , loadProjects LoadProjects
+    )
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -23,26 +32,6 @@ update msg model =
     case msg of
         NoOp ->
             ( model, Cmd.none )
-
-        Prev ->
-            if model.offset - model.limit >= 0 then
-                ( { model
-                    | offset = model.offset - model.limit
-                  }
-                , notifyOffsetChanged
-                )
-            else
-                ( model, Cmd.none )
-
-        Next ->
-            if model.offset + model.limit < List.length model.projects then
-                ( { model
-                    | offset = model.offset + model.limit
-                  }
-                , notifyOffsetChanged
-                )
-            else
-                ( model, Cmd.none )
 
         LoadProjects (Ok projects) ->
             ( { model
@@ -59,6 +48,19 @@ update msg model =
               }
             , Cmd.none
             )
+
+        NewPage page ->
+            ( { model
+                | page = page
+              }
+            , notifyOffsetChanged
+            )
+
+        Next ->
+            ( model, newPage <| model.page + 1 )
+
+        Prev ->
+            ( model, newPage <| model.page - 1 )
 
         UpdateSearchQuery query ->
             ( { model
