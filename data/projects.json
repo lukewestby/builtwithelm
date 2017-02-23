@@ -1,12 +1,19 @@
 [
   {
+    "name": "2048 clone in Elm",
+    "previewImageUrl": "data/images/game2048elm.png",
+    "primaryUrl": "https://zindel.github.io/game2048elm/",
+    "repositoryUrl": "https://github.com/zindel/game2048elm",
+    "description": "Another clone of the 2048 Game in Elm with animations and saving state to the localStorage"
+  },
+  {
     "name": "Web based Call Control in Elm",
     "previewImageUrl": "data/images/sip_uno.png",
     "primaryUrl": "http://sip.uno",
     "repositoryUrl": "https://github.com/unomemento/basic-call-control",
     "description": "Web based call control, communicates to server using  web socket, wrapped into Android app using WebView, uses port to access contacts from device"
   },
-  {    
+  {
     "name": "Nash - now.sh dashboard",
     "previewImageUrl": "data/images/nash-now-dashboard.png",
     "primaryUrl": "https://nash.now.sh",
