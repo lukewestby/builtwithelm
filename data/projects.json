@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Snake",
+    "previewImageUrl": "data/images/elm-snake.png",
+    "primaryUrl": "https://rkrupinski.github.io/elm-snake/",
+    "repositoryUrl": "https://github.com/rkrupinski/elm-snake",
+    "description": "Snake game written in Elm."
+  },
+  {
     "name": "2048 clone in Elm",
     "previewImageUrl": "data/images/game2048elm.png",
     "primaryUrl": "https://zindel.github.io/game2048elm/",
