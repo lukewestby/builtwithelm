@@ -2,7 +2,7 @@
   {
     "name": "Elm Snake",
     "previewImageUrl": "data/images/elm-snake.png",
-    "primaryUrl": "https://github.com/rkrupinski/elm-snake",
+    "primaryUrl": "https://rkrupinski.github.io/elm-snake/",
     "repositoryUrl": "https://github.com/rkrupinski/elm-snake",
     "description": "Snake game written in Elm."
   },
