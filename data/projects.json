@@ -1,5 +1,12 @@
 [
   {
+    "name": "Harmful Nova Scotia Plants",
+    "previewImageUrl": "data/images/harmful-nova-scotia-plants.png",
+    "primaryUrl": "https://app.harmfulnovascotiaplants.com/",
+    "repositoryUrl": null,
+    "description": "A guide to harmful and poisonous plants in Nova Scotia, developed with content from the botany curator of the Nova Scotia Museum and input from the IWK Regional Poison Centre"
+  },
+  {
     "name": "Elm Snake",
     "previewImageUrl": "data/images/elm-snake.png",
     "primaryUrl": "https://rkrupinski.github.io/elm-snake/",
