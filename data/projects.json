@@ -1,5 +1,12 @@
 [
   {
+    "name": "Fretboard App",
+    "previewImageUrl": "data/images/fretboardapp.jpg",
+    "primaryUrl": "http://www.i-mo.eu/fretboardapp.html",
+    "repositoryUrl": "https://github.com/fredericcormier/Fretboard",
+    "description": "Chords, Scales and Fingerings for string instruments in Elm"
+  },
+  {
     "name": "Harmful Nova Scotia Plants",
     "previewImageUrl": "data/images/harmful-nova-scotia-plants.png",
     "primaryUrl": "https://app.harmfulnovascotiaplants.com/",
