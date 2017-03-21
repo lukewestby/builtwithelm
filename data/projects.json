@@ -1,656 +1,665 @@
-[
-  {
-    "name": "Harmful Nova Scotia Plants",
-    "previewImageUrl": "data/images/harmful-nova-scotia-plants.png",
-    "primaryUrl": "https://app.harmfulnovascotiaplants.com/",
-    "repositoryUrl": null,
-    "description": "A guide to harmful and poisonous plants in Nova Scotia, developed with content from the botany curator of the Nova Scotia Museum and input from the IWK Regional Poison Centre"
-  },
-  {
-    "name": "Elm Snake",
-    "previewImageUrl": "data/images/elm-snake.png",
-    "primaryUrl": "https://rkrupinski.github.io/elm-snake/",
-    "repositoryUrl": "https://github.com/rkrupinski/elm-snake",
-    "description": "Snake game written in Elm."
-  },
-  {
-    "name": "2048 clone in Elm",
-    "previewImageUrl": "data/images/game2048elm.png",
-    "primaryUrl": "https://zindel.github.io/game2048elm/",
-    "repositoryUrl": "https://github.com/zindel/game2048elm",
-    "description": "Another clone of the 2048 Game in Elm with animations and saving state to the localStorage"
-  },
-  {
-    "name": "Web based Call Control in Elm",
-    "previewImageUrl": "data/images/sip_uno.png",
-    "primaryUrl": "http://sip.uno",
-    "repositoryUrl": "https://github.com/unomemento/basic-call-control",
-    "description": "Web based call control, communicates to server using  web socket, wrapped into Android app using WebView, uses port to access contacts from device"
-  },
-  {
-    "name": "Nash - now.sh dashboard",
-    "previewImageUrl": "data/images/nash-now-dashboard.png",
-    "primaryUrl": "https://nash.now.sh",
-    "repositoryUrl": "https://github.com/littleStudent/now_dashboard",
-    "description": "Small dashboard for zeit.co/now written in elm"
-  },
-  {
-    "name": "Idea Fight!",
-    "previewImageUrl": "data/images/idea-fight.png",
-    "primaryUrl": "http://idea-fight.hoelz.ro",
-    "repositoryUrl": "https://github.com/hoelzro/idea-fight",
-    "description": "A web application for helping you decide the priorities of your ideas"
-  },
-  {
-    "name": "Music Search Buddy",
-    "previewImageUrl": "data/images/music-search-buddy.jpg",
-    "primaryUrl": "https://ms.fullyforged.com",
-    "repositoryUrl": "https://github.com/cloud8421/music-search-buddy",
-    "description": "A webapp to search for music on Spotify and iTunes at the same time."
-  },
-  {
-    "name": "Mastermind in Elm",
-    "previewImageUrl": "data/images/mastermind.png",
-    "primaryUrl": "https://runelm.io/c/f2t",
-    "repositoryUrl": "https://github.com/alpacaaa/elm-mastermind",
-    "description": "A mastermind clone written in Elm"
-  },
-  {
-    "name": "Mob Clock",
-    "previewImageUrl": "data/images/elmclock.png",
-    "primaryUrl": "http://mousaka.github.io/elm-mob-clock/",
-    "repositoryUrl": "https://github.com/Mousaka/elm-mob-clock",
-    "description": "A timer with sound made for mob programming."
-  },
-  {
-    "name": "Retrorace",
-    "previewImageUrl": "data/images/retrorace.png",
-    "primaryUrl": "http://retrorace.neillyons.io/",
-    "repositoryUrl": "https://github.com/nwjlyons/retrorace",
-    "description": "Retrorace is a multiplayer websocket game where the aim is to be the first to reach the top of the screen."
-  },
-  {
-    "name": "Sweet Sweet Friction",
-    "previewImageUrl": "data/images/sweet-sweet-friction.jpg",
-    "primaryUrl": "https://martimatix.github.io/sweet-sweet-friction/",
-    "repositoryUrl": "https://github.com/martimatix/sweet-sweet-friction",
-    "description": "An arcade puzzle game of timing and patience"
-  },
-  {
-    "name": "Toy Neural Network",
-    "previewImageUrl": "data/images/elm-brain2.jpg",
-    "primaryUrl": "https://the-fool.github.io/elm-brain",
-    "repositoryUrl": "https://github.com/the-fool/fuzzy-elm",
-    "description": "An interactive neural network toy."
-  },
-  {
-    "name": "TheNews",
-    "previewImageUrl": "data/images/the-news.png",
-    "primaryUrl": "https://mthadley.github.io/thenews/",
-    "repositoryUrl": "https://github.com/mthadley/thenews",
-    "description": "Yet another Hacker News reader, this time written in Elm."
-  },
-  {
-    "name": "ABC Editor",
-    "previewImageUrl": "data/images/ABC-editor.jpg",
-    "primaryUrl": "http://www.tradtunedb.org.uk/abceditor",
-    "repositoryUrl": "https://github.com/newlandsvalley/elm-abc-player",
-    "description": "Edit and play music scores in ABC notation."
-  },
-  {
-    "name": "Pointing Poker",
-    "previewImageUrl": "data/images/elm-pointing-poker.png",
-    "primaryUrl": "https://poker-94672.firebaseapp.com",
-    "repositoryUrl": "https://github.com/liubko/elm-pointing-poker",
-    "description": "Pointing Poker useful for sprint plannings."
-  },
-  {
-    "name": "younity desktop and web client",
-    "previewImageUrl": "data/images/younity.png",
-    "primaryUrl": "https://getyounity.com/",
-    "repositoryUrl": null,
-    "description": "Desktop and web front-end for an easy and free home media server. Access, stream, and share all your videos, music, photos, and files from any device. No syncing, uploading or configuration!"
-  },
-  {
-    "name": "Memory Game in Elm",
-    "previewImageUrl": "data/images/alpacaaa-memory-game.png",
-    "primaryUrl": "https://runelm.io/c/fbi",
-    "repositoryUrl": "https://github.com/alpacaaa/elm-memory-game",
-    "description": "A very simple memory game written in Elm"
-  },
-  {
-    "name": "MaltaJS registration page",
-    "previewImageUrl": "data/images/maltajs-registration-page.png",
-    "primaryUrl": "http://www.maltajs.com",
-    "repositoryUrl": "https://github.com/roedit/maltajs-elm",
-    "description": "A simple registration page built with Elm, Sass and Node.js"
-  },
-  {
-    "name": "Elm Heko'ish Watch",
-    "previewImageUrl": "data/images/elm-hekoish-watch.png",
-    "primaryUrl": "https://astynax.github.io/elm-hekoish-watch/index.html",
-    "repositoryUrl": "https://github.com/astynax/elm-hekoish-watch",
-    "description": "A simple cryptic fullscreen watch inspired by Tokyoflash \"Heko\" wristwatch"
-  },
-  { "name": "Elm Christmas tree",
-    "previewImageUrl": "data/images/elm-xmas-tree.png",
-    "primaryUrl": "https://astynax.github.io/elm-xmas-tree",
-    "repositoryUrl": "https://github.com/astynax/elm-xmas-tree",
-    "description": "A Christmas/New Year tree with the randomized ornaments and illumination"
-  },
-  {
-    "name": "Elm Online Markdown Editor",
-    "previewImageUrl": "data/images/elm-online-md-editor.png",
-    "primaryUrl": "https://3tty0n.github.io/elm-online-markdown-editor/",
-    "repositoryUrl": "https://github.com/3tty0n/elm-online-markdown-editor",
-    "description": "An online markdown editor written in Elm."
-  },
-  { "name": "MovieInfo",
-    "previewImageUrl": "data/images/MovieInfo.jpg",
-    "primaryUrl": "https://ciavash.gitlab.io/MovieInfo/",
-    "repositoryUrl": "https://gitlab.com/CIAvash/MovieInfo",
-    "description": "Information and ratings for Movies, TV Series and games"
-  },
-  { "name": "Orbiter 13",
-    "previewImageUrl": "http://i.imgur.com/6aKzubg.png",
-    "primaryUrl": "http://www.chadtech.us/orbiter-13/",
-    "repositoryUrl": "https://github.com/Chadtech/Orbiter-d",
-    "description": "Control your seven thrusters to travel from orbit to orbit collecting resources."
-  },
-  {
-    "name": "Pairs One",
-    "previewImageUrl": "data/images/pairs-one.png",
-    "primaryUrl": "http://pairs.one",
-    "repositoryUrl": "https://github.com/mxgrn/pairs.one",
-    "description": "Registration-free multiplayer Memory/Concentration game with Elixir backend"
-  },
-  {
-    "name": "TicTacToe",
-    "previewImageUrl": "data/images/tictactoe.png",
-    "primaryUrl": "https://allannozomu.github.io/TicTacToe/index.html",
-    "repositoryUrl": "https://github.com/AllanNozomu/TicTacToe",
-    "description": "A simple TicTacToe game."
-  },
-  {
-    "name": "Minesweeper",
-    "previewImageUrl": "data/images/minesweeper.png",
-    "primaryUrl": "https://julianjelfs.github.io/elm-minesweeper/dist/index.html",
-    "repositoryUrl": "https://github.com/julianjelfs/elm-minesweeper",
-    "description": "A simple implementation of the classic game minesweeper."
-  },
-  {
-    "name": "Circuits",
-    "previewImageUrl": "data/images/circuits.gif",
-    "primaryUrl": "https://jvoigtlaender.github.io/circuits",
-    "repositoryUrl": "https://github.com/jvoigtlaender/circuits",
-    "description": "Playing with electronic circuits."
-  },
-  {
-    "name":"Tabata Timer",
-    "previewImageUrl": "data/images/tabata-timer.png",
-    "primaryUrl": "https://github.com/jackysee/tabata-timer",
-    "repositoryUrl": "https://github.com/jackysee/tabata-timer",
-    "description": "A Tabata Timer in Elm, playing sounds between stages."
-  },
-  {
-    "name": "elm-convert-case",
-    "previewImageUrl": "data/images/elm-convert-case.gif",
-    "primaryUrl": "https://chrisbuttery.github.io/elm-convert-case/build/index.html",
-    "repositoryUrl": "https://github.com/chrisbuttery/elm-convert-case",
-    "description": "A simple string conversion tool with bonus horror theme."
-  },
-  {
-    "name": "HyperThemes",
-    "previewImageUrl": "data/images/hyperthemes.png",
-    "primaryUrl": "https://hyperthemes.matthi.coffee",
-    "repositoryUrl": "https://github.com/MatthiasWinkelmann/hyperthemes.matthi.coffee",
-    "description": "An overview of themes for HyperTerm with screenshots and usage data."
-  },
-  {
-    "name": "Reversi",
-    "previewImageUrl": "data/images/reversi-game.png",
-    "primaryUrl": "https://inderps.github.io/reversi-game-in-elm/",
-    "repositoryUrl": "https://github.com/inderps/reversi-game-in-elm",
-    "description": "Reversi (aka Othello) implemented in elm "
-  },
-  {
-    "name": "Don't fall",
-    "previewImageUrl": "data/images/dontfall.png",
-    "primaryUrl": "https://arpad-m.github.io/dontfall/",
-    "repositoryUrl": "https://github.com/arpad-m/dontfall",
-    "description": "Do not fall down or you lose."
-  },
-  {
-    "name": "hoboapp.com",
-    "previewImageUrl": "data/images/hoboapp.png",
-    "primaryUrl": "http://hoboapp.com",
-    "repositoryUrl": "https://github.com/aspushkinus/hobo-elm",
-    "description": "HOBO: Highly opinionated budget organizer (for families)"
-  },
-  {
-    "name": "Generic Elm Platform Game",
-    "previewImageUrl": "data/images/generic-elm-platform-game.png",
-    "primaryUrl": "https://iojichervo.github.io/Generic-Elm-Platform-Game/",
-    "repositoryUrl": "https://github.com/iojichervo/Generic-Elm-Platform-Game",
-    "description": "A platform game made in Elm."
-  },
-  {
-    "name": "elm news",
-    "previewImageUrl": "data/images/elm-news.png",
-    "primaryUrl": "https://oakesja.github.io/elm-news/",
-    "repositoryUrl": "https://github.com/oakesja/elm-news",
-    "description": "All elm news in one place."
-  },
-  {
-    "name": "Pacman",
-    "previewImageUrl": "data/images/pacman.png",
-    "primaryUrl": "https://kghandhi.github.io/pacman/",
-    "repositoryUrl": "https://github.com/kghandhi/pacman",
-    "description": "Pacman clone written in Elm."
-  },
-  {
-    "name": "GitHub Users Repo",
-    "previewImageUrl": "data/images/elm-github-user-repos.png",
-    "primaryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
-    "repositoryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
-    "description": "Look up the public repos of a GitHub user."
-  },
-  {
-    "name": "Slackm8",
-    "previewImageUrl": "data/images/slackm8.png",
-    "primaryUrl": "https://github.com/chrisbuttery/slackm8",
-    "repositoryUrl": "https://github.com/chrisbuttery/slackm8",
-    "description": "Randomly shuffle & split a team into groups & invite users to Slack channels."
-  },
-  {
-    "name": "ElmFiddle.io",
-    "previewImageUrl": "data/images/elmfiddle_io.png",
-    "primaryUrl": "http://www.elmfiddle.io",
-    "repositoryUrl": "https://github.com/gabigrin/elmfiddle.io",
-    "description": "Elm snippet sharing app built (almost) entirely using Elm!"
-  },
-  {
-    "name": "elmsteroids",
-    "previewImageUrl": "data/images/elmsteroids.jpg",
-    "primaryUrl": "http://yupferris.github.io/elmsteroids/",
-    "repositoryUrl": "https://github.com/yupferris/elmsteroids",
-    "description": "A non-trivial Asteroids clone written in Elm."
-  },
-  {
-    "name": "Pick and Gloat",
-    "previewImageUrl": "data/images/pick-and-gloat.png",
-    "primaryUrl": "http://www.editgym.com/pick-and-gloat",
-    "repositoryUrl": "https://github.com/Dobiasd/pick-and-gloat",
-    "description": "Use your thinking and reaction to compete with friends."
-  },
-  {
-    "name": "Elm Typing Tutor",
-    "previewImageUrl": "data/images/typing-tutor.png",
-    "primaryUrl": "http://typing-tutor.hoelz.ro/ru",
-    "repositoryUrl": "https://github.com/hoelzro/elm-typing-tutor",
-    "description": "A typing tutor for Russian written in Elm"
-  },
-  {
-    "name": "Stellaris Race Maker",
-    "previewImageUrl": "data/images/stellaris_race_maker.png",
-    "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
-    "repositoryUrl": "https://github.com/kaisersly/stellaris_race_maker",
-    "description": "An ugly tool to let you make your own race in Stellaris, the 4X from Paradox (Crusader Kings, Europa Universalis, ...)."
-  },
-  {
-    "name": "Mogee",
-    "previewImageUrl": "data/images/mogee.png",
-    "primaryUrl": "http://unsoundscapes.com/elm-mogee.html",
-    "repositoryUrl": "https://github.com/w0rm/elm-mogee",
-    "description": "A WebGL platformer that fits into 64x64px screen."
-  },
-  {
-    "name": "Credit Card Checkout",
-    "previewImageUrl": "data/images/credit-card.jpg",
-    "primaryUrl": "http://www.simonewebdesign.it/demo/elm/",
-    "repositoryUrl": "https://github.com/simonewebdesign/elm-double-folding-pattern",
-    "description": "A credit card form built with Elm and Elixir."
-  },
-  {
-    "name": "I'll Do The Hot Voice!",
-    "previewImageUrl": "data/images/idthv.png",
-    "primaryUrl": "http://ianmccowan.nfshost.com/undertale/",
-    "repositoryUrl": "https://github.com/valrus/undertale-dialog-generator",
-    "description": "Make dialog boxes for characters from the SMASH INDIE HIT Undertale."
-  },
-  {
-    "name": "Circles",
-    "previewImageUrl": "data/images/circles.png",
-    "primaryUrl": "http://irh.github.io/circles",
-    "repositoryUrl": "https://github.com/irh/circles",
-    "description": "A little sound toy"
-  },
-  {
-    "name": "Asteroids",
-    "previewImageUrl": "data/images/asteroids.png",
-    "primaryUrl": "http://irh.github.io/asteroids",
-    "repositoryUrl": "https://github.com/irh/asteroids",
-    "description": "Asteroids in Elm"
-  },
-  {
-    "name": "Tag bubbles",
-    "previewImageUrl": "data/images/tag-bubbles.png",
-    "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
-    "repositoryUrl": "https://github.com/niksilver/elm-tag-bubbles",
-    "description": "Exploring relationships between topics written about at theguardian.com"
-  }, {
-    "name": "Elm Goban",
-    "previewImageUrl": "data/images/elm-goban.png",
-    "primaryUrl": "http://mclauia.github.io/elm-goban/",
-    "repositoryUrl": "https://github.com/mclauia/elm-goban",
-    "description": "A simple Go board made with Elm."
-  },
-  {
-    "name": "Pattern Editor",
-    "previewImageUrl": "data/images/pattern.png",
-    "primaryUrl": "http://eskimoblood.github.io/elm-wallpaper-editor/",
-    "repositoryUrl": "https://github.com/eskimoblood/elm-wallpaper-editor",
-    "description": "Editor for wallpaper group pattern"
-  },
-  {
-    "name": "The slides archive",
-    "previewImageUrl": "data/images/slides.png",
-    "primaryUrl": "http://slides.mvlabs.it/",
-    "repositoryUrl": "https://github.com/marcosh/elm-joindin",
-    "description": "Repository of talk slides uploaded to Joind.in implemented in Elm"
-  },
-  {
-    "name": "elm-labyrinth",
-    "previewImageUrl": "data/images/elm-labyrinth.png",
-    "primaryUrl": "https://jvoigtlaender.github.io/elm-labyrinth",
-    "repositoryUrl": "https://github.com/jvoigtlaender/elm-labyrinth",
-    "description": "A small game implemented to play around with Elm"
-  },
-  {
-    "name": "elmflux",
-    "previewImageUrl": "data/images/elmflux.png",
-    "primaryUrl": "https://yang-wei.github.io/elmflux",
-    "repositoryUrl": "https://github.com/yang-wei/elmflux",
-    "description": "Visualization of Elm Signals"
-  },
-  {
-    "name": "Multi Player Rock Paper Scissors",
-    "previewImageUrl": "data/images/rock-paper-scissors.png",
-    "primaryUrl": "https://jkp.herokuapp.com",
-    "repositoryUrl": "https://github.com/brianstorti/jan",
-    "description": "Rock paper scissors implemented in Elm with an Elixir backend"
-  },
-  {
-    "name": "Elm Sudoku",
-    "previewImageUrl": "data/images/elm-sudoku.png",
-    "primaryUrl": "https://erich-9.github.io/elm-sudoku",
-    "repositoryUrl": "https://github.com/erich-9/elm-sudoku",
-    "description": "Play Sudoku, powered by Elm."
-  },
-  {
-    "name": "Gipher",
-    "previewImageUrl": "data/images/gipher.png",
-    "primaryUrl": "http://gipher.co/",
-    "repositoryUrl": "https://github.com/matthieu-beteille/gipher",
-    "description": "Tinder like application for gifs"
-  },
-  {
-    "name": "Elm Events",
-    "previewImageUrl": "data/images/elm-events.png",
-    "primaryUrl": "http://mbylstra.github.io/elm-events/",
-    "repositoryUrl": "https://github.com/mbylstra/elm-events",
-    "description": "Upcoming Elm Conference Talks and Meetups"
-  },
-  {
-    "name": "Four in a Line",
-    "previewImageUrl": "data/images/four_in_a_line.png",
-    "primaryUrl": "http://iitzco.github.io/FourInALine/",
-    "repositoryUrl": "https://github.com/iitzco/FourInALine",
-    "description": "Elm implementation of Minimax Algorithm applied to Four In A Line game."
-  },
-  {
-    "name": "confs.info",
-    "previewImageUrl": "data/images/confs-info.jpg",
-    "primaryUrl": "http://confs.info/",
-    "repositoryUrl": "https://github.com/robertjlooby/confsinfo",
-    "description": "Filterable list of tech conferences."
-  },
-  {
-    "name": "Loading Snake",
-    "previewImageUrl": "data/images/loading_snake.png",
-    "primaryUrl": "http://zinggi.itch.io/loading-snake",
-    "repositoryUrl": null,
-    "description": "Submission for the Loading Screen Jam created in two days."
-  },
-  {
-    "name": "Memory Game",
-    "previewImageUrl": "data/images/memory-game.png",
-    "primaryUrl": "http://nazanin1369.github.io/elm-memoryGame",
-    "repositoryUrl": "https://github.com/Nazanin1369/elm-memoryGame",
-    "description": "A classic memory game built with Elm."
-  },
-  {
-    "name": "Elm Math Game",
-    "previewImageUrl": "data/images/math-game-elm.png",
-    "repositoryUrl": "https://github.com/arturopala/math-game-elm",
-    "primaryUrl": "http://arturopala.github.io/math-game-elm/",
-    "description": "Math game written in Elm"
-  },
-  {
-    "name": "CSS color guess game",
-    "previewImageUrl": "data/images/css-color-guess-game.png",
-    "primaryUrl": "http://irrwitz.github.io/elm-css-color-guess-game/",
-    "repositoryUrl": "https://github.com/irrwitz/elm-css-color-guess-game",
-    "description": "Can you guess the right css color by name?"
-  },
-  {
-    "name": "Bike Configurator",
-    "previewImageUrl": "data/images/bike-configurator.png",
-    "primaryUrl": "https://dennisreimann.github.io/elm-bike-configurator/",
-    "repositoryUrl": "https://github.com/dennisreimann/elm-bike-configurator",
-    "description": "Pretty simple app for configuring a bike with colored components."
-  },
-  {
-    "name": "Snake Game",
-    "previewImageUrl": "data/images/snake-game.png",
-    "primaryUrl": "http://liubko.github.io/elm-snake/",
-    "repositoryUrl": "https://github.com/liubko/elm-snake",
-    "description": "A classic Snake game for the web browser written in Elm."
-  },
-  {
-    "name": "The Cheese Palette",
-    "previewImageUrl": "data/images/the-cheese-palette.png",
-    "primaryUrl": "http://cheese.murph.xyz",
-    "repositoryUrl": "https://github.com/splodingsocks/the-cheese-palette",
-    "description": "An experimental version of thecheesepalette.com with an admin UI on the back end"
-  },
-  {
-    "name": "Froggy",
-    "previewImageUrl": "data/images/froggy.png",
-    "primaryUrl": "http://thsoft.github.io/froggy",
-    "repositoryUrl": "https://github.com/thSoft/froggy",
-    "description": "A little puzzle game"
-  },
-  {
-    "name": "w3-elm",
-    "previewImageUrl": "data/images/w3-elm.png",
-    "primaryUrl": "http://www.andrewhoskins.ca/projects/w3-elm",
-    "repositoryUrl": "https://github.com/ahoskins/w3-elm",
-    "description": "an Elm port of the W3Schools HTML editor"
-  },
-  {
-    "name": "Demoscene Concentration",
-    "previewImageUrl": "data/images/demoscene-concentration.png",
-    "primaryUrl": "http://daiw.de/games/demoscene-concentration/",
-    "repositoryUrl": "https://github.com/Dobiasd/Demoscene-Concentration",
-    "description": "The classical memory game with old school demoscene effects."
-  },
-  {
-    "name": "Breakout",
-    "previewImageUrl": "data/images/breakout.png",
-    "primaryUrl": "http://daiw.de/games/breakout/",
-    "repositoryUrl": "https://github.com/Dobiasd/Breakout",
-    "description": "A clone of the classical game for your browser."
-  },
-  {
-    "name": "Reddit Time Machine",
-    "previewImageUrl": "data/images/reddit-time-machine.png",
-    "primaryUrl": "http://www.editgym.com/reddit-time-machine/",
-    "repositoryUrl": "https://github.com/Dobiasd/RedditTimeMachine",
-    "description": "Check out what was hot on reddit days/weeks/months ago."
-  },
-  {
-    "name": "EditGym",
-    "previewImageUrl": "data/images/editgym.png",
-    "primaryUrl": "http://www.editgym.com/text-editing-training/",
-    "repositoryUrl": "https://github.com/Dobiasd/EditGym",
-    "description": "Text editing training"
-  },
-  {
-    "name": "Barcode Generator",
-    "previewImageUrl": "data/images/barcode_generator.png",
-    "primaryUrl": "http://daiw.de/apps/barcode_generator/",
-    "repositoryUrl": "https://github.com/Dobiasd/Barcode-Generator",
-    "description": "Generate EAN/UPC-A barcodes in your browser."
-  },
-  {
-    "name": "Maze",
-    "previewImageUrl": "data/images/maze.png",
-    "primaryUrl": "http://daiw.de/games/maze/",
-    "repositoryUrl": "https://github.com/Dobiasd/Maze",
-    "description": "Test your mouse precision skills with this simple maze game."
-  },
-  {
-    "name": "graphomate slopegraphs",
-    "previewImageUrl": "data/images/graphomate_slopegraphs.png",
-    "primaryUrl": "http://www.graphomate.com/en/",
-    "repositoryUrl": null,
-    "description": "graphomate slopegraphs for SAP Design Studio: customizable slopegraphs and bump charts for BI"
-  },
-  {
-    "name": "elm-street-404",
-    "previewImageUrl": "data/images/elm-street-404.jpg",
-    "primaryUrl": "http://zalando.github.io/elm-street-404/",
-    "repositoryUrl": "https://github.com/zalando/elm-street-404",
-    "description": "404 Elm Street — a game where you have to deliver all the fashion to all the customers."
-  },
-  {
-    "name": "elm-2048",
-    "previewImageUrl": "data/images/elm-2048.png",
-    "primaryUrl": "http://alexmost.github.io/2048/",
-    "repositoryUrl": "https://github.com/alexmost/2048",
-    "description": "Simple implementation of 2048 game"
-  },
-  {
-    "name": "httpspy",
-    "previewImageUrl": "data/images/httpspy.png",
-    "primaryUrl": "http://httpspy.io",
-    "repositoryUrl": "https://github.com/jamesmacaulay/http_spy",
-    "description": "Watch HTTP requests as they happen. Built with Elm and Elixir/Phoenix."
-  },
-  {
-    "name": "TodoMVC ElmFire",
-    "previewImageUrl": "data/images/todomvc-elmfire.png",
-    "primaryUrl": "http://thomasweiser.github.io/todomvc-elmfire",
-    "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
-    "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
-  },
-  {
-    "name": "Lemur",
-    "previewImageUrl": "data/images/lemur.png",
-    "primaryUrl": "https://github.com/vilterp/lemur",
-    "repositoryUrl": "https://github.com/vilterp/lemur",
-    "description": "visual functional programming language which compiles to Python"
-  },
-  {
-    "name": "Sketch-n-Sketch",
-    "previewImageUrl": "data/images/sketch-n-sketch.png",
-    "primaryUrl": "http://ravichugh.github.io/sketch-n-sketch/",
-    "repositoryUrl": "https://github.com/ravichugh/sketch-n-sketch",
-    "description": "An SVG editor that combines programmatic and direct manipulation."
-  },
-  {
-    "name": "Minesweeper",
-    "previewImageUrl": "data/images/elm-minesweeper.png",
-    "primaryUrl": "http://sekibomazic.github.io/minesweeper",
-    "repositoryUrl": "https://github.com/SekibOmazic/minesweeper",
-    "description": "A simple Minesweeper game written in Elm."
-  },
-  {
-    "name": "Elm Games",
-    "previewImageUrl": "data/images/elm-games.png",
-    "primaryUrl": "https://localshred.github.io/elm-games",
-    "repositoryUrl": "https://github.com/localshred/elm-games",
-    "description": "A collection of mini games written in Elm, currently Minesweeper and Tic-Tac-Toe."
-  },
-  {
-    "name": "Massive Decks",
-    "previewImageUrl": "data/images/massive-decks.png",
-    "primaryUrl": "http://massivedecks.herokuapp.com/",
-    "repositoryUrl": "https://github.com/Lattyware/massivedecks",
-    "description": "A Cards Against Humanity clone written in Elm and Scala."
-  },
-  {
-    "name": "elm-flatris",
-    "previewImageUrl": "data/images/elm-flatris.png",
-    "primaryUrl": "http://unsoundscapes.com/elm-flatris.html",
-    "repositoryUrl": "https://github.com/w0rm/elm-flatris",
-    "description": "Tetris game, a clone of Flatris with Elm."
-  },
-  {
-    "name": "Sliding Puzzle",
-    "previewImageUrl": "data/images/sliding-puzzle.jpg",
-    "primaryUrl": "http://bit.ly/playthisgamenow",
-    "repositoryUrl": "https://github.com/moroshko/sliding-puzzle",
-    "description": "Sliding puzzle game, configurable via URL."
-  },
-  {
-    "name": "MMP Halloween Text Adventure",
-    "previewImageUrl": "data/images/mmp-halloween-text-adventure.png",
-    "primaryUrl": "http://midnightmurderparty.com/interactive/HalloweenSpecial2015",
-    "repositoryUrl": "https://github.com/robwhitaker/MMPHalloween2015",
-    "description": "A text-adventure game based on Midnight Murder Party where the challenge was to use Elm for everything (and to implement a Native module if otherwise impossible). Played with Task-based Native modules for audio and DOM scrolling."
-  },
-  {
-    "name": "html-to-elm",
-    "previewImageUrl": "data/images/html-to-elm.png",
-    "primaryUrl": "http://mbylstra.github.io/html-to-elm",
-    "repositoryUrl": "https://github.com/mbylstra/html-to-elm",
-    "description": "Online tool for converting HTML to elm-html"
-  },
-  {
-    "name": "elmchat",
-    "previewImageUrl": "data/images/elmchat.jpg",
-    "primaryUrl": "http://elmchat.xasm.net",
-    "repositoryUrl": "https://github.com/Diamond/livechat-elm",
-    "description": "Websocket-based chat application with Elm, Phoenix, Elixir, and Javascript"
-  },
-  {
-    "name": "Mantl UI",
-    "previewImageUrl": "data/images/mantl-ui.png",
-    "primaryUrl": "https://mantl.io",
-    "repositoryUrl": "https://github.com/CiscoCloud/mantl-ui-frontend",
-    "description": "A quick view into Mantl's health checking and services"
-  },
-  {
-    "name": "elm-hedley",
-    "previewImageUrl": "data/images/elm-hedley.jpg",
-    "primaryUrl": "https://gizra.github.io/elm-hedley",
-    "repositoryUrl": "https://github.com/Gizra/elm-hedley",
-    "description": "Elm web app with Headless Drupal backend"
-  },
-  {
-    "name": "elm-lang.org",
-    "previewImageUrl": "data/images/elm-lang.org.png",
-    "primaryUrl": "http://elm-lang.org",
-    "repositoryUrl": "https://github.com/elm-lang/elm-lang.org",
-    "description": "Official Elm website, built using Elm"
-  },
-  {
-    "name": "package.elm-lang.org",
-    "previewImageUrl": "data/images/package.elm-lang.org.png",
-    "primaryUrl": "http://package.elm-lang.org/",
-    "repositoryUrl": "https://github.com/elm-lang/package.elm-lang.org",
-    "description": "Website for browsing Elm packages and exploring documentation"
-  }
+[{
+        "name": "Fretboard App",
+        "previewImageUrl": "data/images/fretboardapp.jpg",
+        "primaryUrl": "http://www.i-mo.eu/fretboardapp.html",
+        "repositoryUrl": "https://github.com/fredericcormier/Fretboard",
+        "description": "Chords, Scales and Fingerings for string instruments in Elm"
+    },
+    {
+        "name": "Harmful Nova Scotia Plants",
+        "previewImageUrl": "data/images/harmful-nova-scotia-plants.png",
+        "primaryUrl": "https://app.harmfulnovascotiaplants.com/",
+        "repositoryUrl": null,
+        "description": "A guide to harmful and poisonous plants in Nova Scotia, developed with content from the botany curator of the Nova Scotia Museum and input from the IWK Regional Poison Centre"
+    },
+    {
+        "name": "Elm Snake",
+        "previewImageUrl": "data/images/elm-snake.png",
+        "primaryUrl": "https://rkrupinski.github.io/elm-snake/",
+        "repositoryUrl": "https://github.com/rkrupinski/elm-snake",
+        "description": "Snake game written in Elm."
+    },
+    {
+        "name": "2048 clone in Elm",
+        "previewImageUrl": "data/images/game2048elm.png",
+        "primaryUrl": "https://zindel.github.io/game2048elm/",
+        "repositoryUrl": "https://github.com/zindel/game2048elm",
+        "description": "Another clone of the 2048 Game in Elm with animations and saving state to the localStorage"
+    },
+    {
+        "name": "Web based Call Control in Elm",
+        "previewImageUrl": "data/images/sip_uno.png",
+        "primaryUrl": "http://sip.uno",
+        "repositoryUrl": "https://github.com/unomemento/basic-call-control",
+        "description": "Web based call control, communicates to server using  web socket, wrapped into Android app using WebView, uses port to access contacts from device"
+    },
+    {
+        "name": "Nash - now.sh dashboard",
+        "previewImageUrl": "data/images/nash-now-dashboard.png",
+        "primaryUrl": "https://nash.now.sh",
+        "repositoryUrl": "https://github.com/littleStudent/now_dashboard",
+        "description": "Small dashboard for zeit.co/now written in elm"
+    },
+    {
+        "name": "Idea Fight!",
+        "previewImageUrl": "data/images/idea-fight.png",
+        "primaryUrl": "http://idea-fight.hoelz.ro",
+        "repositoryUrl": "https://github.com/hoelzro/idea-fight",
+        "description": "A web application for helping you decide the priorities of your ideas"
+    },
+    {
+        "name": "Music Search Buddy",
+        "previewImageUrl": "data/images/music-search-buddy.jpg",
+        "primaryUrl": "https://ms.fullyforged.com",
+        "repositoryUrl": "https://github.com/cloud8421/music-search-buddy",
+        "description": "A webapp to search for music on Spotify and iTunes at the same time."
+    },
+    {
+        "name": "Mastermind in Elm",
+        "previewImageUrl": "data/images/mastermind.png",
+        "primaryUrl": "https://runelm.io/c/f2t",
+        "repositoryUrl": "https://github.com/alpacaaa/elm-mastermind",
+        "description": "A mastermind clone written in Elm"
+    },
+    {
+        "name": "Mob Clock",
+        "previewImageUrl": "data/images/elmclock.png",
+        "primaryUrl": "http://mousaka.github.io/elm-mob-clock/",
+        "repositoryUrl": "https://github.com/Mousaka/elm-mob-clock",
+        "description": "A timer with sound made for mob programming."
+    },
+    {
+        "name": "Retrorace",
+        "previewImageUrl": "data/images/retrorace.png",
+        "primaryUrl": "http://retrorace.neillyons.io/",
+        "repositoryUrl": "https://github.com/nwjlyons/retrorace",
+        "description": "Retrorace is a multiplayer websocket game where the aim is to be the first to reach the top of the screen."
+    },
+    {
+        "name": "Sweet Sweet Friction",
+        "previewImageUrl": "data/images/sweet-sweet-friction.jpg",
+        "primaryUrl": "https://martimatix.github.io/sweet-sweet-friction/",
+        "repositoryUrl": "https://github.com/martimatix/sweet-sweet-friction",
+        "description": "An arcade puzzle game of timing and patience"
+    },
+    {
+        "name": "Toy Neural Network",
+        "previewImageUrl": "data/images/elm-brain2.jpg",
+        "primaryUrl": "https://the-fool.github.io/elm-brain",
+        "repositoryUrl": "https://github.com/the-fool/fuzzy-elm",
+        "description": "An interactive neural network toy."
+    },
+    {
+        "name": "TheNews",
+        "previewImageUrl": "data/images/the-news.png",
+        "primaryUrl": "https://mthadley.github.io/thenews/",
+        "repositoryUrl": "https://github.com/mthadley/thenews",
+        "description": "Yet another Hacker News reader, this time written in Elm."
+    },
+    {
+        "name": "ABC Editor",
+        "previewImageUrl": "data/images/ABC-editor.jpg",
+        "primaryUrl": "http://www.tradtunedb.org.uk/abceditor",
+        "repositoryUrl": "https://github.com/newlandsvalley/elm-abc-player",
+        "description": "Edit and play music scores in ABC notation."
+    },
+    {
+        "name": "Pointing Poker",
+        "previewImageUrl": "data/images/elm-pointing-poker.png",
+        "primaryUrl": "https://poker-94672.firebaseapp.com",
+        "repositoryUrl": "https://github.com/liubko/elm-pointing-poker",
+        "description": "Pointing Poker useful for sprint plannings."
+    },
+    {
+        "name": "younity desktop and web client",
+        "previewImageUrl": "data/images/younity.png",
+        "primaryUrl": "https://getyounity.com/",
+        "repositoryUrl": null,
+        "description": "Desktop and web front-end for an easy and free home media server. Access, stream, and share all your videos, music, photos, and files from any device. No syncing, uploading or configuration!"
+    },
+    {
+        "name": "Memory Game in Elm",
+        "previewImageUrl": "data/images/alpacaaa-memory-game.png",
+        "primaryUrl": "https://runelm.io/c/fbi",
+        "repositoryUrl": "https://github.com/alpacaaa/elm-memory-game",
+        "description": "A very simple memory game written in Elm"
+    },
+    {
+        "name": "MaltaJS registration page",
+        "previewImageUrl": "data/images/maltajs-registration-page.png",
+        "primaryUrl": "http://www.maltajs.com",
+        "repositoryUrl": "https://github.com/roedit/maltajs-elm",
+        "description": "A simple registration page built with Elm, Sass and Node.js"
+    },
+    {
+        "name": "Elm Heko'ish Watch",
+        "previewImageUrl": "data/images/elm-hekoish-watch.png",
+        "primaryUrl": "https://astynax.github.io/elm-hekoish-watch/index.html",
+        "repositoryUrl": "https://github.com/astynax/elm-hekoish-watch",
+        "description": "A simple cryptic fullscreen watch inspired by Tokyoflash \"Heko\" wristwatch"
+    },
+    {
+        "name": "Elm Christmas tree",
+        "previewImageUrl": "data/images/elm-xmas-tree.png",
+        "primaryUrl": "https://astynax.github.io/elm-xmas-tree",
+        "repositoryUrl": "https://github.com/astynax/elm-xmas-tree",
+        "description": "A Christmas/New Year tree with the randomized ornaments and illumination"
+    },
+    {
+        "name": "Elm Online Markdown Editor",
+        "previewImageUrl": "data/images/elm-online-md-editor.png",
+        "primaryUrl": "https://3tty0n.github.io/elm-online-markdown-editor/",
+        "repositoryUrl": "https://github.com/3tty0n/elm-online-markdown-editor",
+        "description": "An online markdown editor written in Elm."
+    },
+    {
+        "name": "MovieInfo",
+        "previewImageUrl": "data/images/MovieInfo.jpg",
+        "primaryUrl": "https://ciavash.gitlab.io/MovieInfo/",
+        "repositoryUrl": "https://gitlab.com/CIAvash/MovieInfo",
+        "description": "Information and ratings for Movies, TV Series and games"
+    },
+    {
+        "name": "Orbiter 13",
+        "previewImageUrl": "http://i.imgur.com/6aKzubg.png",
+        "primaryUrl": "http://www.chadtech.us/orbiter-13/",
+        "repositoryUrl": "https://github.com/Chadtech/Orbiter-d",
+        "description": "Control your seven thrusters to travel from orbit to orbit collecting resources."
+    },
+    {
+        "name": "Pairs One",
+        "previewImageUrl": "data/images/pairs-one.png",
+        "primaryUrl": "http://pairs.one",
+        "repositoryUrl": "https://github.com/mxgrn/pairs.one",
+        "description": "Registration-free multiplayer Memory/Concentration game with Elixir backend"
+    },
+    {
+        "name": "TicTacToe",
+        "previewImageUrl": "data/images/tictactoe.png",
+        "primaryUrl": "https://allannozomu.github.io/TicTacToe/index.html",
+        "repositoryUrl": "https://github.com/AllanNozomu/TicTacToe",
+        "description": "A simple TicTacToe game."
+    },
+    {
+        "name": "Minesweeper",
+        "previewImageUrl": "data/images/minesweeper.png",
+        "primaryUrl": "https://julianjelfs.github.io/elm-minesweeper/dist/index.html",
+        "repositoryUrl": "https://github.com/julianjelfs/elm-minesweeper",
+        "description": "A simple implementation of the classic game minesweeper."
+    },
+    {
+        "name": "Circuits",
+        "previewImageUrl": "data/images/circuits.gif",
+        "primaryUrl": "https://jvoigtlaender.github.io/circuits",
+        "repositoryUrl": "https://github.com/jvoigtlaender/circuits",
+        "description": "Playing with electronic circuits."
+    },
+    {
+        "name": "Tabata Timer",
+        "previewImageUrl": "data/images/tabata-timer.png",
+        "primaryUrl": "https://github.com/jackysee/tabata-timer",
+        "repositoryUrl": "https://github.com/jackysee/tabata-timer",
+        "description": "A Tabata Timer in Elm, playing sounds between stages."
+    },
+    {
+        "name": "elm-convert-case",
+        "previewImageUrl": "data/images/elm-convert-case.gif",
+        "primaryUrl": "https://chrisbuttery.github.io/elm-convert-case/build/index.html",
+        "repositoryUrl": "https://github.com/chrisbuttery/elm-convert-case",
+        "description": "A simple string conversion tool with bonus horror theme."
+    },
+    {
+        "name": "HyperThemes",
+        "previewImageUrl": "data/images/hyperthemes.png",
+        "primaryUrl": "https://hyperthemes.matthi.coffee",
+        "repositoryUrl": "https://github.com/MatthiasWinkelmann/hyperthemes.matthi.coffee",
+        "description": "An overview of themes for HyperTerm with screenshots and usage data."
+    },
+    {
+        "name": "Reversi",
+        "previewImageUrl": "data/images/reversi-game.png",
+        "primaryUrl": "https://inderps.github.io/reversi-game-in-elm/",
+        "repositoryUrl": "https://github.com/inderps/reversi-game-in-elm",
+        "description": "Reversi (aka Othello) implemented in elm "
+    },
+    {
+        "name": "Don't fall",
+        "previewImageUrl": "data/images/dontfall.png",
+        "primaryUrl": "https://arpad-m.github.io/dontfall/",
+        "repositoryUrl": "https://github.com/arpad-m/dontfall",
+        "description": "Do not fall down or you lose."
+    },
+    {
+        "name": "hoboapp.com",
+        "previewImageUrl": "data/images/hoboapp.png",
+        "primaryUrl": "http://hoboapp.com",
+        "repositoryUrl": "https://github.com/aspushkinus/hobo-elm",
+        "description": "HOBO: Highly opinionated budget organizer (for families)"
+    },
+    {
+        "name": "Generic Elm Platform Game",
+        "previewImageUrl": "data/images/generic-elm-platform-game.png",
+        "primaryUrl": "https://iojichervo.github.io/Generic-Elm-Platform-Game/",
+        "repositoryUrl": "https://github.com/iojichervo/Generic-Elm-Platform-Game",
+        "description": "A platform game made in Elm."
+    },
+    {
+        "name": "elm news",
+        "previewImageUrl": "data/images/elm-news.png",
+        "primaryUrl": "https://oakesja.github.io/elm-news/",
+        "repositoryUrl": "https://github.com/oakesja/elm-news",
+        "description": "All elm news in one place."
+    },
+    {
+        "name": "Pacman",
+        "previewImageUrl": "data/images/pacman.png",
+        "primaryUrl": "https://kghandhi.github.io/pacman/",
+        "repositoryUrl": "https://github.com/kghandhi/pacman",
+        "description": "Pacman clone written in Elm."
+    },
+    {
+        "name": "GitHub Users Repo",
+        "previewImageUrl": "data/images/elm-github-user-repos.png",
+        "primaryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
+        "repositoryUrl": "https://github.com/chrisbuttery/elm-github-user-repos",
+        "description": "Look up the public repos of a GitHub user."
+    },
+    {
+        "name": "Slackm8",
+        "previewImageUrl": "data/images/slackm8.png",
+        "primaryUrl": "https://github.com/chrisbuttery/slackm8",
+        "repositoryUrl": "https://github.com/chrisbuttery/slackm8",
+        "description": "Randomly shuffle & split a team into groups & invite users to Slack channels."
+    },
+    {
+        "name": "ElmFiddle.io",
+        "previewImageUrl": "data/images/elmfiddle_io.png",
+        "primaryUrl": "http://www.elmfiddle.io",
+        "repositoryUrl": "https://github.com/gabigrin/elmfiddle.io",
+        "description": "Elm snippet sharing app built (almost) entirely using Elm!"
+    },
+    {
+        "name": "elmsteroids",
+        "previewImageUrl": "data/images/elmsteroids.jpg",
+        "primaryUrl": "http://yupferris.github.io/elmsteroids/",
+        "repositoryUrl": "https://github.com/yupferris/elmsteroids",
+        "description": "A non-trivial Asteroids clone written in Elm."
+    },
+    {
+        "name": "Pick and Gloat",
+        "previewImageUrl": "data/images/pick-and-gloat.png",
+        "primaryUrl": "http://www.editgym.com/pick-and-gloat",
+        "repositoryUrl": "https://github.com/Dobiasd/pick-and-gloat",
+        "description": "Use your thinking and reaction to compete with friends."
+    },
+    {
+        "name": "Elm Typing Tutor",
+        "previewImageUrl": "data/images/typing-tutor.png",
+        "primaryUrl": "http://typing-tutor.hoelz.ro/ru",
+        "repositoryUrl": "https://github.com/hoelzro/elm-typing-tutor",
+        "description": "A typing tutor for Russian written in Elm"
+    },
+    {
+        "name": "Stellaris Race Maker",
+        "previewImageUrl": "data/images/stellaris_race_maker.png",
+        "primaryUrl": "http://kaisersly.github.io/stellaris_race_maker",
+        "repositoryUrl": "https://github.com/kaisersly/stellaris_race_maker",
+        "description": "An ugly tool to let you make your own race in Stellaris, the 4X from Paradox (Crusader Kings, Europa Universalis, ...)."
+    },
+    {
+        "name": "Mogee",
+        "previewImageUrl": "data/images/mogee.png",
+        "primaryUrl": "http://unsoundscapes.com/elm-mogee.html",
+        "repositoryUrl": "https://github.com/w0rm/elm-mogee",
+        "description": "A WebGL platformer that fits into 64x64px screen."
+    },
+    {
+        "name": "Credit Card Checkout",
+        "previewImageUrl": "data/images/credit-card.jpg",
+        "primaryUrl": "http://www.simonewebdesign.it/demo/elm/",
+        "repositoryUrl": "https://github.com/simonewebdesign/elm-double-folding-pattern",
+        "description": "A credit card form built with Elm and Elixir."
+    },
+    {
+        "name": "I'll Do The Hot Voice!",
+        "previewImageUrl": "data/images/idthv.png",
+        "primaryUrl": "http://ianmccowan.nfshost.com/undertale/",
+        "repositoryUrl": "https://github.com/valrus/undertale-dialog-generator",
+        "description": "Make dialog boxes for characters from the SMASH INDIE HIT Undertale."
+    },
+    {
+        "name": "Circles",
+        "previewImageUrl": "data/images/circles.png",
+        "primaryUrl": "http://irh.github.io/circles",
+        "repositoryUrl": "https://github.com/irh/circles",
+        "description": "A little sound toy"
+    },
+    {
+        "name": "Asteroids",
+        "previewImageUrl": "data/images/asteroids.png",
+        "primaryUrl": "http://irh.github.io/asteroids",
+        "repositoryUrl": "https://github.com/irh/asteroids",
+        "description": "Asteroids in Elm"
+    },
+    {
+        "name": "Tag bubbles",
+        "previewImageUrl": "data/images/tag-bubbles.png",
+        "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
+        "repositoryUrl": "https://github.com/niksilver/elm-tag-bubbles",
+        "description": "Exploring relationships between topics written about at theguardian.com"
+    }, {
+        "name": "Elm Goban",
+        "previewImageUrl": "data/images/elm-goban.png",
+        "primaryUrl": "http://mclauia.github.io/elm-goban/",
+        "repositoryUrl": "https://github.com/mclauia/elm-goban",
+        "description": "A simple Go board made with Elm."
+    },
+    {
+        "name": "Pattern Editor",
+        "previewImageUrl": "data/images/pattern.png",
+        "primaryUrl": "http://eskimoblood.github.io/elm-wallpaper-editor/",
+        "repositoryUrl": "https://github.com/eskimoblood/elm-wallpaper-editor",
+        "description": "Editor for wallpaper group pattern"
+    },
+    {
+        "name": "The slides archive",
+        "previewImageUrl": "data/images/slides.png",
+        "primaryUrl": "http://slides.mvlabs.it/",
+        "repositoryUrl": "https://github.com/marcosh/elm-joindin",
+        "description": "Repository of talk slides uploaded to Joind.in implemented in Elm"
+    },
+    {
+        "name": "elm-labyrinth",
+        "previewImageUrl": "data/images/elm-labyrinth.png",
+        "primaryUrl": "https://jvoigtlaender.github.io/elm-labyrinth",
+        "repositoryUrl": "https://github.com/jvoigtlaender/elm-labyrinth",
+        "description": "A small game implemented to play around with Elm"
+    },
+    {
+        "name": "elmflux",
+        "previewImageUrl": "data/images/elmflux.png",
+        "primaryUrl": "https://yang-wei.github.io/elmflux",
+        "repositoryUrl": "https://github.com/yang-wei/elmflux",
+        "description": "Visualization of Elm Signals"
+    },
+    {
+        "name": "Multi Player Rock Paper Scissors",
+        "previewImageUrl": "data/images/rock-paper-scissors.png",
+        "primaryUrl": "https://jkp.herokuapp.com",
+        "repositoryUrl": "https://github.com/brianstorti/jan",
+        "description": "Rock paper scissors implemented in Elm with an Elixir backend"
+    },
+    {
+        "name": "Elm Sudoku",
+        "previewImageUrl": "data/images/elm-sudoku.png",
+        "primaryUrl": "https://erich-9.github.io/elm-sudoku",
+        "repositoryUrl": "https://github.com/erich-9/elm-sudoku",
+        "description": "Play Sudoku, powered by Elm."
+    },
+    {
+        "name": "Gipher",
+        "previewImageUrl": "data/images/gipher.png",
+        "primaryUrl": "http://gipher.co/",
+        "repositoryUrl": "https://github.com/matthieu-beteille/gipher",
+        "description": "Tinder like application for gifs"
+    },
+    {
+        "name": "Elm Events",
+        "previewImageUrl": "data/images/elm-events.png",
+        "primaryUrl": "http://mbylstra.github.io/elm-events/",
+        "repositoryUrl": "https://github.com/mbylstra/elm-events",
+        "description": "Upcoming Elm Conference Talks and Meetups"
+    },
+    {
+        "name": "Four in a Line",
+        "previewImageUrl": "data/images/four_in_a_line.png",
+        "primaryUrl": "http://iitzco.github.io/FourInALine/",
+        "repositoryUrl": "https://github.com/iitzco/FourInALine",
+        "description": "Elm implementation of Minimax Algorithm applied to Four In A Line game."
+    },
+    {
+        "name": "confs.info",
+        "previewImageUrl": "data/images/confs-info.jpg",
+        "primaryUrl": "http://confs.info/",
+        "repositoryUrl": "https://github.com/robertjlooby/confsinfo",
+        "description": "Filterable list of tech conferences."
+    },
+    {
+        "name": "Loading Snake",
+        "previewImageUrl": "data/images/loading_snake.png",
+        "primaryUrl": "http://zinggi.itch.io/loading-snake",
+        "repositoryUrl": null,
+        "description": "Submission for the Loading Screen Jam created in two days."
+    },
+    {
+        "name": "Memory Game",
+        "previewImageUrl": "data/images/memory-game.png",
+        "primaryUrl": "http://nazanin1369.github.io/elm-memoryGame",
+        "repositoryUrl": "https://github.com/Nazanin1369/elm-memoryGame",
+        "description": "A classic memory game built with Elm."
+    },
+    {
+        "name": "Elm Math Game",
+        "previewImageUrl": "data/images/math-game-elm.png",
+        "repositoryUrl": "https://github.com/arturopala/math-game-elm",
+        "primaryUrl": "http://arturopala.github.io/math-game-elm/",
+        "description": "Math game written in Elm"
+    },
+    {
+        "name": "CSS color guess game",
+        "previewImageUrl": "data/images/css-color-guess-game.png",
+        "primaryUrl": "http://irrwitz.github.io/elm-css-color-guess-game/",
+        "repositoryUrl": "https://github.com/irrwitz/elm-css-color-guess-game",
+        "description": "Can you guess the right css color by name?"
+    },
+    {
+        "name": "Bike Configurator",
+        "previewImageUrl": "data/images/bike-configurator.png",
+        "primaryUrl": "https://dennisreimann.github.io/elm-bike-configurator/",
+        "repositoryUrl": "https://github.com/dennisreimann/elm-bike-configurator",
+        "description": "Pretty simple app for configuring a bike with colored components."
+    },
+    {
+        "name": "Snake Game",
+        "previewImageUrl": "data/images/snake-game.png",
+        "primaryUrl": "http://liubko.github.io/elm-snake/",
+        "repositoryUrl": "https://github.com/liubko/elm-snake",
+        "description": "A classic Snake game for the web browser written in Elm."
+    },
+    {
+        "name": "The Cheese Palette",
+        "previewImageUrl": "data/images/the-cheese-palette.png",
+        "primaryUrl": "http://cheese.murph.xyz",
+        "repositoryUrl": "https://github.com/splodingsocks/the-cheese-palette",
+        "description": "An experimental version of thecheesepalette.com with an admin UI on the back end"
+    },
+    {
+        "name": "Froggy",
+        "previewImageUrl": "data/images/froggy.png",
+        "primaryUrl": "http://thsoft.github.io/froggy",
+        "repositoryUrl": "https://github.com/thSoft/froggy",
+        "description": "A little puzzle game"
+    },
+    {
+        "name": "w3-elm",
+        "previewImageUrl": "data/images/w3-elm.png",
+        "primaryUrl": "http://www.andrewhoskins.ca/projects/w3-elm",
+        "repositoryUrl": "https://github.com/ahoskins/w3-elm",
+        "description": "an Elm port of the W3Schools HTML editor"
+    },
+    {
+        "name": "Demoscene Concentration",
+        "previewImageUrl": "data/images/demoscene-concentration.png",
+        "primaryUrl": "http://daiw.de/games/demoscene-concentration/",
+        "repositoryUrl": "https://github.com/Dobiasd/Demoscene-Concentration",
+        "description": "The classical memory game with old school demoscene effects."
+    },
+    {
+        "name": "Breakout",
+        "previewImageUrl": "data/images/breakout.png",
+        "primaryUrl": "http://daiw.de/games/breakout/",
+        "repositoryUrl": "https://github.com/Dobiasd/Breakout",
+        "description": "A clone of the classical game for your browser."
+    },
+    {
+        "name": "Reddit Time Machine",
+        "previewImageUrl": "data/images/reddit-time-machine.png",
+        "primaryUrl": "http://www.editgym.com/reddit-time-machine/",
+        "repositoryUrl": "https://github.com/Dobiasd/RedditTimeMachine",
+        "description": "Check out what was hot on reddit days/weeks/months ago."
+    },
+    {
+        "name": "EditGym",
+        "previewImageUrl": "data/images/editgym.png",
+        "primaryUrl": "http://www.editgym.com/text-editing-training/",
+        "repositoryUrl": "https://github.com/Dobiasd/EditGym",
+        "description": "Text editing training"
+    },
+    {
+        "name": "Barcode Generator",
+        "previewImageUrl": "data/images/barcode_generator.png",
+        "primaryUrl": "http://daiw.de/apps/barcode_generator/",
+        "repositoryUrl": "https://github.com/Dobiasd/Barcode-Generator",
+        "description": "Generate EAN/UPC-A barcodes in your browser."
+    },
+    {
+        "name": "Maze",
+        "previewImageUrl": "data/images/maze.png",
+        "primaryUrl": "http://daiw.de/games/maze/",
+        "repositoryUrl": "https://github.com/Dobiasd/Maze",
+        "description": "Test your mouse precision skills with this simple maze game."
+    },
+    {
+        "name": "graphomate slopegraphs",
+        "previewImageUrl": "data/images/graphomate_slopegraphs.png",
+        "primaryUrl": "http://www.graphomate.com/en/",
+        "repositoryUrl": null,
+        "description": "graphomate slopegraphs for SAP Design Studio: customizable slopegraphs and bump charts for BI"
+    },
+    {
+        "name": "elm-street-404",
+        "previewImageUrl": "data/images/elm-street-404.jpg",
+        "primaryUrl": "http://zalando.github.io/elm-street-404/",
+        "repositoryUrl": "https://github.com/zalando/elm-street-404",
+        "description": "404 Elm Street — a game where you have to deliver all the fashion to all the customers."
+    },
+    {
+        "name": "elm-2048",
+        "previewImageUrl": "data/images/elm-2048.png",
+        "primaryUrl": "http://alexmost.github.io/2048/",
+        "repositoryUrl": "https://github.com/alexmost/2048",
+        "description": "Simple implementation of 2048 game"
+    },
+    {
+        "name": "httpspy",
+        "previewImageUrl": "data/images/httpspy.png",
+        "primaryUrl": "http://httpspy.io",
+        "repositoryUrl": "https://github.com/jamesmacaulay/http_spy",
+        "description": "Watch HTTP requests as they happen. Built with Elm and Elixir/Phoenix."
+    },
+    {
+        "name": "TodoMVC ElmFire",
+        "previewImageUrl": "data/images/todomvc-elmfire.png",
+        "primaryUrl": "http://thomasweiser.github.io/todomvc-elmfire",
+        "repositoryUrl": "https://github.com/ThomasWeiser/todomvc-elmfire",
+        "description": "TodoMVC implemented with ElmFire, a Firebase library for Elm. Features realtime collaborative editing!"
+    },
+    {
+        "name": "Lemur",
+        "previewImageUrl": "data/images/lemur.png",
+        "primaryUrl": "https://github.com/vilterp/lemur",
+        "repositoryUrl": "https://github.com/vilterp/lemur",
+        "description": "visual functional programming language which compiles to Python"
+    },
+    {
+        "name": "Sketch-n-Sketch",
+        "previewImageUrl": "data/images/sketch-n-sketch.png",
+        "primaryUrl": "http://ravichugh.github.io/sketch-n-sketch/",
+        "repositoryUrl": "https://github.com/ravichugh/sketch-n-sketch",
+        "description": "An SVG editor that combines programmatic and direct manipulation."
+    },
+    {
+        "name": "Minesweeper",
+        "previewImageUrl": "data/images/elm-minesweeper.png",
+        "primaryUrl": "http://sekibomazic.github.io/minesweeper",
+        "repositoryUrl": "https://github.com/SekibOmazic/minesweeper",
+        "description": "A simple Minesweeper game written in Elm."
+    },
+    {
+        "name": "Elm Games",
+        "previewImageUrl": "data/images/elm-games.png",
+        "primaryUrl": "https://localshred.github.io/elm-games",
+        "repositoryUrl": "https://github.com/localshred/elm-games",
+        "description": "A collection of mini games written in Elm, currently Minesweeper and Tic-Tac-Toe."
+    },
+    {
+        "name": "Massive Decks",
+        "previewImageUrl": "data/images/massive-decks.png",
+        "primaryUrl": "http://massivedecks.herokuapp.com/",
+        "repositoryUrl": "https://github.com/Lattyware/massivedecks",
+        "description": "A Cards Against Humanity clone written in Elm and Scala."
+    },
+    {
+        "name": "elm-flatris",
+        "previewImageUrl": "data/images/elm-flatris.png",
+        "primaryUrl": "http://unsoundscapes.com/elm-flatris.html",
+        "repositoryUrl": "https://github.com/w0rm/elm-flatris",
+        "description": "Tetris game, a clone of Flatris with Elm."
+    },
+    {
+        "name": "Sliding Puzzle",
+        "previewImageUrl": "data/images/sliding-puzzle.jpg",
+        "primaryUrl": "http://bit.ly/playthisgamenow",
+        "repositoryUrl": "https://github.com/moroshko/sliding-puzzle",
+        "description": "Sliding puzzle game, configurable via URL."
+    },
+    {
+        "name": "MMP Halloween Text Adventure",
+        "previewImageUrl": "data/images/mmp-halloween-text-adventure.png",
+        "primaryUrl": "http://midnightmurderparty.com/interactive/HalloweenSpecial2015",
+        "repositoryUrl": "https://github.com/robwhitaker/MMPHalloween2015",
+        "description": "A text-adventure game based on Midnight Murder Party where the challenge was to use Elm for everything (and to implement a Native module if otherwise impossible). Played with Task-based Native modules for audio and DOM scrolling."
+    },
+    {
+        "name": "html-to-elm",
+        "previewImageUrl": "data/images/html-to-elm.png",
+        "primaryUrl": "http://mbylstra.github.io/html-to-elm",
+        "repositoryUrl": "https://github.com/mbylstra/html-to-elm",
+        "description": "Online tool for converting HTML to elm-html"
+    },
+    {
+        "name": "elmchat",
+        "previewImageUrl": "data/images/elmchat.jpg",
+        "primaryUrl": "http://elmchat.xasm.net",
+        "repositoryUrl": "https://github.com/Diamond/livechat-elm",
+        "description": "Websocket-based chat application with Elm, Phoenix, Elixir, and Javascript"
+    },
+    {
+        "name": "Mantl UI",
+        "previewImageUrl": "data/images/mantl-ui.png",
+        "primaryUrl": "https://mantl.io",
+        "repositoryUrl": "https://github.com/CiscoCloud/mantl-ui-frontend",
+        "description": "A quick view into Mantl's health checking and services"
+    },
+    {
+        "name": "elm-hedley",
+        "previewImageUrl": "data/images/elm-hedley.jpg",
+        "primaryUrl": "https://gizra.github.io/elm-hedley",
+        "repositoryUrl": "https://github.com/Gizra/elm-hedley",
+        "description": "Elm web app with Headless Drupal backend"
+    },
+    {
+        "name": "elm-lang.org",
+        "previewImageUrl": "data/images/elm-lang.org.png",
+        "primaryUrl": "http://elm-lang.org",
+        "repositoryUrl": "https://github.com/elm-lang/elm-lang.org",
+        "description": "Official Elm website, built using Elm"
+    },
+    {
+        "name": "package.elm-lang.org",
+        "previewImageUrl": "data/images/package.elm-lang.org.png",
+        "primaryUrl": "http://package.elm-lang.org/",
+        "repositoryUrl": "https://github.com/elm-lang/package.elm-lang.org",
+        "description": "Website for browsing Elm packages and exploring documentation"
+    }
 ]
