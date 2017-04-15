@@ -1,5 +1,12 @@
 [
   {
+    "name": "Purple Train",
+    "previewImageUrl": "data/images/purple-train.png",
+    "primaryUrl": "https://purpletrainapp.com",
+    "repositoryUrl": "https://github.com/thoughtbot/PurpleTrainElm",
+    "description": "The trains you care about when you care about them. For Boston's Commuter Rail service."
+  },
+  {
     "name": "Fretboard App",
     "previewImageUrl": "data/images/fretboardapp.jpg",
     "primaryUrl": "http://www.i-mo.eu/fretboardapp.html",
