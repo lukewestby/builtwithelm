@@ -1,5 +1,12 @@
 [
   {
+    "name": "Lazy Bracket",
+    "previewImageUrl": "data/images/lazy-bracket.png",
+    "primaryUrl": "http://lazybracket.com",
+    "repositoryUrl": "https://github.com/listrophy/lazy_ncaa_elm",
+    "description": "NCAA basketball tournament bracket generator that chooses the winner probabalistically based on previous seed-vs-seed matchups."
+  },
+  {
     "name": "Purple Train",
     "previewImageUrl": "data/images/purple-train.png",
     "primaryUrl": "https://purpletrainapp.com",
