@@ -1,5 +1,12 @@
 [
   {
+    "name": "Tic Tac Toe with AI",
+    "previewImageUrl": "data/images/ttt-minimax.png",
+    "primaryUrl": "https://ilyamurashov.github.io/fcc-tictactoe-in-elm/",
+    "repositoryUrl": "https://github.com/IlyaMurashov/fcc-tictactoe-in-elm",
+    "description": "A Tic Tac Toe implementation with minimax built in. For freeCodeCamp."
+  },
+  {
     "name": "Elm Snake",
     "previewImageUrl": "data/images/nwjlyons-elm-snake.png",
     "primaryUrl": "http://snake.neillyons.io",
