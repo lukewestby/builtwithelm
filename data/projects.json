@@ -5,7 +5,8 @@
     "primaryUrl": "https://robertbasden.github.io/elm-concentration/",
     "repositoryUrl": "https://github.com/robertbasden/elm-concentration",
     "description": "Matching pairs game written in Elm"
-  }, {
+  },
+  {
     "name": "Lazy Bracket",
     "previewImageUrl": "data/images/lazy-bracket.png",
     "primaryUrl": "http://lazybracket.com",
