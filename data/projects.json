@@ -1,5 +1,12 @@
 [
   {
+    "name": "Rain",
+    "previewImageUrl": "data/images/rain.png",
+    "primaryUrl": "https://erik.github.io/rain",
+    "repositoryUrl": "https://github.com/erik/rain",
+    "description": "A minimal browser IRC client."
+  },
+  {
     "name": "Concentration",
     "previewImageUrl": "data/images/elm-concentration.png",
     "primaryUrl": "https://robertbasden.github.io/elm-concentration/",
