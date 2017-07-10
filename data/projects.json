@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Chess",
+    "previewImageUrl": "data/images/elmchess.png",
+    "primaryUrl": "https://elm-chess.com",
+    "repositoryUrl": "https://github.com/darrensiegel/elm-chess",
+    "description": "Human vs computer chess game in Elm"
+  },
+  {
     "name": "Rain",
     "previewImageUrl": "data/images/rain.png",
     "primaryUrl": "https://erik.github.io/rain",
