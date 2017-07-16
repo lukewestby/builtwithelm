@@ -177,7 +177,7 @@ viewSidebar model =
             [ class [ BuiltBy ]
             ]
             [ span [] [ text "Built by " ]
-            , a [ href "https://twitter.com/luke_dot_js" ] [ text "Luke Westby" ]
+            , a [ href "https://github.com/lukewestby" ] [ text "Luke Westby" ]
             , span [] [ text " and " ]
             , a [ href "https://github.com/elm-community/builtwithelm/graphs/contributors" ] [ text "the amazing Elm community." ]
             ]

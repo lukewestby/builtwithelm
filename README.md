@@ -26,10 +26,9 @@ decide to submit code, please be sure to run it through
 request.
 
 This project was originally built by
-[lukewestby](https://github.com/lukewestby), @luke_dot_js on Twitter or @luke
-in the elmlang Slack. It is now maintained by
-[prikhi](https://github.com/prikhi), feel free to get in touch with me at
-@lysergia in Slack.
+[lukewestby](https://github.com/lukewestby)(@luke in the elmlang Slack). It is
+now maintained by [prikhi](https://github.com/prikhi), feel free to get in
+touch with me at @lysergia in Slack.
 
 
 ## Updating the Site
