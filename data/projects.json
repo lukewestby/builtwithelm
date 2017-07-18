@@ -4,7 +4,7 @@
     "previewImageUrl": "data/images/elmgameoflife.png",
     "primaryUrl": "leojpod.github.io/elm-game-of-life/",
     "repositoryUrl": "https://github.com/leojpod/elm-game-of-life",
-    "description": "The basic game-of-life implemented with Elm (uses SVG & Elm-mdl)"
+    "description": "A basic game-of-life implemented with Elm (uses SVG & Elm-mdl)"
   },
   {
     "name": "Elm Chess",
