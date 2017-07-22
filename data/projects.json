@@ -1,4 +1,10 @@
 [
+  { "name": "G.O.A.T.",
+    "previewImageUrl": "data/images/goat.png",
+    "primaryUrl": "http://gregziegan.com/goat/",
+    "repositoryUrl": "https://github.com/thebritican/goat",
+    "description": "Graphic Ornamentation & Annotation Tool"
+  },
   {
     "name": "Elm Game of life",
     "previewImageUrl": "data/images/elmgameoflife.png",
