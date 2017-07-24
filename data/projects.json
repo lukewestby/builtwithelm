@@ -1,4 +1,10 @@
 [
+  { "name": "elm-hangman",
+    "previewImageUrl": "data/images/elm-hangman.png",
+    "primaryUrl": "http://puemos.github.io/elm-hangman/",
+    "repositoryUrl": "https://github.com/puemos/elm-hangman/",
+    "description": "The game of Hangman written in Elm."
+  },  
   { "name": "G.O.A.T.",
     "previewImageUrl": "data/images/goat.png",
     "primaryUrl": "http://gregziegan.com/goat/",
