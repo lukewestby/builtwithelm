@@ -1,4 +1,10 @@
 [
+  { "name": "Alertmanager",
+    "previewImageUrl": "data/images/alertmanager.png",
+    "primaryUrl": "https://prometheus.io/docs/alerting/alertmanager/",
+    "repositoryUrl": "https://github.com/prometheus/alertmanager",
+    "description": "Deduplicates, groups and routes alerts send by monitoring systems like Prometheus to services like PagerDuty, OpsGenie or plain e-mail."
+  },
   { "name": "carna.io",
     "previewImageUrl": "data/images/carna-io.png",
     "primaryUrl": "https://www.carna.io",
