@@ -1,4 +1,10 @@
 [
+  { "name": "Asteroids",
+    "previewImageUrl": "data/images/asteroids2.png",
+    "primaryUrl": "https://justinmimbs.github.io/asteroids/",
+    "repositoryUrl": "https://github.com/justinmimbs/asteroids",
+    "description": "A game based on Asteroids Deluxe by Atari."
+  },
   { "name": "Alertmanager",
     "previewImageUrl": "data/images/alertmanager.png",
     "primaryUrl": "https://prometheus.io/docs/alerting/alertmanager/",
