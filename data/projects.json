@@ -1,4 +1,10 @@
 [
+  { "name": "Facebook Browser",
+    "previewImageUrl": "data/images/facebook-browser.png",
+    "primaryUrl": "https://specious.github.io/facebook-browser",
+    "repositoryUrl": "https://github.com/specious/facebook-browser",
+    "description": "Search Facebook pages by name."
+  },
   { "name": "Asteroids",
     "previewImageUrl": "data/images/asteroids2.png",
     "primaryUrl": "https://justinmimbs.github.io/asteroids/",
