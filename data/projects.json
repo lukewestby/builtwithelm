@@ -1,4 +1,10 @@
 [
+  { "name": "Sandwich Delivery Game",
+    "previewImageUrl": "data/images/sandwich-delivery-game.png",
+    "primaryUrl": "https://sandwich-delivery-game-webapp.s3.eu-central-1.amazonaws.com/index.html",
+    "repositoryUrl": "https://github.com/innoq/sandwich-delivery-game",
+    "description": "A Sandwich Delivery Game. A blog post describing the development of the game can be found in the github repo."
+  },
   { "name": "Facebook Browser",
     "previewImageUrl": "data/images/facebook-browser.png",
     "primaryUrl": "https://specious.github.io/facebook-browser",
