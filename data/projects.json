@@ -3,6 +3,7 @@
     "name": "pace.ninja",
     "previewImageUrl": "data/images/paceninja.png",
     "primaryUrl": "https://pace.ninja",
+    "repositoryUrl": null,
     "description": "The instantaneous pace calculator for runners."
   },
   { "name": "Sandwich Delivery Game",
