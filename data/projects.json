@@ -1,4 +1,11 @@
 [
+  { 
+    "name": "Graft3D",
+    "previewImageUrl": "data/images/graft3d.png",
+    "primaryUrl": "https://jesseilev.github.io/graft3d",
+    "repositoryUrl": "https://github.com/jesseilev/graft3d",
+    "description": "An interface for creating 3D fractals."
+  },
   {
     "name": "pace.ninja",
     "previewImageUrl": "data/images/paceninja.png",
