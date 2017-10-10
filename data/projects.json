@@ -1,4 +1,11 @@
 [
+  {
+    "name": "YouTube repeater",
+    "previewImageUrl": "data/images/yt-repeater.png",
+    "primaryUrl": "https://rkrupinski.github.io/yt-repeater/",
+    "repositoryUrl": "https://github.com/rkrupinski/yt-repeater",
+    "description": "YouTube repeater built with Elm."
+  },
   { 
     "name": "Graft3D",
     "previewImageUrl": "data/images/graft3d.png",
