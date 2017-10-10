@@ -1,7 +1,7 @@
 module View exposing (..)
 
 import String
-import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input)
+import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input, label, select, option)
 import Html.Attributes exposing (style, disabled, href, src, type_, placeholder, value, autofocus)
 import Html.Events exposing (onClick, onInput)
 import Html.Keyed
@@ -35,7 +35,8 @@ view model =
                 , div
                     [ class [ Paging ]
                     ]
-                    [ viewPageButton Prev disablePrev "Newer"
+                    [ viewPageSizeSelect SetPageSize model.pageSize [5, 25, 50, 100]
+                    , viewPageButton Prev disablePrev "Newer"
                     , viewPageButton Next disableNext "Older"
                     ]
                 ]
@@ -58,6 +59,19 @@ viewPageButton msg isDisabled label =
             ]
             [ text label ]
 
+viewPageSizeSelect : (String -> Msg) -> Int -> List Int -> Html Msg
+viewPageSizeSelect msg current options =
+    let
+        toOption i =
+            option [value <| toString i]
+                [text <| toString i]
+    in
+        div [class [Dropdown]]
+            [ label []
+                [ text "Page size" ]
+            , select [value <| toString current, onInput msg]
+                  (List.map toOption options)
+            ]
 
 viewList : Model -> List ( String, Html Msg )
 viewList model =
