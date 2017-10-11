@@ -57,6 +57,7 @@ css =
             , height (pct 100)
             , padding (px 20)
             , position fixed
+            , overflow auto
             ]
         , ((.) Content)
             [ marginLeft (px 240)
