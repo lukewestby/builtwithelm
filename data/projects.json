@@ -1,12 +1,19 @@
 [
   {
+    "name": "ted2srt",
+    "previewImageUrl": "data/images/ted2srt.png",
+    "primaryUrl": "https://ted2srt.org",
+    "repositoryUrl": "https://github.com/rnons/ted2srt",
+    "description": "A website to download bilingual subtitles of TED talks."
+  },
+  {
     "name": "YouTube repeater",
     "previewImageUrl": "data/images/yt-repeater.png",
     "primaryUrl": "https://rkrupinski.github.io/yt-repeater/",
     "repositoryUrl": "https://github.com/rkrupinski/yt-repeater",
     "description": "YouTube repeater built with Elm."
   },
-  { 
+  {
     "name": "Graft3D",
     "previewImageUrl": "data/images/graft3d.png",
     "primaryUrl": "https://jesseilev.github.io/graft3d",
