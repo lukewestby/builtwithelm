@@ -1,7 +1,14 @@
 [all]
 ignore = .git/
+bear_dirs = bears
 
 [all.json]
-bears = JSONFormatBear
+bears = JSONFormatBear,DuplicateProjectNamesBear
 files = data/projects.json
 indent_size = 2
+
+# [all.png]
+# bears = ImageSizeBear
+# files = README.md
+# width = 1000
+# height = 800

@@ -35,7 +35,7 @@
     "description": "Search Facebook pages by name."
   },
   {
-    "name": "Asteroids",
+    "name": "Asteroids (justinmimbs)",
     "previewImageUrl": "data/images/asteroids2.png",
     "primaryUrl": "https://justinmimbs.github.io/asteroids/",
     "repositoryUrl": "https://github.com/justinmimbs/asteroids",
@@ -112,7 +112,7 @@
     "description": "A Tic Tac Toe implementation with minimax built in. For freeCodeCamp."
   },
   {
-    "name": "Elm Snake",
+    "name": "Elm Snake (nwjlyons)",
     "previewImageUrl": "data/images/nwjlyons-elm-snake.png",
     "primaryUrl": "http://snake.neillyons.io",
     "repositoryUrl": "https://github.com/nwjlyons/snake",
@@ -140,7 +140,7 @@
     "description": "A guide to harmful and poisonous plants in Nova Scotia, developed with content from the botany curator of the Nova Scotia Museum and input from the IWK Regional Poison Centre"
   },
   {
-    "name": "Elm Snake",
+    "name": "Elm Snake (rkrupinski)",
     "previewImageUrl": "data/images/elm-snake.png",
     "primaryUrl": "https://rkrupinski.github.io/elm-snake/",
     "repositoryUrl": "https://github.com/rkrupinski/elm-snake",
@@ -308,7 +308,7 @@
     "description": "A simple TicTacToe game."
   },
   {
-    "name": "Minesweeper",
+    "name": "Minesweeper (julianjelfs)",
     "previewImageUrl": "data/images/minesweeper.png",
     "primaryUrl": "https://julianjelfs.github.io/elm-minesweeper/dist/index.html",
     "repositoryUrl": "https://github.com/julianjelfs/elm-minesweeper",
@@ -462,7 +462,7 @@
     "description": "A little sound toy"
   },
   {
-    "name": "Asteroids",
+    "name": "Asteroids (irh)",
     "previewImageUrl": "data/images/asteroids.png",
     "primaryUrl": "http://irh.github.io/asteroids",
     "repositoryUrl": "https://github.com/irh/asteroids",
@@ -707,7 +707,7 @@
     "description": "An SVG editor that combines programmatic and direct manipulation."
   },
   {
-    "name": "Minesweeper",
+    "name": "Minesweeper (SekibOmazic)",
     "previewImageUrl": "data/images/elm-minesweeper.png",
     "primaryUrl": "http://sekibomazic.github.io/minesweeper",
     "repositoryUrl": "https://github.com/SekibOmazic/minesweeper",

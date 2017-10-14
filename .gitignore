@@ -6,3 +6,4 @@ assets/styles.css
 npm-debug.log
 
 data/projects.json.orig
+bears/__pycache__
