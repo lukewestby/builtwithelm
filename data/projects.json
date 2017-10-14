@@ -6,7 +6,7 @@
     "repositoryUrl": "https://github.com/rkrupinski/yt-repeater",
     "description": "YouTube repeater built with Elm."
   },
-  { 
+  {
     "name": "Graft3D",
     "previewImageUrl": "data/images/graft3d.png",
     "primaryUrl": "https://jesseilev.github.io/graft3d",
@@ -20,43 +20,50 @@
     "repositoryUrl": null,
     "description": "The instantaneous pace calculator for runners."
   },
-  { "name": "Sandwich Delivery Game",
+  {
+    "name": "Sandwich Delivery Game",
     "previewImageUrl": "data/images/sandwich-delivery-game.png",
     "primaryUrl": "https://sandwich-delivery-game-webapp.s3.eu-central-1.amazonaws.com/index.html",
     "repositoryUrl": "https://github.com/innoq/sandwich-delivery-game",
     "description": "A Sandwich Delivery Game. A blog post describing the development of the game can be found in the github repo."
   },
-  { "name": "Facebook Browser",
+  {
+    "name": "Facebook Browser",
     "previewImageUrl": "data/images/facebook-browser.png",
     "primaryUrl": "https://specious.github.io/facebook-browser",
     "repositoryUrl": "https://github.com/specious/facebook-browser",
     "description": "Search Facebook pages by name."
   },
-  { "name": "Asteroids",
+  {
+    "name": "Asteroids",
     "previewImageUrl": "data/images/asteroids2.png",
     "primaryUrl": "https://justinmimbs.github.io/asteroids/",
     "repositoryUrl": "https://github.com/justinmimbs/asteroids",
     "description": "A game based on Asteroids Deluxe by Atari."
   },
-  { "name": "Alertmanager",
+  {
+    "name": "Alertmanager",
     "previewImageUrl": "data/images/alertmanager.png",
     "primaryUrl": "https://prometheus.io/docs/alerting/alertmanager/",
     "repositoryUrl": "https://github.com/prometheus/alertmanager",
     "description": "Deduplicates, groups and routes alerts send by monitoring systems like Prometheus to services like PagerDuty, OpsGenie or plain e-mail."
   },
-  { "name": "carna.io",
+  {
+    "name": "carna.io",
     "previewImageUrl": "data/images/carna-io.png",
     "primaryUrl": "https://www.carna.io",
     "repositoryUrl": "https://github.com/scepticulous/carna-ng",
     "description": "Body index and body fat percentage calculator in Elm."
   },
-  { "name": "elm-hangman",
+  {
+    "name": "elm-hangman",
     "previewImageUrl": "data/images/elm-hangman.png",
     "primaryUrl": "http://puemos.github.io/elm-hangman/",
     "repositoryUrl": "https://github.com/puemos/elm-hangman/",
     "description": "The game of Hangman written in Elm."
   },
-  { "name": "G.O.A.T.",
+  {
+    "name": "G.O.A.T.",
     "previewImageUrl": "data/images/goat.png",
     "primaryUrl": "http://gregziegan.com/goat/",
     "repositoryUrl": "https://github.com/thebritican/goat",
@@ -258,7 +265,8 @@
     "repositoryUrl": "https://github.com/astynax/elm-hekoish-watch",
     "description": "A simple cryptic fullscreen watch inspired by Tokyoflash \"Heko\" wristwatch"
   },
-  { "name": "Elm Christmas tree",
+  {
+    "name": "Elm Christmas tree",
     "previewImageUrl": "data/images/elm-xmas-tree.png",
     "primaryUrl": "https://astynax.github.io/elm-xmas-tree",
     "repositoryUrl": "https://github.com/astynax/elm-xmas-tree",
@@ -271,13 +279,15 @@
     "repositoryUrl": "https://github.com/3tty0n/elm-online-markdown-editor",
     "description": "An online markdown editor written in Elm."
   },
-  { "name": "MovieInfo",
+  {
+    "name": "MovieInfo",
     "previewImageUrl": "data/images/MovieInfo.jpg",
     "primaryUrl": "https://ciavash.gitlab.io/MovieInfo/",
     "repositoryUrl": "https://gitlab.com/CIAvash/MovieInfo",
     "description": "Information and ratings for Movies, TV Series and games"
   },
-  { "name": "Orbiter 13",
+  {
+    "name": "Orbiter 13",
     "previewImageUrl": "http://i.imgur.com/6aKzubg.png",
     "primaryUrl": "http://www.chadtech.us/orbiter-13/",
     "repositoryUrl": "https://github.com/Chadtech/Orbiter-d",
@@ -312,7 +322,7 @@
     "description": "Playing with electronic circuits."
   },
   {
-    "name":"Tabata Timer",
+    "name": "Tabata Timer",
     "previewImageUrl": "data/images/tabata-timer.png",
     "primaryUrl": "https://github.com/jackysee/tabata-timer",
     "repositoryUrl": "https://github.com/jackysee/tabata-timer",
@@ -464,7 +474,8 @@
     "primaryUrl": "http://niksilver.github.io/elm-tag-bubbles/",
     "repositoryUrl": "https://github.com/niksilver/elm-tag-bubbles",
     "description": "Exploring relationships between topics written about at theguardian.com"
-  }, {
+  },
+  {
     "name": "Elm Goban",
     "previewImageUrl": "data/images/elm-goban.png",
     "primaryUrl": "http://mclauia.github.io/elm-goban/",
@@ -658,7 +669,7 @@
     "previewImageUrl": "data/images/elm-street-404.jpg",
     "primaryUrl": "http://zalando.github.io/elm-street-404/",
     "repositoryUrl": "https://github.com/zalando/elm-street-404",
-    "description": "404 Elm Street — a game where you have to deliver all the fashion to all the customers."
+    "description": "404 Elm Street \u2014 a game where you have to deliver all the fashion to all the customers."
   },
   {
     "name": "elm-2048",

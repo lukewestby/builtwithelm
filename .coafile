@@ -1,0 +1,7 @@
+[all]
+ignore = .git/
+
+[all.json]
+bears = JSONFormatBear
+files = data/projects.json
+indent_size = 2
