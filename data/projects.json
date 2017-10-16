@@ -1,5 +1,12 @@
 [
   {
+    "name": "Valunicorn",
+    "previewImageUrl": "data/images/valunicorn.png",
+    "primaryUrl": "http://valunicorn.me",
+    "repositoryUrl": "https://github.com/seanhelvey/valunicorn",
+    "description": "Valunicorn helps you purchase the most reliable dividend paying stocks at the right time."
+  },
+  {
     "name": "ted2srt",
     "previewImageUrl": "data/images/ted2srt.png",
     "primaryUrl": "https://ted2srt.org",
