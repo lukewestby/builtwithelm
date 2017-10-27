@@ -1,5 +1,12 @@
 [
   {
+    "name": "Yinsh",
+    "previewImageUrl": "data/images/yinsh.png",
+    "primaryUrl": "https://yinsh.jreut.com",
+    "repositoryUrl": "https://github.com/jreut/elm-yinsh",
+    "description": "The Yinsh board game."
+  },
+  {
     "name": "Valunicorn",
     "previewImageUrl": "data/images/valunicorn.png",
     "primaryUrl": "http://valunicorn.me",
