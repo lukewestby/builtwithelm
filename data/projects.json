@@ -1,5 +1,12 @@
 [
   {
+    "name": "NSB Seatmap",
+    "previewImageUrl": "data/images/nsb-seatmap.png",
+    "primaryUrl": "http://nsb.no",
+    "repositoryUrl": null,
+    "description": "Seat chooser when buying train tickets with NSB. The same Elm app is running on both web and mobile devices (iOS and Android)."
+  },
+  {
     "name": "Valunicorn",
     "previewImageUrl": "data/images/valunicorn.png",
     "primaryUrl": "http://valunicorn.me",
