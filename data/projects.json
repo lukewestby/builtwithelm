@@ -15,7 +15,7 @@
   },
   {
     "name": "YouTube repeater",
-    "previewImageUrl": "data/images/yt-repeater.png",
+    "previewImageUrl": "data/images/yt-repeater-v2.png",
     "primaryUrl": "https://rkrupinski.github.io/yt-repeater/",
     "repositoryUrl": "https://github.com/rkrupinski/yt-repeater",
     "description": "YouTube repeater built with Elm."
