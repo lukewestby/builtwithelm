@@ -1,5 +1,12 @@
 [
   {
+    "name": "Stellar Navigator",
+    "previewImageUrl": "data/images/stellar-navigator.png",
+    "primaryUrl": "https://stellar.debtmoney.xyz/",
+    "repositoryUrl": "https://github.com/fiajaf/stellar-navigator",
+    "description": "A super interactive browser for the Stellar network elements."
+  },
+  {
     "name": "Valunicorn",
     "previewImageUrl": "data/images/valunicorn.png",
     "primaryUrl": "http://valunicorn.me",
