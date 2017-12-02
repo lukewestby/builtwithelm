@@ -34,6 +34,16 @@ nav {
     color: #e5e5e5;
 }
 
+.builtwithelm-Dropdown {
+    font-family: Helvetica;
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    padding: 3px;
+    flex-basis: 50%;
+    min-width: 100px;
+    outline: 0;
+}
+
 .builtwithelm-Container {
     display: flex;
     height: 100%;
@@ -70,7 +80,8 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 40%;
+    align-items: center;
+    width: 50%;
     margin: auto;
 }
 
