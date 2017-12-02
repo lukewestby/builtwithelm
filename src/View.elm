@@ -156,7 +156,7 @@ viewSidebar model =
                 ]
             , h1 []
                 [ a
-                    [ href ""
+                    [ href "/"
                     , class [ BuiltWithLink ]
                     ]
                     [ span
