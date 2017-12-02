@@ -1,5 +1,7 @@
 # [Built With Elm](http://builtwithelm.co)
 
+[![Build Status](https://travis-ci.org/elm-community/builtwithelm.svg?branch=master)](https://travis-ci.org/elm-community/builtwithelm)
+
 A list of projects and apps built with Elm.
 
 This site is meant to showcase the awesome work the Elm community is doing. I
