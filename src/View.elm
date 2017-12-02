@@ -151,12 +151,12 @@ viewSidebar model =
             [ div
                 [ class [ SidebarLogoContainer ]
                 ]
-                [ a [ href "" ]
+                [ a [ href "/" ]
                     [ img [ src "assets/logo.svg", class [ Logo ] ] [] ]
                 ]
             , h1 []
                 [ a
-                    [ href ""
+                    [ href "/"
                     , class [ BuiltWithLink ]
                     ]
                     [ span
