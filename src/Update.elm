@@ -10,6 +10,7 @@ type Msg
     | NewPage Int
     | Next
     | Prev
+    | SetPageSize String
     | LoadProjects (Result Http.Error (List Project))
     | UpdateSearchQuery String
 
@@ -61,6 +62,13 @@ update msg model =
 
         Prev ->
             ( model, newPage <| model.page - 1 )
+
+        SetPageSize selected ->
+            ( { model
+                | pageSize = String.toInt selected |> Result.toMaybe |> Maybe.withDefault 5
+              }
+            , Cmd.none
+            )
 
         UpdateSearchQuery query ->
             ( { model

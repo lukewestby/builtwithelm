@@ -15,6 +15,7 @@ type CssClasses
     | ListContainer
     | Paging
     | Button
+    | Dropdown
     | Link
     | GithubLogo
     | Project

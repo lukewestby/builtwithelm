@@ -7,6 +7,27 @@
     "description": "A geolocating weather app focused on essential weather data and a sleek UI."
   },
   {
+    "name": "NSB Seatmap",
+    "previewImageUrl": "data/images/nsb-seatmap.png",
+    "primaryUrl": "http://nsb.no",
+    "repositoryUrl": null,
+    "description": "Seat chooser when buying train tickets with NSB. The same Elm app is running on both web and mobile devices (iOS and Android)."
+  },
+  {
+    "name": "NARROWS",
+    "previewImageUrl": "data/images/narrows.png",
+    "primaryUrl": "http://hardcorenarrativist.org/narrows/",
+    "repositoryUrl": "https://gitlab.com/hardcorenarrativist/narrows/",
+    "description": "NARROWS is an interactive storytelling system similar to Choose Your Own Adventure books, but improvised and multiplayer."
+  },
+  {
+    "name": "Tic Tac Toe",
+    "previewImageUrl": "data/images/elm-tic-tac-toe.png",
+    "primaryUrl": "https://vishaltelangre.com/tic-tac-toe",
+    "repositoryUrl": "https://github.com/vishaltelangre/elm-tic-tac-toe",
+    "description": "Tic Tac Toe game implementation in Elm."
+  },
+  {
     "name": "Valunicorn",
     "previewImageUrl": "data/images/valunicorn.png",
     "primaryUrl": "http://valunicorn.me",
@@ -30,7 +51,7 @@
   {
     "name": "Graft3D",
     "previewImageUrl": "data/images/graft3d.png",
-    "primaryUrl": "https://jesseilev.github.io/graft3d",
+    "primaryUrl": "https://graft.ink",
     "repositoryUrl": "https://github.com/jesseilev/graft3d",
     "description": "An interface for creating 3D fractals."
   },
