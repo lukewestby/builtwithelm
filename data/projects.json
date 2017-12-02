@@ -1,5 +1,12 @@
 [
   {
+    "name": "NARROWS",
+    "previewImageUrl": "data/images/narrows.png",
+    "primaryUrl": "http://hardcorenarrativist.org/narrows/",
+    "repositoryUrl": "https://gitlab.com/hardcorenarrativist/narrows/",
+    "description": "NARROWS is an interactive storytelling system similar to Choose Your Own Adventure books, but improvised and multiplayer."
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elm-tic-tac-toe.png",
     "primaryUrl": "https://vishaltelangre.com/tic-tac-toe",
