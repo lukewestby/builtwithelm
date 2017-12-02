@@ -1,5 +1,12 @@
 [
   {
+    "name": "Thermo.city",
+    "previewImageUrl": "data/images/thermo-city.png",
+    "primaryUrl": "https://thermo.city/",
+    "repositoryUrl": "https://github.com/grantschulte/thermo-city.git",
+    "description": "A geolocating weather app focused on essential weather data and a sleek UI."
+  },
+  {
     "name": "Stellar Navigator",
     "previewImageUrl": "data/images/stellar-navigator.png",
     "primaryUrl": "https://stellar.debtmoney.xyz/",
