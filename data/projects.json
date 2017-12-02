@@ -1,11 +1,4 @@
 [
-  { 
-    "name": "Graft3D",
-    "previewImageUrl": "data/images/graft3d.png",
-    "primaryUrl": "https://graft.ink",
-    "repositoryUrl": "https://github.com/jesseilev/graft3d",
-    "description": "An interface for creating 3D fractals."
-  },
   {
     "name": "Valunicorn",
     "previewImageUrl": "data/images/valunicorn.png",
@@ -30,7 +23,7 @@
   {
     "name": "Graft3D",
     "previewImageUrl": "data/images/graft3d.png",
-    "primaryUrl": "https://jesseilev.github.io/graft3d",
+    "primaryUrl": "https://graft.ink",
     "repositoryUrl": "https://github.com/jesseilev/graft3d",
     "description": "An interface for creating 3D fractals."
   },
