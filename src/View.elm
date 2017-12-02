@@ -2,7 +2,7 @@ module View exposing (..)
 
 import String
 import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input, label, select, option)
-import Html.Attributes exposing (style, disabled, href, src, type_, placeholder, value, autofocus)
+import Html.Attributes exposing (style, disabled, href, src, target, type_, placeholder, value, autofocus)
 import Html.Events exposing (onClick, onInput)
 import Html.Keyed
 import Html.CssHelpers
@@ -99,6 +99,7 @@ viewOpenSourceLink project =
         Just url ->
             a
                 [ href url
+                , target "_blank"
                 , class [ Link ]
                 ]
                 [ img
@@ -122,6 +123,7 @@ viewProject project =
             ]
             [ a
                 [ href project.primaryUrl
+                , target "_blank"
                 , class [ Link ]
                 ]
                 [ h2 []
@@ -183,7 +185,7 @@ viewSidebar model =
                 [ text "Submit a project" ]
             , p []
                 [ span [] [ text "Submit a pull request or post an issue to " ]
-                , a [ href "https://github.com/elm-community/builtwithelm" ] [ text "the Github repo" ]
+                , a [ href "https://github.com/elm-community/builtwithelm", target "_blank" ] [ text "the Github repo" ]
                 , span [] [ text ". Please include a screenshot and ensure it is " ]
                 , strong [] [ text "1000px x 800px" ]
                 , span [] [ text "." ]
@@ -193,9 +195,9 @@ viewSidebar model =
             [ class [ BuiltBy ]
             ]
             [ span [] [ text "Built by " ]
-            , a [ href "https://github.com/lukewestby" ] [ text "Luke Westby" ]
+            , a [ href "https://github.com/lukewestby", target "_blank" ] [ text "Luke Westby" ]
             , span [] [ text " and " ]
-            , a [ href "https://github.com/elm-community/builtwithelm/graphs/contributors" ] [ text "the amazing Elm community." ]
+            , a [ href "https://github.com/elm-community/builtwithelm/graphs/contributors", target "_blank" ] [ text "the amazing Elm community." ]
             ]
         ]
 
