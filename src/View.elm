@@ -35,7 +35,7 @@ view model =
                 , div
                     [ class [ Paging ]
                     ]
-                    [ viewPageSizeSelect SetPageSize model.pageSize [5, 25, 50, 100]
+                    [ viewPageSizeSelect SetPageSize model.pageSize [ 5, 25, 50, 100 ]
                     , viewPageButton Prev disablePrev "Newer"
                     , viewPageButton Next disableNext "Older"
                     ]
@@ -59,19 +59,21 @@ viewPageButton msg isDisabled label =
             ]
             [ text label ]
 
+
 viewPageSizeSelect : (String -> Msg) -> Int -> List Int -> Html Msg
 viewPageSizeSelect msg current options =
     let
         toOption i =
-            option [value <| toString i]
-                [text <| toString i]
+            option [ value <| toString i ]
+                [ text <| toString i ]
     in
-        div [class [Dropdown]]
+        div [ class [ Dropdown ] ]
             [ label []
                 [ text "Page size" ]
-            , select [value <| toString current, onInput msg]
-                  (List.map toOption options)
+            , select [ value <| toString current, onInput msg ]
+                (List.map toOption options)
             ]
+
 
 viewList : Model -> List ( String, Html Msg )
 viewList model =
