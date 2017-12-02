@@ -46,6 +46,15 @@ css =
                 [ color (hex "e5e5e5")
                 ]
             ]
+        , ((.) Dropdown)
+            [ fontFamilies [ "Helvetica" ]
+            , backgroundColor (rgb 255 255 255)
+            , margin (px 1)
+            , padding (px 3)
+            , flexBasis (pct 50)
+            , minWidth (px 100)
+            , property "outline" "0"
+            ]
         , ((.) Container)
             [ property "display" "flex"
             , height (pct 100)
@@ -78,7 +87,8 @@ css =
             [ property "display" "flex"
             , flexDirection row
             , property "justify-content" "center"
-            , width (pct 40)
+            , property "align-items" "center"
+            , width (pct 50)
             , margin auto
             ]
         , ((.) Link)
