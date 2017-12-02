@@ -1,5 +1,12 @@
 [
   {
+    "name": "Tic Tac Toe",
+    "previewImageUrl": "data/images/elm-tic-tac-toe.png",
+    "primaryUrl": "https://vishaltelangre.com/tic-tac-toe",
+    "repositoryUrl": "https://github.com/vishaltelangre/elm-tic-tac-toe",
+    "description": "Tic Tac Toe game implementation in Elm."
+  },
+  {
     "name": "Valunicorn",
     "previewImageUrl": "data/images/valunicorn.png",
     "primaryUrl": "http://valunicorn.me",
