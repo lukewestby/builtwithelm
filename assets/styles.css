@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+body  * {
+    box-sizing: border-box;
+}
+
+nav {
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+.builtwithelm-Button {
+    font-family: Helvetica;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #5cb5cd;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    margin: 1px;
+    border-radius: 5px;
+    padding: 3px;
+    flex-basis: 50%;
+    min-width: 100px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.builtwithelm-Button:disabled {
+    color: #e5e5e5;
+}
+
+.builtwithelm-Dropdown {
+    font-family: Helvetica;
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    padding: 3px;
+    flex-basis: 50%;
+    min-width: 100px;
+    outline: 0;
+}
+
+.builtwithelm-Container {
+    display: flex;
+    height: 100%;
+    position: relative;
+    font-family: "Source Sans Pro";
+}
+
+.builtwithelm-Sidebar {
+    width: 240px;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    overflow: auto;
+}
+
+.builtwithelm-Content {
+    margin-left: 240px;
+    width: calc(100% - 240px);
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.builtwithelm-ListContainer {
+    padding: 0px 20px 0px 20px;
+    max-width: 920px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.builtwithelm-Paging {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.builtwithelm-Link {
+    color: inherit;
+}
+
+.builtwithelm-GithubLogo {
+    width: 2em;
+}
+
+.builtwithelm-Project {
+    margin-bottom: 40px;
+}
+
+.builtwithelm-ProjectHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.builtwithelm-ProjectScreenshotShell {
+    background-image: url(screenshot_shell.svg);
+    background-size: contain;
+    max-width: 1040px;
+    max-height: 850px;
+    padding: 1.875%;
+    padding-top: 2.875%;
+    background-repeat: no-repeat;
+}
+
+.builtwithelm-ProjectImage {
+    width: 100%;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999999;
+}
+
+.builtwithelm-SidebarHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    text-align: text-justify;
+}
+
+.builtwithelm-BuiltWithText {
+    color: #999999;
+}
+
+.builtwithelm-BuiltWithLink {
+    text-decoration: none;
+}
+
+.builtwithelm-SubmitProject {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 20px;
+}
+
+.builtwithelm-SubmitProjectHeader {
+    text-align: center;
+}
+
+.builtwithelm-BuiltBy {
+    font-size: 0.9em;
+}
+
+.builtwithelm-SearchInput {
+    width: 191px;
+    font-size: 1em;
+    padding: 4px;
+    margin: 10px 0;
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+}
+
+.builtwithelm-SearchContainer {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Container {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Logo {
+    display: block;
+    max-width: 33%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Content {
+    margin-left: auto;
+    width: auto;
+    padding-left: 0px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-SidebarHeader {
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-bottom-width: 1px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-SidebarLogoContainer {
+    flex: 1;
+    max-width: 40%;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-SearchInput {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 768px) {
+        h1 {
+    flex: 1;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    padding-bottom: 0px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .builtwithelm-Logo {
+    margin: 0px;
+    max-width: 100%;
+}
+}
+
+@media screen and (max-width: 570px) {
+        h1 {
+    font-size: 1.8em;
+}
+}
