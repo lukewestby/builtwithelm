@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elm Hacker News PWA",
+    "previewImageUrl": "data/images/elm-hnpwa.png",
+    "primaryUrl": "https://elm-hnpwa.firebaseapp.com",
+    "repositoryUrl": "https://github.com/rl-king/elm-hnpwa",
+    "description": "A simple Hacker News progressive web app."
+  },
+  {
     "name": "Thermo.city",
     "previewImageUrl": "data/images/thermo-city.png",
     "primaryUrl": "https://thermo.city/",
