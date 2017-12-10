@@ -1,5 +1,12 @@
 [
   {
+    "name": "Trivia Scoreboard",
+    "previewImageUrl": "data/images/trivia-scoreboard.png",
+    "primaryUrl": "http://www.szcz.org/trivia_scoreboard.html",
+    "repositoryUrl": "https://github.com/msszczep/TriviaScoreboard",
+    "description": "A dynamic scoreboard app for trivia games or other games with scores in rounds."
+  },
+  {
     "name": "Elm Hacker News PWA",
     "previewImageUrl": "data/images/elm-hnpwa.png",
     "primaryUrl": "https://elm-hnpwa.firebaseapp.com",
