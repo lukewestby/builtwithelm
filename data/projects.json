@@ -1,5 +1,12 @@
 [
   {
+    "name": "Portfolio",
+    "previewImageUrl": "data/images/isportfolio.png",
+    "primaryUrl": "http://ivanschuetz.com",
+    "repositoryUrl": null,
+    "description": "Portfolio"
+  },
+  {
     "name": "Trivia Scoreboard",
     "previewImageUrl": "data/images/trivia-scoreboard.png",
     "primaryUrl": "http://www.szcz.org/trivia_scoreboard.html",
