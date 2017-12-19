@@ -1,5 +1,12 @@
 [
   {
+    "name": "Weighty Birds",
+    "previewImageUrl": "data/images/weighty-birds.png",
+    "primaryUrl": "http://weightybirds.com",
+    "repositoryUrl": null,
+    "description": "Puzzle game built with elm. This game is a fork of the open source project hosted at https://github.com/Viir/Baustelle"
+  },
+  {
     "name": "Portfolio",
     "previewImageUrl": "data/images/isportfolio.png",
     "primaryUrl": "http://ivanschuetz.com",
