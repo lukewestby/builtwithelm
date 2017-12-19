@@ -1,5 +1,12 @@
 [
   {
+    "name": "Conference Schedule",
+    "previewImageUrl": "data/images/conference-schedule.png",
+    "primaryUrl": "https://robertbasden.github.io/conference-schedule-app/",
+    "repositoryUrl": "https://github.com/robertbasden/conference-schedule-app",
+    "description": "App to display conference schedule"
+  },
+  {
     "name": "Weighty Birds",
     "previewImageUrl": "data/images/weighty-birds.png",
     "primaryUrl": "http://weightybirds.com",
