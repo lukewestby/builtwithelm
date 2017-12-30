@@ -1,5 +1,12 @@
 [
   {
+    "name": "CU sittong",
+    "previewImageUrl": "data/images/cusittong.png",
+    "primaryUrl": "http://cusit.org",
+    "repositoryUrl": "https://github.com/jasonchoimtt/cusittong",
+    "description": "Elegant course search for the Chinese University of Hong Kong"
+  },
+  {
     "name": "Conference Schedule",
     "previewImageUrl": "data/images/conference-schedule.png",
     "primaryUrl": "https://robertbasden.github.io/conference-schedule-app/",
