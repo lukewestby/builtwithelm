@@ -1,5 +1,26 @@
 [
   {
+    "name": "Functional Calculator",
+    "previewImageUrl": "data/images/FunctionalCalculator.png",
+    "primaryUrl": "https://artfuldev.github.io/functional-calculator/",
+    "repositoryUrl": "https://github.com/artfuldev/functional-calculator/",
+    "description": "A simple calculator app built with elm"
+  },
+  {
+    "name": "XKCD Comic Browser",
+    "previewImageUrl": "data/images/xkcd-browser.png",
+    "primaryUrl": "https://vishaltelangre.com/xkcd",
+    "repositoryUrl": "https://github.com/vishaltelangre/elm-xkcd-browser",
+    "description": "Yet another XKCD comic browser implemented in Elm!"
+  },
+  {
+    "name": "CU sittong",
+    "previewImageUrl": "data/images/cusittong.png",
+    "primaryUrl": "http://cusit.org",
+    "repositoryUrl": "https://github.com/jasonchoimtt/cusittong",
+    "description": "Elegant course search for the Chinese University of Hong Kong"
+  },
+  {
     "name": "Conference Schedule",
     "previewImageUrl": "data/images/conference-schedule.png",
     "primaryUrl": "https://robertbasden.github.io/conference-schedule-app/",
