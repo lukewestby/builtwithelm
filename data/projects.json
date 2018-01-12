@@ -1,5 +1,12 @@
 [
   {
+    "name": "Functional Calculator",
+    "previewImageUrl": "data/images/FunctionalCalculator.png",
+    "primaryUrl": "https://artfuldev.github.io/functional-calculator/",
+    "repositoryUrl": "https://github.com/artfuldev/functional-calculator/",
+    "description": "A simple calculator app built with elm"
+  },
+  {
     "name": "XKCD Comic Browser",
     "previewImageUrl": "data/images/xkcd-browser.png",
     "primaryUrl": "https://vishaltelangre.com/xkcd",
