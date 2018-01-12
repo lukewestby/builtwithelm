@@ -1,5 +1,12 @@
 [
   {
+    "name": "XKCD Comic Browser",
+    "previewImageUrl": "data/images/xkcd-browser.png",
+    "primaryUrl": "https://vishaltelangre.com/xkcd",
+    "repositoryUrl": "https://github.com/vishaltelangre/elm-xkcd-browser",
+    "description": "Yet another XKCD comic browser implemented in Elm!"
+  },
+  {
     "name": "CU sittong",
     "previewImageUrl": "data/images/cusittong.png",
     "primaryUrl": "http://cusit.org",
