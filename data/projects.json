@@ -1,5 +1,11 @@
 [
   {
+    "name": "Wordsmith",
+    "previewImageUrl": "data/images/wordsmith.png",
+    "primaryUrl": "https://robertbasden.github.io/wordsmith-elm/",
+    "repositoryUrl": "https://github.com/robertbasden/wordsmith-elm",
+    "description": "An anagram solving game"
+  },{
     "name": "Functional Calculator",
     "previewImageUrl": "data/images/FunctionalCalculator.png",
     "primaryUrl": "https://artfuldev.github.io/functional-calculator/",
