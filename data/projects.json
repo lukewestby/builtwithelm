@@ -1,5 +1,12 @@
 [
   {
+    "name": "Tic Tac Toe",
+    "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
+    "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
+    "repositoryUrl": "https://github.com/sundarcodes/elm-tic-tac-toe",
+    "description": "A Elmy Tic Tac Toe with Undo Feature"
+  },
+  {
     "name": "Wordsmith",
     "previewImageUrl": "data/images/wordsmith.png",
     "primaryUrl": "https://robertbasden.github.io/wordsmith-elm/",
