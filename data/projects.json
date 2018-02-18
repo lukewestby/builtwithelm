@@ -1,5 +1,12 @@
 [
   {
+    "name": "iMicrobe",
+    "previewImageUrl": "data/images/imicrobe.png",
+    "primaryUrl": "https://www.imicrobe.us/",
+    "repositoryUrl": "https://github.com/hurwitzlab/elm-imicrobe-spa",
+    "description": "Cyberinfrastructure for Microbial Ecology"
+  },
+  {
     "name": "Wordsmith",
     "previewImageUrl": "data/images/wordsmith.png",
     "primaryUrl": "https://robertbasden.github.io/wordsmith-elm/",
