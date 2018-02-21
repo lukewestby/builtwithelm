@@ -7,6 +7,13 @@
     "description": "A Elmy Tic Tac Toe with Undo Feature"
   },
   {
+    "name": "iMicrobe",
+    "previewImageUrl": "data/images/imicrobe.png",
+    "primaryUrl": "https://www.imicrobe.us/",
+    "repositoryUrl": "https://github.com/hurwitzlab/elm-imicrobe-spa",
+    "description": "Cyberinfrastructure for Microbial Ecology"
+  },
+  {
     "name": "Wordsmith",
     "previewImageUrl": "data/images/wordsmith.png",
     "primaryUrl": "https://robertbasden.github.io/wordsmith-elm/",
@@ -545,7 +552,7 @@
   {
     "name": "Mogee",
     "previewImageUrl": "data/images/mogee.png",
-    "primaryUrl": "http://unsoundscapes.com/elm-mogee.html",
+    "primaryUrl": "https://unsoundscapes.itch.io/mogee",
     "repositoryUrl": "https://github.com/w0rm/elm-mogee",
     "description": "A WebGL platformer that fits into 64x64px screen."
   },
@@ -775,8 +782,8 @@
   {
     "name": "elm-street-404",
     "previewImageUrl": "data/images/elm-street-404.jpg",
-    "primaryUrl": "http://zalando.github.io/elm-street-404/",
-    "repositoryUrl": "https://github.com/zalando/elm-street-404",
+    "primaryUrl": "https://unsoundscapes.itch.io/404-elm-street",
+    "repositoryUrl": "https://github.com/w0rm/elm-street-404",
     "description": "404 Elm Street — a game where you have to deliver all the fashion to all the customers."
   },
   {
@@ -838,7 +845,7 @@
   {
     "name": "elm-flatris",
     "previewImageUrl": "data/images/elm-flatris.png",
-    "primaryUrl": "http://unsoundscapes.com/elm-flatris.html",
+    "primaryUrl": "https://unsoundscapes.itch.io/flatris",
     "repositoryUrl": "https://github.com/w0rm/elm-flatris",
     "description": "Tetris game, a clone of Flatris with Elm."
   },
