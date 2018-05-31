@@ -1,5 +1,12 @@
 [
   {
+    "name": "ClassicalU App",
+    "previewImageUrl": "data/images/classicalu-app.jpg",
+    "primaryUrl": "https://itunes.apple.com/us/app/classicalu/id1343937485",
+    "repositoryUrl": null,
+    "description": "An iOS app for classical teacher training."
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
