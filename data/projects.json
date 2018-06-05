@@ -1,5 +1,12 @@
 [
   {
+    "name": "APISnapshot",
+    "previewImageUrl": "data/images/apisnapshot.png",
+    "primaryUrl": "https://www.apisnapshot.com/",
+    "repositoryUrl": "https://github.com/bigbinary/apisnapshot",
+    "description": "Immutable Snapshot of the api response with a unique URL for every hit to the api"
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
