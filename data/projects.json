@@ -1,5 +1,12 @@
 [
   {
+    "name": "MyBrocante.fr",
+    "previewImageUrl": "data/images/MyBrocante.fr.jpg",
+    "primaryUrl": "https://mybrocante.fr",
+    "repositoryUrl": null,
+    "description": "Find garage sales organized near you (French-only for now)"
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
