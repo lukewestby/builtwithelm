@@ -1,5 +1,12 @@
 [
   {
+    "name": "BadgeRank",
+    "previewImageUrl": "data/images/badgerank.png",
+    "primaryUrl": "https://badgerank.org/",
+    "repositoryUrl": "",
+    "description": "Use BadgeRank to search digital credentials available in the Open Badges standard. Discover what is available and earn a badge."
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
