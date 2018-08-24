@@ -1,5 +1,12 @@
 [
   {
+    "name": "Diffuse",
+    "previewImageUrl": "data/images/diffuse.jpg",
+    "primaryUrl": "https://diffuse.sh/",
+    "repositoryUrl": "https://github.com/icidasset/diffuse",
+    "description": "A music player which connects to your cloud/distributed storage"
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
