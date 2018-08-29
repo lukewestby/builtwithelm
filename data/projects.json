@@ -1,5 +1,12 @@
 [
   {
+    "name": "IziDict - Vocabulary Flashcard",
+    "previewImageUrl": "data/images/izidict.png",
+    "primaryUrl": "https://izidict.com/",
+    "repositoryUrl": "https://github.com/aRkadeFR/FlashCard",
+    "description": "Website to build vocabulary flashcard"
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
