@@ -1,5 +1,12 @@
 [
   {
+    "name": "MPC4S Player",
+    "previewImageUrl": "data/images/mpc4s-player.jpg",
+    "primaryUrl": "https://eikek.github.io/mpc4s/",
+    "repositoryUrl": "https://github.com/eikek/mpc4s",
+    "description": "Free Web-Client for the Music Player Daemon"
+  },
+  {
     "name": "Tic Tac Toe",
     "previewImageUrl": "data/images/elmy-tic-tac-toe.png",
     "primaryUrl": "https://sundarcodes.github.io/elm-tic-tac-toe/",
