@@ -1,5 +1,12 @@
 [
   {
+    "name": "Diffuse",
+    "previewImageUrl": "data/images/diffuse.jpg",
+    "primaryUrl": "https://diffuse.sh/",
+    "repositoryUrl": "https://github.com/icidasset/diffuse",
+    "description": "A music player which connects to your cloud/distributed storage"
+  },
+  {
     "name": "BadgeRank",
     "previewImageUrl": "data/images/badgerank.png",
     "primaryUrl": "https://badgerank.org/",
