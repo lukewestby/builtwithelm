@@ -1,5 +1,12 @@
 [
   {
+    "name": "MyBrocante.fr",
+    "previewImageUrl": "data/images/MyBrocante.fr.jpg",
+    "primaryUrl": "https://mybrocante.fr",
+    "repositoryUrl": null,
+    "description": "Find garage sales organized near you (French-only for now)"
+  },
+  {
     "name": "APISnapshot",
     "previewImageUrl": "data/images/apisnapshot.png",
     "primaryUrl": "https://www.apisnapshot.com/",
