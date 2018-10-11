@@ -3,7 +3,7 @@
     "name": "BadgeRank",
     "previewImageUrl": "data/images/badgerank.png",
     "primaryUrl": "https://badgerank.org/",
-    "repositoryUrl": "",
+    "repositoryUrl": null,
     "description": "Use BadgeRank to search digital credentials available in the Open Badges standard. Discover what is available and earn a badge."
   },
   {
