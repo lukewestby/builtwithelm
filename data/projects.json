@@ -1,5 +1,12 @@
 [
   {
+    "name": "IziDict - Vocabulary Flashcard",
+    "previewImageUrl": "data/images/izidict.png",
+    "primaryUrl": "https://izidict.com/",
+    "repositoryUrl": "https://github.com/aRkadeFR/FlashCard",
+    "description": "Website to build vocabulary flashcard"
+  },
+  {
     "name": "Diffuse",
     "previewImageUrl": "data/images/diffuse.jpg",
     "primaryUrl": "https://diffuse.sh/",
