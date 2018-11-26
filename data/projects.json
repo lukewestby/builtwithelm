@@ -1,5 +1,12 @@
 [
   {
+    "name": "Life Without Barriers - Foster Care Self Assessment",
+    "previewImageUrl": "data/images/lwb-fcsa.jpg",
+    "primaryUrl": "https://www.lwb.org.au/foster-care/can-i-be-a-carer/self-assessment",
+    "repositoryUrl": null,
+    "description": "A Foster Care Self Assessment Tool"
+  },
+  {
     "name": "MPC4S Player",
     "previewImageUrl": "data/images/mpc4s-player.jpg",
     "primaryUrl": "https://eikek.github.io/mpc4s/",
