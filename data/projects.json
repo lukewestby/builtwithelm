@@ -1,5 +1,19 @@
 [
   {
+    "name": "Naturalis Verwonderwereld",
+    "previewImageUrl": "data/images/verwonderwereld.jpg",
+    "primaryUrl": "https://www.verwonderpaspoort.nl/verwonderwereld",
+    "repositoryUrl": null,
+    "description": "Interactive world for Dutch science museum aimed at elementary school students. Made by Driebit Amsterdam"
+  },
+  {
+    "name": "Cie Architects",
+    "previewImageUrl": "data/images/ciearchitects.jpg",
+    "primaryUrl": "https://cie.nl/?lang=en",
+    "repositoryUrl": null,
+    "description": "Single page app for Dutch architecture firm. Made by Driebit Amsterdam"
+  },
+  {
     "name": "Life Without Barriers - Foster Care Self Assessment",
     "previewImageUrl": "data/images/lwb-fcsa.jpg",
     "primaryUrl": "https://www.lwb.org.au/foster-care/can-i-be-a-carer/self-assessment",
