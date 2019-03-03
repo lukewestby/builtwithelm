@@ -1,5 +1,12 @@
 [
   {
+    "name": "Dodge",
+    "previewImageUrl": "data/images/dodge.png",
+    "primaryUrl": "https://wolfadex.github.io/dodge/",
+    "repositoryUrl": "https://github.com/wolfadex/dodge/",
+    "description": "A simple doding game"
+  },
+  {
     "name": "Naturalis Verwonderwereld",
     "previewImageUrl": "data/images/verwonderwereld.jpg",
     "primaryUrl": "https://www.verwonderpaspoort.nl/verwonderwereld",
