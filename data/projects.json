@@ -1,5 +1,12 @@
 [
   {
+    "name": "Odyssey",
+    "previewImageUrl": "data/images/odyssey.png",
+    "primaryUrl": "https://odyssey.neophilus.net/",
+    "repositoryUrl": "https://github.com/Libbum/Odyssey",
+    "description": "Next generation gallery. Exceptional images deserve an exceptional presentation."
+  },
+  {
     "name": "Slime Buddy",
     "previewImageUrl": "data/images/SlimeBuddyScreenshot_1000x800.png",
     "primaryUrl": "https://slime-buddy.netlify.com/",
