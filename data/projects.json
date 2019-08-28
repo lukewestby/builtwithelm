@@ -60,7 +60,7 @@
     "previewImageUrl": "data/images/diffuse.jpg",
     "primaryUrl": "https://diffuse.sh/",
     "repositoryUrl": "https://github.com/icidasset/diffuse",
-    "description": "A music player which connects to your cloud/distributed storage"
+    "description": "A music player that connects to your cloud/distributed storage"
   },
   {
     "name": "BadgeRank",
