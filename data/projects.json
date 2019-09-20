@@ -1,5 +1,12 @@
 [
   {
+    "name": "FretMaster",
+    "previewImageUrl": "data/images/fretmaster.jpg",
+    "primaryUrl": "https://fretmaster.app/",
+    "repositoryUrl": "https://github.com/dkarter/fretmaster-elm",
+    "description": "Guitar fretboard learning tool / game"
+  },
+  {
     "name": "Odyssey",
     "previewImageUrl": "data/images/odyssey.png",
     "primaryUrl": "https://odyssey.neophilus.net/",
