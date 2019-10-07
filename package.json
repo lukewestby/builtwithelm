@@ -4,13 +4,14 @@
   "description": "A list of projects and apps built with Elm.",
   "main": "build/main.js",
   "dependencies": {
-    "elm": "^0.18.0",
-    "elm-css": "^0.6.0",
-    "uglifyjs": "^2.4.10"
+    "elm": "^0.19.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "elm-live": "^4.0.1"
+  },
   "scripts": {
-    "build": "bash build.sh"
+    "build": "bash build.sh",
+    "dev": "elm-live src/Main.elm --open --start-page=index.html -- --output=build/main.js"
   },
   "repository": {
     "type": "git",

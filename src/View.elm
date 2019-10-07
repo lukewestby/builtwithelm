@@ -1,17 +1,17 @@
-module View exposing (..)
+module View exposing (view)
 
-import String
-import Html exposing (Html, button, div, text, h2, a, img, span, strong, h1, p, h3, input, label, select, option)
-import Html.Attributes exposing (style, disabled, href, src, target, type_, placeholder, value, autofocus)
-import Html.Events exposing (onClick, onInput)
-import Html.Keyed
-import Html.CssHelpers
+import Browser exposing (Document)
+import Css.Global
+import Html.Styled exposing (Html, button, div, h3, img, input, label, option, select, span, strong, text)
+import Html.Styled.Attributes exposing (autofocus, css, disabled, href, placeholder, src, style, target, type_, value)
+import Html.Styled.Events exposing (onClick, onInput)
+import Html.Styled.Keyed
 import Model exposing (Model, Project)
+import Styles exposing (a, h1, h2, p)
 import Update exposing (Msg(..))
-import Styles exposing (..)
 
 
-view : Model -> Html Msg
+view : Model -> Document Msg
 view model =
     let
         disablePrev =
@@ -20,27 +20,27 @@ view model =
         disableNext =
             model.page * model.pageSize + model.pageSize >= List.length model.projects
     in
-        div
-            [ class [ Container ]
-            ]
-            [ viewSidebar model
-            , div
-                [ class [ Content ]
-                ]
-                [ Html.Keyed.node "div"
-                    [ class [ ListContainer ]
-                    ]
-                  <|
-                    viewList model
+    { title = ""
+    , body =
+        [ Html.Styled.toUnstyled <|
+            div [ css Styles.container ]
+                [ viewSidebar model
                 , div
-                    [ class [ Paging ]
+                    [ css Styles.content
                     ]
-                    [ viewPageSizeSelect SetPageSize model.pageSize [ 5, 25, 50, 100 ]
-                    , viewPageButton Prev disablePrev "Newer"
-                    , viewPageButton Next disableNext "Older"
+                    [ Html.Styled.Keyed.node "div"
+                        [ css Styles.listContainer ]
+                        (viewList model)
+                    , div [ css Styles.paging ]
+                        [ viewPageSizeSelect SetPageSize model.pageSize [ 5, 25, 50, 100 ]
+                        , viewPageButton Prev disablePrev "Newer"
+                        , viewPageButton Next disableNext "Older"
+                        ]
                     ]
                 ]
-            ]
+        , Html.Styled.toUnstyled <| Css.Global.global [ Styles.body ]
+        ]
+    }
 
 
 viewPageButton : Msg -> Bool -> String -> Html Msg
@@ -49,30 +49,31 @@ viewPageButton msg isDisabled label =
         textColor =
             if isDisabled then
                 "#e5e5e5"
+
             else
                 "#5cb5cd"
     in
-        button
-            [ onClick msg
-            , disabled isDisabled
-            , class [ Button ]
-            ]
-            [ text label ]
+    button
+        [ onClick msg
+        , disabled isDisabled
+        , css Styles.button
+        ]
+        [ text label ]
 
 
 viewPageSizeSelect : (String -> Msg) -> Int -> List Int -> Html Msg
 viewPageSizeSelect msg current options =
     let
         toOption i =
-            option [ value <| toString i ]
-                [ text <| toString i ]
+            option [ value <| String.fromInt i ]
+                [ text <| String.fromInt i ]
     in
-        div [ class [ Dropdown ] ]
-            [ label []
-                [ text "Page size" ]
-            , select [ value <| toString current, onInput msg ]
-                (List.map toOption options)
-            ]
+    div [ css Styles.dropdown ]
+        [ label []
+            [ text "Page size" ]
+        , select [ value <| String.fromInt current, onInput msg ]
+            (List.map toOption options)
+        ]
 
 
 viewList : Model -> List ( String, Html Msg )
@@ -81,16 +82,18 @@ viewList model =
         filterCriteria project =
             String.contains (String.toLower model.searchQuery) (String.toLower project.name)
     in
-        if model.isLoading then
-            [ ( "", h2 [] [ text "Loading" ] ) ]
-        else if model.loadFailed then
-            [ ( "", h2 [] [ text "Unable to load projects" ] ) ]
-        else
-            model.projects
-                |> List.filter filterCriteria
-                |> List.drop (model.page * model.pageSize)
-                |> List.take model.pageSize
-                |> List.map (\p -> ( p.primaryUrl, viewProject p ))
+    if model.isLoading then
+        [ ( "", h2 [] [ text "Loading" ] ) ]
+
+    else if model.loadFailed then
+        [ ( "", h2 [] [ text "Unable to load projects" ] ) ]
+
+    else
+        model.projects
+            |> List.filter filterCriteria
+            |> List.drop (model.page * model.pageSize)
+            |> List.take model.pageSize
+            |> List.map (\p -> ( p.primaryUrl, viewProject p ))
 
 
 viewOpenSourceLink : Project -> Html Msg
@@ -100,11 +103,11 @@ viewOpenSourceLink project =
             a
                 [ href url
                 , target "_blank"
-                , class [ Link ]
+                , css Styles.link
                 ]
                 [ img
                     [ src "assets/github.svg"
-                    , class [ GithubLogo ]
+                    , css Styles.githubLogo
                     ]
                     []
                 ]
@@ -115,16 +118,12 @@ viewOpenSourceLink project =
 
 viewProject : Project -> Html Msg
 viewProject project =
-    div
-        [ class [ Styles.Project ]
-        ]
-        [ div
-            [ class [ ProjectHeader ]
-            ]
+    div [ css Styles.project ]
+        [ div [ css Styles.projectHeader ]
             [ a
                 [ href project.primaryUrl
                 , target "_blank"
-                , class [ Link ]
+                , css Styles.link
                 ]
                 [ h2 []
                     [ text project.name ]
@@ -132,12 +131,10 @@ viewProject project =
             , viewOpenSourceLink project
             ]
         , p [] [ text project.description ]
-        , div
-            [ class [ ProjectScreenshotShell ]
-            ]
+        , div [ css Styles.projectScreenshotShell ]
             [ img
                 [ src project.previewImageUrl
-                , class [ ProjectImage ]
+                , css Styles.projectImage
                 ]
                 []
             ]
@@ -146,42 +143,40 @@ viewProject project =
 
 viewSidebar : Model -> Html Msg
 viewSidebar model =
-    div [ class [ Sidebar ] ]
-        [ div [ class [ SidebarHeader ] ]
+    div [ css Styles.sidebar ]
+        [ div [ css Styles.sidebarHeader ]
             [ div
-                [ class [ SidebarLogoContainer ]
+                [ css Styles.sidebarLogoContainer
                 ]
                 [ a [ href "/" ]
-                    [ img [ src "assets/logo.svg", class [ Logo ] ] [] ]
+                    [ img [ src "assets/logo.svg", css Styles.logo ] [] ]
                 ]
             , h1 []
                 [ a
                     [ href "/"
-                    , class [ BuiltWithLink ]
+                    , css Styles.builtWithLink
                     ]
                     [ span
-                        [ class [ BuiltWithText ]
+                        [ css Styles.builtWithText
                         ]
                         [ text "builtwith" ]
                     , span [] [ text "elm" ]
                     ]
                 ]
             ]
-        , div [ class [ SearchContainer ] ]
+        , div [ css Styles.searchContainer ]
             [ input
                 [ type_ "text"
                 , placeholder "Search"
                 , value model.searchQuery
                 , autofocus True
                 , onInput UpdateSearchQuery
-                , class [ SearchInput ]
+                , css Styles.searchInput
                 ]
                 []
             ]
-        , div [ class [ SubmitProject ] ]
-            [ h3
-                [ class [ SubmitProjectHeader ]
-                ]
+        , div [ css Styles.submitProject ]
+            [ h3 [ css Styles.submitProjectHeader ]
                 [ text "Submit a project" ]
             , p []
                 [ span [] [ text "Submit a pull request or post an issue to " ]
@@ -191,16 +186,10 @@ viewSidebar model =
                 , span [] [ text "." ]
                 ]
             ]
-        , div
-            [ class [ BuiltBy ]
-            ]
+        , div [ css Styles.builtBy ]
             [ span [] [ text "Built by " ]
             , a [ href "https://github.com/lukewestby", target "_blank" ] [ text "Luke Westby" ]
             , span [] [ text " and " ]
             , a [ href "https://github.com/elm-community/builtwithelm/graphs/contributors", target "_blank" ] [ text "the amazing Elm community." ]
             ]
         ]
-
-
-{ class } =
-    Html.CssHelpers.withNamespace builtWithElmNamespace

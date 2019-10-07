@@ -1,6 +1,8 @@
-module Model exposing (Project, Model, decodeProject)
+module Model exposing (Model, Project, decodeProject)
 
-import Json.Decode as Decode exposing (field)
+import Browser.Navigation exposing (Key)
+import Json.Decode exposing (Decoder)
+import Json.Decode.Pipeline exposing (required)
 
 
 type alias Project =
@@ -13,7 +15,8 @@ type alias Project =
 
 
 type alias Model =
-    { projects : List Project
+    { key : Key
+    , projects : List Project
     , isLoading : Bool
     , loadFailed : Bool
     , page : Int
@@ -22,16 +25,11 @@ type alias Model =
     }
 
 
-(|:) : Decode.Decoder (a -> b) -> Decode.Decoder a -> Decode.Decoder b
-(|:) =
-    Decode.map2 (<|)
-
-
-decodeProject : Decode.Decoder Project
+decodeProject : Decoder Project
 decodeProject =
-    Decode.succeed Project
-        |: (field "previewImageUrl" Decode.string)
-        |: (field "name" Decode.string)
-        |: (field "primaryUrl" Decode.string)
-        |: (field "description" Decode.string)
-        |: (field "repositoryUrl" (Decode.maybe Decode.string))
+    Json.Decode.succeed Project
+        |> required "previewImageUrl" Json.Decode.string
+        |> required "name" Json.Decode.string
+        |> required "primaryUrl" Json.Decode.string
+        |> required "description" Json.Decode.string
+        |> required "repositoryUrl" (Json.Decode.nullable Json.Decode.string)

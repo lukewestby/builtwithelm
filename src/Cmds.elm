@@ -1,25 +1,23 @@
 port module Cmds exposing (loadProjects, newPage, notifyOffsetChanged)
 
+import Browser.Navigation exposing (Key)
 import Http
-import HttpBuilder exposing (withExpect)
-import Json.Decode as Decode
+import Json.Decode exposing (Decoder)
 import Model exposing (Project, decodeProject)
-import Navigation
 import Query
-import Task
 
 
-projectsDecoder : Decode.Decoder (List Project)
+projectsDecoder : Decoder (List Project)
 projectsDecoder =
-    Decode.list decodeProject
+    Json.Decode.list decodeProject
 
 
 port notifyOffsetChangedRaw : () -> Cmd msg
 
 
-newPage : Int -> Cmd msg
-newPage =
-    Navigation.newUrl << Query.pageUrl
+newPage : Key -> Int -> Cmd msg
+newPage key page =
+    Browser.Navigation.pushUrl key (Query.pageUrl page)
 
 
 notifyOffsetChanged : Cmd msg
@@ -29,6 +27,7 @@ notifyOffsetChanged =
 
 loadProjects : (Result Http.Error (List Project) -> msg) -> Cmd msg
 loadProjects msg =
-    HttpBuilder.get "data/projects.json"
-        |> withExpect (Http.expectJson projectsDecoder)
-        |> HttpBuilder.send msg
+    Http.get
+        { url = "data/projects.json"
+        , expect = Http.expectJson msg (Json.Decode.list decodeProject)
+        }

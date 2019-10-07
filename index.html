@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Built With Elm</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="assets/styles.css" type="text/css">
-</head>
-<body>
-  <script src="build/main.js"></script>
-  <script>
-    var app = Elm.Main.fullscreen();
-    app.ports.notifyOffsetChangedRaw.subscribe(function () {
-      setTimeout(function () {
-        window.scrollTo(0, 0);
-        if (document.activeElement) {
-          document.activeElement.blur();
-        }
-      }, 10);
-    });
-  </script>
-</body>
+  <head>
+    <title>Built With Elm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <script src="build/main.js"></script>
+    <script>
+      var app = Elm.Main.init();
+      app.ports.notifyOffsetChangedRaw.subscribe(function() {
+        setTimeout(function() {
+          window.scrollTo(0, 0);
+          if (document.activeElement) {
+            document.activeElement.blur();
+          }
+        }, 10);
+      });
+    </script>
+  </body>
 </html>

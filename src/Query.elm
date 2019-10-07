@@ -1,17 +1,18 @@
 module Query exposing (pageUrl, parsePage)
 
-import Navigation exposing (Location)
-import UrlParser exposing (..)
+import Url exposing (Url)
+import Url.Parser exposing ((<?>), Parser)
+import Url.Parser.Query
 
 
 pageParser : Parser (Maybe Int -> a) a
 pageParser =
-    map (\_ n -> n) <| string <?> intParam "page"
+    Url.Parser.top <?> Url.Parser.Query.int "page"
 
 
-parsePage : Location -> Int
+parsePage : Url -> Int
 parsePage =
-    parsePath pageParser
+    Url.Parser.parse pageParser
         >> Maybe.withDefault Nothing
         >> Maybe.withDefault 0
 
@@ -20,5 +21,6 @@ pageUrl : Int -> String
 pageUrl page =
     if page == 0 then
         "/"
+
     else
-        "?page=" ++ (toString page)
+        "?page=" ++ String.fromInt page
