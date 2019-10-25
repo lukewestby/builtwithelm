@@ -4,7 +4,7 @@
   "description": "A list of projects and apps built with Elm.",
   "main": "build/main.js",
   "dependencies": {
-    "elm": "^0.19.0"
+    "elm": "latest-0.19.1"
   },
   "devDependencies": {
     "elm-live": "^4.0.1"
