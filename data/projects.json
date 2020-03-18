@@ -13,6 +13,13 @@
     "description": "An exploration into Vivaldi's Four Seasons concerti"
   },
   {
+    "name": "Sword/Shield Pokedex - A Pokemon Sword/Shield Helper App",
+    "previewImageUrl": "data/images/swshdex.png",
+    "primaryUrl": "https://dex.3digit.dev",
+    "repositoryUrl": "https://github.com/3digitdev/swshdex",
+    "description": "Multi-function helper app built for Sword/Shield -- Type Matchups, Party Planner, and more"
+  },
+  {
     "name": "NoConf - conference agenda builder application",
     "previewImageUrl": "data/images/noconf.png",
     "primaryUrl": "https://noconf.io",
