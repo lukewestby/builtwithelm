@@ -1,9 +1,9 @@
 [
   { "name": "Brain Floss Games | Speed Math",
-   "previewImageUrl": "data/images/bfg_SpeedMath.png",
-   "primaryurl": "http://brainflossgames.com/",
-   "repositoryUrl": null,
-   "description": "With these digit-by-digit instructions and unlimited practice questions, learning speed math has never been easier."
+    "previewImageUrl": "data/images/bfg_SpeedMath.png",
+    "primaryUrl": "http://brainflossgames.com/",
+    "repositoryUrl": null,
+    "description": "With these digit-by-digit instructions and unlimited practice questions, learning speed math has never been easier."
   },
   { "name": "UNLI Reverse Flight Search",
     "previewImageUrl": "data/images/unli-rev-flight.jpg",
