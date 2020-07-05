@@ -1,4 +1,10 @@
 [
+  { "name": "Elmify - stats about your listening tastes",
+    "previewImageUrl": "data/images/elmify.png",
+    "primaryUrl": "https://elmify.netlify.app/",
+    "repositoryUrl": "https://github.com/jindrazak/Elmify",
+    "description": "Display your top tracks and top artists based on your listening habits on Spotify. Discover which songs suit your listening tastes the best."
+  },
   { "name": "Brain Floss Games | Speed Math",
     "previewImageUrl": "data/images/BFG_SpeedMath.png",
     "primaryUrl": "http://brainflossgames.com/",
