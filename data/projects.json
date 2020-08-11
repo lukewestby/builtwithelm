@@ -1,4 +1,10 @@
 [
+  { "name": "Seeds Game",
+    "previewImageUrl": "data/images/seeds.png",
+    "primaryUrl": "https://seedsgame.com",
+    "repositoryUrl": "https://github.com/andrewMacmurray/seeds-game",
+    "description": "Connect the seeds and save the world, a game inspired by Two Dots and Monumnent Valley"
+  },
   { "name": "Elmify - stats about your listening tastes",
     "previewImageUrl": "data/images/elmify.png",
     "primaryUrl": "https://elmify.netlify.app/",
