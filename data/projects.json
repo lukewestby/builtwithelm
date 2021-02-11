@@ -1,4 +1,10 @@
 [
+  { "name": "CSV Batch Tagger",
+    "previewImageUrl": "data/images/csvbatchtagger.png",
+    "primaryUrl": "https://www.robingruenke.com/elm-csv-batch-tagger",
+    "repositoryUrl": "https://github.com/eimfach/elm-csv-batch-tagger-app",
+    "description": "Import CSV Files, instantly lookup rows by matching multiple column keywords (or Regex) and assign this data a category/tag. Download filtered or tagged data as separate CSV files."
+  },
   { "name": "Elmify - stats about your listening tastes",
     "previewImageUrl": "data/images/elmify.png",
     "primaryUrl": "https://elmify.netlify.app/",
