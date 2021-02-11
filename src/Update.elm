@@ -1,23 +1,33 @@
-module Update exposing (update, Msg(..), init)
+module Update exposing (Msg(..), init, update)
 
+import Browser exposing (UrlRequest(..))
+import Browser.Navigation exposing (Key)
 import Cmds exposing (loadProjects, newPage, notifyOffsetChanged)
 import Http
 import Model exposing (Model, Project)
+import Query exposing (parsePage)
+import Url exposing (Url)
 
 
 type Msg
     = NoOp
-    | NewPage Int
     | Next
     | Prev
     | SetPageSize String
     | LoadProjects (Result Http.Error (List Project))
     | UpdateSearchQuery String
+    | OnUrlRequest UrlRequest
+    | OnUrlChange Url
 
 
-init : Int -> ( Model, Cmd Msg )
-init page =
-    ( { projects = []
+init : () -> Url -> Key -> ( Model, Cmd Msg )
+init _ url key =
+    let
+        page =
+            parsePage url
+    in
+    ( { key = key
+      , projects = []
       , isLoading = True
       , loadFailed = False
       , page = page
@@ -50,23 +60,14 @@ update msg model =
             , Cmd.none
             )
 
-        NewPage page ->
-            ( { model
-                | page = page
-              }
-            , notifyOffsetChanged
-            )
-
         Next ->
-            ( model, newPage <| model.page + 1 )
+            ( model, newPage model.key (model.page + 1) )
 
         Prev ->
-            ( model, newPage <| model.page - 1 )
+            ( model, newPage model.key (model.page - 1) )
 
         SetPageSize selected ->
-            ( { model
-                | pageSize = String.toInt selected |> Result.toMaybe |> Maybe.withDefault 5
-              }
+            ( { model | pageSize = Maybe.withDefault 5 (String.toInt selected) }
             , Cmd.none
             )
 
@@ -76,3 +77,18 @@ update msg model =
               }
             , Cmd.none
             )
+
+        OnUrlChange url ->
+            ( { model
+                | page = parsePage url
+              }
+            , notifyOffsetChanged
+            )
+
+        OnUrlRequest urlRequest ->
+            case urlRequest of
+                Internal url ->
+                    ( model, Browser.Navigation.pushUrl model.key (Url.toString url) )
+
+                External url ->
+                    ( model, Browser.Navigation.load url )
