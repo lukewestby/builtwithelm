@@ -1,4 +1,11 @@
 [
+  {
+    "name": "LawsDontApplyToPigs",
+    "previewImageUrl": "data/images/lawsdontapplytopigs_preview.png",
+    "primaryUrl": "https://lawsdontapplytopigs.com",
+    "repositoryUrl": "https://github.com/lawsdontapplytopigs/lawsdontapplytopigs-website",
+    "description": "Adrian Gabriel's personal website & portfolio."
+  },
   { "name": "Elmify - stats about your listening tastes",
     "previewImageUrl": "data/images/elmify.png",
     "primaryUrl": "https://elmify.netlify.app/",
