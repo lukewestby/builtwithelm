@@ -1,4 +1,10 @@
 [
+  { "name": "League Tables",
+    "previewImageUrl": "data/images/league-tables.png",
+    "primaryUrl": "https://se-polo-2019.netlify.app/",
+    "repositoryUrl": "https://github.com/ceddlyburge/elm-league-tables-from-google-sheets",
+    "description": "Display a League Table, Fixtures / Results and Top Scorers from data entered in Google Sheets"
+  },
   { "name": "Elmify - stats about your listening tastes",
     "previewImageUrl": "data/images/elmify.png",
     "primaryUrl": "https://elmify.netlify.app/",
